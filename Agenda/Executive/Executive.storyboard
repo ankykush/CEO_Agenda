@@ -13,7 +13,7 @@
         <!--Executive View Controller-->
         <scene sceneID="kkz-LB-oBe">
             <objects>
-                <viewController storyboardIdentifier="ExecutiveNavigationViewController" id="DfD-NI-CS3" customClass="ExecutiveViewController" customModule="Agenda" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExecutiveViewController" id="DfD-NI-CS3" customClass="ExecutiveViewController" customModule="Agenda" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GJq-hf-8OU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
         <!--Executive-->
         <scene sceneID="QLj-tU-5BD">
             <objects>
-                <navigationController title="Executive" automaticallyAdjustsScrollViewInsets="NO" id="GQN-IQ-REG" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ExecutiveNavigationViewController" title="Executive" automaticallyAdjustsScrollViewInsets="NO" id="GQN-IQ-REG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H4S-iW-P4x">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
