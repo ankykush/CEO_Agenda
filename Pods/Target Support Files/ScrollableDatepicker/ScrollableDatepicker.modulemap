@@ -1,0 +1,6 @@
+framework module ScrollableDatepicker {
+  umbrella header "ScrollableDatepicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

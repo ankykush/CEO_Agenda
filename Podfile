@@ -9,4 +9,5 @@ target 'Agenda' do
   # Pods for Agenda
   pod 'SwiftLint'
   pod 'iCarousel'
+  pod 'ScrollableDatepicker'
 end
