@@ -81,15 +81,15 @@
 		47AB990122979EF200A59799 /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
-				47AB990E22979EF600A59799 /* Info.plist */,
 				47AB990222979EF200A59799 /* AppDelegate.swift */,
 				47AB99142297A0B000A59799 /* Executive */,
 				47AB99152297A0C200A59799 /* Locations */,
 				47AB99162297A0CE00A59799 /* Schedule */,
 				47AB99272297A6AF00A59799 /* Utils */,
-				47AB990922979EF600A59799 /* Assets.xcassets */,
-				47AB990B22979EF600A59799 /* LaunchScreen.storyboard */,
 				47AB990622979EF200A59799 /* Main.storyboard */,
+				47AB990B22979EF600A59799 /* LaunchScreen.storyboard */,
+				47AB990922979EF600A59799 /* Assets.xcassets */,
+				47AB990E22979EF600A59799 /* Info.plist */,
 			);
 			path = Agenda;
 			sourceTree = "<group>";
