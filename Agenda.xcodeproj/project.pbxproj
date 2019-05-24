@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		47AB99222297A16C00A59799 /* Executive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB99212297A16C00A59799 /* Executive.storyboard */; };
 		47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB99282297A80D00A59799 /* AlertDisplayer.swift */; };
 		47AB992B2297B02D00A59799 /* UIStoryboard+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */; };
+		47AB992D2297BBF000A59799 /* ExecutiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB992C2297BBF000A59799 /* ExecutiveDetailViewController.swift */; };
+		47AB992F2297BC1600A59799 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB992E2297BC1600A59799 /* LocationDetailViewController.swift */; };
+		47AB99312297BC2400A59799 /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB99302297BC2300A59799 /* ScheduleDetailViewController.swift */; };
 		A844E5A9414D33E5E312B050 /* Pods_Agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A889FC6A57BCD4FDF47767 /* Pods_Agenda.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		47AB99212297A16C00A59799 /* Executive.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Executive.storyboard; sourceTree = "<group>"; };
 		47AB99282297A80D00A59799 /* AlertDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
 		47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Identifiable.swift"; sourceTree = "<group>"; };
+		47AB992C2297BBF000A59799 /* ExecutiveDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveDetailViewController.swift; sourceTree = "<group>"; };
+		47AB992E2297BC1600A59799 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		47AB99302297BC2300A59799 /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
 		48A889FC6A57BCD4FDF47767 /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6869EC4AA8DDFA7ADF28822C /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.debug.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
 		A97F0C95D0E770131E614A45 /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.release.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				47AB991B2297A12400A59799 /* ExecutiveViewController.swift */,
+				47AB992C2297BBF000A59799 /* ExecutiveDetailViewController.swift */,
 				47AB99212297A16C00A59799 /* Executive.storyboard */,
 			);
 			path = Executive;
@@ -101,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				47AB99192297A11500A59799 /* LocationsViewController.swift */,
+				47AB992E2297BC1600A59799 /* LocationDetailViewController.swift */,
 				47AB991F2297A15E00A59799 /* Locations.storyboard */,
 			);
 			path = Locations;
@@ -110,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				47AB99172297A10800A59799 /* ScheduleViewController.swift */,
+				47AB99302297BC2300A59799 /* ScheduleDetailViewController.swift */,
 				47AB991D2297A14800A59799 /* Schedule.storyboard */,
 			);
 			path = Schedule;
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AB992F2297BC1600A59799 /* LocationDetailViewController.swift in Sources */,
+				47AB992D2297BBF000A59799 /* ExecutiveDetailViewController.swift in Sources */,
 				47AB99182297A10800A59799 /* ScheduleViewController.swift in Sources */,
+				47AB99312297BC2400A59799 /* ScheduleDetailViewController.swift in Sources */,
 				47AB991C2297A12400A59799 /* ExecutiveViewController.swift in Sources */,
 				47AB990322979EF200A59799 /* AppDelegate.swift in Sources */,
 				47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */,
