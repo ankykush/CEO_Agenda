@@ -9,6 +9,23 @@
 import UIKit
 
 class ExecutiveViewController: UIViewController {
+    
+    var executives = [
+        Executive(name: "Name", role: "Role", imageUrl: "LINK-icon-directions")
+    ]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? ExecutiveTableViewCell else {
+            return UITableViewCell()
+        }
+        cell.populate(executive: executives[indexPath.row])
+        return cell
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct Executive {
+    var name: String
+    var role: String
+    var imageUrl: String
+    
+    init(name: String, role: String, imageUrl: String) {
+        self.name = name
+        self.role = role
+        self.imageUrl = imageUrl
+    }
+}

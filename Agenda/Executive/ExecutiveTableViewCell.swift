@@ -9,16 +9,19 @@
 import UIKit
 
 class ExecutiveTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var executiveImage: UIImageView!
+    @IBOutlet weak var executiveName: UILabel!
+    @IBOutlet weak var executiveRole: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func populate(executive: Executive) {
+        executiveName?.text = executive.name
+        executiveRole?.text = executive.role
+        executiveImage?.image = UIImage(named: executive.imageUrl)
     }
-
+    
 }

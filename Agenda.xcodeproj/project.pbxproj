@@ -22,6 +22,8 @@
 		47AB992D2297BBF000A59799 /* ExecutiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB992C2297BBF000A59799 /* ExecutiveDetailViewController.swift */; };
 		47AB992F2297BC1600A59799 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB992E2297BC1600A59799 /* LocationDetailViewController.swift */; };
 		47AB99312297BC2400A59799 /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB99302297BC2300A59799 /* ScheduleDetailViewController.swift */; };
+		54F02F722298851100A40060 /* Executive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F02F712298851100A40060 /* Executive.swift */; };
+		54F02F74229C2F3500A40060 /* ExecutiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F02F73229C2F3500A40060 /* ExecutiveTableViewCell.swift */; };
 		A844E5A9414D33E5E312B050 /* Pods_Agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A889FC6A57BCD4FDF47767 /* Pods_Agenda.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		47AB992E2297BC1600A59799 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		47AB99302297BC2300A59799 /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
 		48A889FC6A57BCD4FDF47767 /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F02F712298851100A40060 /* Executive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executive.swift; sourceTree = "<group>"; };
+		54F02F73229C2F3500A40060 /* ExecutiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveTableViewCell.swift; sourceTree = "<group>"; };
 		6869EC4AA8DDFA7ADF28822C /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.debug.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
 		A97F0C95D0E770131E614A45 /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.release.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +104,8 @@
 				47AB991B2297A12400A59799 /* ExecutiveViewController.swift */,
 				47AB992C2297BBF000A59799 /* ExecutiveDetailViewController.swift */,
 				47AB99212297A16C00A59799 /* Executive.storyboard */,
+				54F02F712298851100A40060 /* Executive.swift */,
+				54F02F73229C2F3500A40060 /* ExecutiveTableViewCell.swift */,
 			);
 			path = Executive;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F02F74229C2F3500A40060 /* ExecutiveTableViewCell.swift in Sources */,
 				47AB992F2297BC1600A59799 /* LocationDetailViewController.swift in Sources */,
 				47AB992D2297BBF000A59799 /* ExecutiveDetailViewController.swift in Sources */,
+				54F02F722298851100A40060 /* Executive.swift in Sources */,
 				47AB99182297A10800A59799 /* ScheduleViewController.swift in Sources */,
 				47AB99312297BC2400A59799 /* ScheduleDetailViewController.swift in Sources */,
 				47AB991C2297A12400A59799 /* ExecutiveViewController.swift in Sources */,
