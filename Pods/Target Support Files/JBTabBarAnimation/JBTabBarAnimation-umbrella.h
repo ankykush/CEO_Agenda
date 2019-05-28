@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ScrollableDatepickerVersionNumber;
-FOUNDATION_EXPORT const unsigned char ScrollableDatepickerVersionString[];
+FOUNDATION_EXPORT double JBTabBarAnimationVersionNumber;
+FOUNDATION_EXPORT const unsigned char JBTabBarAnimationVersionString[];
 

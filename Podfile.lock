@@ -1,24 +1,24 @@
 PODS:
   - iCarousel (1.8.3)
-  - ScrollableDatepicker (2.1.0)
+  - JBTabBarAnimation (1.0.0)
   - SwiftLint (0.24.2)
 
 DEPENDENCIES:
   - iCarousel
-  - ScrollableDatepicker
+  - JBTabBarAnimation
   - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - iCarousel
-    - ScrollableDatepicker
+    - JBTabBarAnimation
     - SwiftLint
 
 SPEC CHECKSUMS:
   iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
-  ScrollableDatepicker: 532229a3597c9f5170ae86513f1f295aa334c8ac
+  JBTabBarAnimation: 34a3d3abc0f53bd3baaa69cb8610be7236aa6d31
   SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
 
-PODFILE CHECKSUM: 8727fab1bac9fbce8b65a6fa7a63d00ec19fc970
+PODFILE CHECKSUM: 24fa7bf8109223e5047d26f703ae97e1a1e1d9c3
 
 COCOAPODS: 1.7.0

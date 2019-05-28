@@ -14,34 +14,27 @@ class ExecutiveViewController: UIViewController {
         Executive(name: "Name", role: "Role", imageUrl: "LINK-icon-directions")
     ]
     
+    //MARK: Life Cycle Methods
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        navigationController?.navigationBar.isHidden = true
+
+    }
+    
+}
+
+//MARK: UITableViewDataSource Methods
+extension ExecutiveViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return executives.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? ExecutiveTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ExecutiveTableViewCell", for: indexPath) as? ExecutiveTableViewCell else {
             return UITableViewCell()
         }
         cell.populate(executive: executives[indexPath.row])
         return cell
     }
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

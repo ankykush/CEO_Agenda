@@ -19,105 +19,92 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		016FC87C4AC8D06443131D0911697F3E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33EE0FF7BFC409791D0F6BC7369796A /* Configuration.swift */; };
-		0AE631FC47DF8740847CEEACB0E2DE29 /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BF60EE2AC16C4282FB33026E05C001E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
-		19134CC6B0B1919A1569825EC4DA7406 /* ScrollableDatepicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EB0803A1FEDC84092B3ECDE766A6F2 /* ScrollableDatepicker.xib */; };
-		22B6E0263E4F1226851AA966450DD3EC /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
-		3B11CB5E5E28B6333BE0E383458AC9B7 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C6648DF7606907934BF47D3BEA97D /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3C2B9882FBB54A4C4FD04DDD07670C3D /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE3E3A2E58D4E21AC7B493F070A59A /* DayCell.swift */; };
-		508FB76CBFE968043DECCF8940B63977 /* ScrollableDatepicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD4211E19F330F29C2D137294AB20431 /* ScrollableDatepicker.bundle */; };
-		679D379BB1AFF9A0A46826A2E9AD65FF /* LoadableFromXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C10A2EFE3D6AE4390C1C716359212 /* LoadableFromXibView.swift */; };
-		6C7B277B3708AED2692DEB202945232E /* ScrollableDatepicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC94F6B6C3EEC8AD5C3564B75D51595 /* ScrollableDatepicker.swift */; };
-		766F6CB9EEED4015C70828A5F2E4CE53 /* ScrollableDatepicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B63FDF63546D1548C0747CCEBD8AD8F /* ScrollableDatepicker-dummy.m */; };
-		80290A06B07CE691CEF705E17F837C4F /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C0F62D49B5D2577D6321D9423F885D /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AD0986DBFEDC09E2D5C4EE993415DA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */; };
-		8CDDC145856BDCC8A67580FC6E334544 /* iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9F6C955D7BD26AEBD79DB5D32CE98B /* iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93BAF2DD2449983DEBFE6ABF3144E02F /* ScrollableDatepicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 970117A6F8570D12A56042EFFA0FAE8D /* ScrollableDatepicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B822CF6BF7916C3EE6C99D11BCD29C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
-		B9BBF08DCFCAD76131329FBCADBA5F77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
-		CE987AA22FFE5172187C6E2F8E3D7F77 /* iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 335826B7A21A590BB055108DA8C4A927 /* iCarousel-dummy.m */; };
-		E96A0F72961923BDC885B009E7EE0FFA /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE480E73D76874FCB39ECF56D0E0323 /* DayCell.xib */; };
+		055A0F0B2D67939778B686121FB46BBE /* JBTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DAA7D2AAFE6D281518EE0D4D02FD7 /* JBTabBar.swift */; };
+		15CA5946420D4CA12AF821E1B1A93AC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		3B11CB5E5E28B6333BE0E383458AC9B7 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DFC7DBDFA3136CDAB627B54FCC3BE0 /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3FEA63047845F925B52A396BA7AEDB22 /* JBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25903DB3E1F445F712423EA0C4966E6D /* JBTabBarController.swift */; };
+		4754C931CAF28C898BA93F9D39461779 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47876F88E95663CE5B2C330386B67B45 /* CircleLayer.swift */; };
+		61C11F5D75E1E49393ADEE85310BE94F /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFCAD0B2DB48891A6D5B219D56ACC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		80290A06B07CE691CEF705E17F837C4F /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = D91B50D81F6953372FAE085016BAF147 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD0986DBFEDC09E2D5C4EE993415DA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		8CDDC145856BDCC8A67580FC6E334544 /* iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E10BD72F2C3E8847ACFF8DFDDCEFC4 /* iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4FB451D6D045BFF14C183D47E4D869 /* JBTabBarAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F883959EBD08D36C29A8F35AF9D7685 /* JBTabBarAnimation-dummy.m */; };
+		A0D84E548415D522E7F61BFDC1F1CE5C /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
+		B822CF6BF7916C3EE6C99D11BCD29C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		C8F9A0659BAD42ABECBD8F08F6E1AD7F /* JBTabBarAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C894FC65DAADECDBE26269AE9DAB32 /* JBTabBarAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE987AA22FFE5172187C6E2F8E3D7F77 /* iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 513222C4C2D6BCF4C5070578F2270368 /* iCarousel-dummy.m */; };
+		EDFB2BC63DFA110B92A8CF7E487DA04D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4B947B18B6538DDE86B8AF938458514E /* PBXContainerItemProxy */ = {
+		5B1684BCA5658382BA965A301D2C5E88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4EEAAD169D412555710D72970676B58;
-			remoteInfo = "ScrollableDatepicker-ScrollableDatepicker";
+			remoteGlobalIDString = 67AE524A4BD618FF3E94E0A0F9D9DCC1;
+			remoteInfo = JBTabBarAnimation;
 		};
-		77613F6B7E69FE202CF5C334A31287AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 548E0F26A10990707D8D4870D2490ACC;
-			remoteInfo = iCarousel;
-		};
-		C703431413709BB76B233059745FB9F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAFCF3F715D42328C2F1E2699D15C956;
-			remoteInfo = ScrollableDatepicker;
-		};
-		E26994C3C2B6921C1C4E93C249A27D40 /* PBXContainerItemProxy */ = {
+		BB9912BFA8CC36C3C08A965E4AE2ED13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
 			remoteInfo = SwiftLint;
 		};
+		CB9B88046469025A5C376EA6DFC5D700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548E0F26A10990707D8D4870D2490ACC;
+			remoteInfo = iCarousel;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A63D83A57F643CBC19B06F7A3B42C2D /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
-		146B17E9D7D67B42F0904FFE97C04204 /* iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.xcconfig; sourceTree = "<group>"; };
+		01F6885DD2CB45600CAA63A17F14E775 /* JBTabBarAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JBTabBarAnimation-Info.plist"; sourceTree = "<group>"; };
 		182E54198D5688248B025B0F75B68491 /* Pods-Agenda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Agenda-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A7D09AAC3C2AC75401F3DFA9A01CD2F /* Pods-Agenda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Agenda.modulemap"; sourceTree = "<group>"; };
-		1A8C10A2EFE3D6AE4390C1C716359212 /* LoadableFromXibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadableFromXibView.swift; path = Sources/LoadableFromXibView.swift; sourceTree = "<group>"; };
-		1B63FDF63546D1548C0747CCEBD8AD8F /* ScrollableDatepicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableDatepicker-dummy.m"; sourceTree = "<group>"; };
 		23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Agenda-umbrella.h"; sourceTree = "<group>"; };
-		26E8F41ECA9CF9BD018CDD5809DB90B6 /* ScrollableDatepicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableDatepicker.xcconfig; sourceTree = "<group>"; };
-		335826B7A21A590BB055108DA8C4A927 /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
-		3D7230C93792214D8A3E5C3A2C753545 /* ScrollableDatepicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollableDatepicker-Info.plist"; sourceTree = "<group>"; };
-		3F8C7D1454027F993CDEA90724EAFD36 /* ScrollableDatepicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollableDatepicker.modulemap; sourceTree = "<group>"; };
-		517531E9F7354371CBB12CC070D0AD8F /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CAE7E89FFF5E467DF7E2B8690BEA09 /* iCarousel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iCarousel-Info.plist"; sourceTree = "<group>"; };
+		25903DB3E1F445F712423EA0C4966E6D /* JBTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBTabBarController.swift; path = JBTabBarAnimation/Classes/JBTabBarController.swift; sourceTree = "<group>"; };
+		28170D7768E0D8FAE39EF2453D2E3013 /* JBTabBarAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBTabBarAnimation.xcconfig; sourceTree = "<group>"; };
+		2D65D30F72A2344486A63BEE975E99B8 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		47876F88E95663CE5B2C330386B67B45 /* CircleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleLayer.swift; path = JBTabBarAnimation/Classes/CircleLayer.swift; sourceTree = "<group>"; };
+		4911325EED1AC3C4B0380595E282BA61 /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D66F43BF222528765AEFC4AD641CED5 /* JBTabBarAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBTabBarAnimation-prefix.pch"; sourceTree = "<group>"; };
+		4D9348231781DEFB6C736A982816B466 /* JBTabBarAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JBTabBarAnimation.framework; path = JBTabBarAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		503D1F0878119B6A01C3D4F5EFA86A4C /* iCarousel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iCarousel-Info.plist"; sourceTree = "<group>"; };
+		513222C4C2D6BCF4C5070578F2270368 /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
 		560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
-		61B4906832F1FD9258787817EDCAD065 /* ResourceBundle-ScrollableDatepicker-ScrollableDatepicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ScrollableDatepicker-ScrollableDatepicker-Info.plist"; sourceTree = "<group>"; };
-		65FE3E3A2E58D4E21AC7B493F070A59A /* DayCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayCell.swift; path = Sources/DayCell.swift; sourceTree = "<group>"; };
+		59DFC7DBDFA3136CDAB627B54FCC3BE0 /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		5C068E8C69DECC349A4DDD7AD5D7CE90 /* iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iCarousel.modulemap; sourceTree = "<group>"; };
+		5F883959EBD08D36C29A8F35AF9D7685 /* JBTabBarAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JBTabBarAnimation-dummy.m"; sourceTree = "<group>"; };
+		72B41FF522EEB640913F1CD55E1769AE /* JBTabBarAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JBTabBarAnimation.modulemap; sourceTree = "<group>"; };
 		7348A23717905CB8D56C39A7770ED4FB /* Pods-Agenda-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-Info.plist"; sourceTree = "<group>"; };
 		8040D4703E823514FFD2880BA45082F2 /* Pods-Agenda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E9F6C955D7BD26AEBD79DB5D32CE98B /* iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-umbrella.h"; sourceTree = "<group>"; };
 		8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
+		92D14E1506F00A7F2ADFB99DFA7E0030 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCarousel.framework; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		96E8528227A5D75C287BC89824DB8C51 /* Pods-Agenda-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Agenda-frameworks.sh"; sourceTree = "<group>"; };
-		970117A6F8570D12A56042EFFA0FAE8D /* ScrollableDatepicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableDatepicker-umbrella.h"; sourceTree = "<group>"; };
+		972DAA7D2AAFE6D281518EE0D4D02FD7 /* JBTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBTabBar.swift; path = JBTabBarAnimation/Classes/JBTabBar.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A11494A9C63165F5A5ACE0D76DE8C11B /* ScrollableDatepicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollableDatepicker.framework; path = ScrollableDatepicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3C0F62D49B5D2577D6321D9423F885D /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
-		B33EE0FF7BFC409791D0F6BC7369796A /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
-		BAC94F6B6C3EEC8AD5C3564B75D51595 /* ScrollableDatepicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableDatepicker.swift; path = Sources/ScrollableDatepicker.swift; sourceTree = "<group>"; };
-		BD4211E19F330F29C2D137294AB20431 /* ScrollableDatepicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ScrollableDatepicker.bundle; path = "ScrollableDatepicker-ScrollableDatepicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		CB82C7699607AFAA75AB465BC1B9BE5F /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCarousel.framework; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D18C6648DF7606907934BF47D3BEA97D /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		BDB0D1CE50A71802A73487AFAE2E4580 /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CFC167D3569054B4E953B8992603F49E /* iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.xcconfig; sourceTree = "<group>"; };
+		D5C894FC65DAADECDBE26269AE9DAB32 /* JBTabBarAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBTabBarAnimation-umbrella.h"; sourceTree = "<group>"; };
+		D91B50D81F6953372FAE085016BAF147 /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
+		D9E10BD72F2C3E8847ACFF8DFDDCEFC4 /* iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-umbrella.h"; sourceTree = "<group>"; };
 		DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Agenda-dummy.m"; sourceTree = "<group>"; };
-		E2F2F9D02D39589DC06027ABFE0855C7 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
-		E4EB0803A1FEDC84092B3ECDE766A6F2 /* ScrollableDatepicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ScrollableDatepicker.xib; path = Sources/ScrollableDatepicker.xib; sourceTree = "<group>"; };
-		EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F47B6705BBF8AB30DC3BBED9860EA1A6 /* ScrollableDatepicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableDatepicker-prefix.pch"; sourceTree = "<group>"; };
-		FAB3EA30F6C2094A158804E357FEEA4B /* iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iCarousel.modulemap; sourceTree = "<group>"; };
-		FEE480E73D76874FCB39ECF56D0E0323 /* DayCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DayCell.xib; path = Sources/DayCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6674B32DAD7D8E0CCAE22EB0853AA519 /* Frameworks */ = {
+		542CB50FF167E148329831C2D7918EE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BBF08DCFCAD76131329FBCADBA5F77 /* Foundation.framework in Frameworks */,
+				EDFB2BC63DFA110B92A8CF7E487DA04D /* Foundation.framework in Frameworks */,
+				15CA5946420D4CA12AF821E1B1A93AC9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,30 +117,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A311B4D636C9AD478D220F0A82A1AC87 /* Frameworks */ = {
+		F011AB2D6F4C999F71044684711A6456 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C92F75D9AF6CD7C6DE91DF3F7137EA2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BF60EE2AC16C4282FB33026E05C001E /* Foundation.framework in Frameworks */,
+				7FFCAD0B2DB48891A6D5B219D56ACC9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */,
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BF014E1BC84089E162862A36FE96D59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C068E8C69DECC349A4DDD7AD5D7CE90 /* iCarousel.modulemap */,
+				CFC167D3569054B4E953B8992603F49E /* iCarousel.xcconfig */,
+				513222C4C2D6BCF4C5070578F2270368 /* iCarousel-dummy.m */,
+				503D1F0878119B6A01C3D4F5EFA86A4C /* iCarousel-Info.plist */,
+				4911325EED1AC3C4B0380595E282BA61 /* iCarousel-prefix.pch */,
+				D9E10BD72F2C3E8847ACFF8DFDDCEFC4 /* iCarousel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCarousel";
+			sourceTree = "<group>";
+		};
+		0DE1D336C50C0C3AA4227100DD18056A /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				63A9CC2036BA403DF031510E779DC186 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		18EB3BE1A48B71A7DFC8B5EE9522F58C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE453AD55C9F746B3901F58BD3D919F6 /* iCarousel */,
+				72794EDFF23AB2798081ACDAD8F64ED3 /* JBTabBarAnimation */,
+				0DE1D336C50C0C3AA4227100DD18056A /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2842E59B5F3839D5A47F5B4AC9ADAC80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72B41FF522EEB640913F1CD55E1769AE /* JBTabBarAnimation.modulemap */,
+				28170D7768E0D8FAE39EF2453D2E3013 /* JBTabBarAnimation.xcconfig */,
+				5F883959EBD08D36C29A8F35AF9D7685 /* JBTabBarAnimation-dummy.m */,
+				01F6885DD2CB45600CAA63A17F14E775 /* JBTabBarAnimation-Info.plist */,
+				4D66F43BF222528765AEFC4AD641CED5 /* JBTabBarAnimation-prefix.pch */,
+				D5C894FC65DAADECDBE26269AE9DAB32 /* JBTabBarAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JBTabBarAnimation";
 			sourceTree = "<group>";
 		};
 		3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */ = {
@@ -164,100 +191,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39F9852DD8086BC4DA0DA4028C568EB5 /* Pods */ = {
+		63A9CC2036BA403DF031510E779DC186 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D0870007277E41D9B3C602A2044894E /* iCarousel */,
-				AABA44A89A3E189164774AAFA3FAD49E /* ScrollableDatepicker */,
-				7E0D1625AE49C4F6F80A16C1256CFAF6 /* SwiftLint */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3A1E7FB88499BD7DD11FA344918393ED /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E2F2F9D02D39589DC06027ABFE0855C7 /* SwiftLint.xcconfig */,
+				2D65D30F72A2344486A63BEE975E99B8 /* SwiftLint.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
-		3D0870007277E41D9B3C602A2044894E /* iCarousel */ = {
+		72794EDFF23AB2798081ACDAD8F64ED3 /* JBTabBarAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				A3C0F62D49B5D2577D6321D9423F885D /* iCarousel.h */,
-				D18C6648DF7606907934BF47D3BEA97D /* iCarousel.m */,
-				7131FC56F94E0622988C03274CEC7716 /* Support Files */,
+				47876F88E95663CE5B2C330386B67B45 /* CircleLayer.swift */,
+				972DAA7D2AAFE6D281518EE0D4D02FD7 /* JBTabBar.swift */,
+				25903DB3E1F445F712423EA0C4966E6D /* JBTabBarController.swift */,
+				2842E59B5F3839D5A47F5B4AC9ADAC80 /* Support Files */,
 			);
-			name = iCarousel;
-			path = iCarousel;
+			name = JBTabBarAnimation;
+			path = JBTabBarAnimation;
 			sourceTree = "<group>";
 		};
-		5B0E5311835CC9194DA790F91FAE2D67 /* Resources */ = {
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FEE480E73D76874FCB39ECF56D0E0323 /* DayCell.xib */,
-				E4EB0803A1FEDC84092B3ECDE766A6F2 /* ScrollableDatepicker.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5C039375CBC58224F10DCA22D52DD4B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CB82C7699607AFAA75AB465BC1B9BE5F /* iCarousel.framework */,
-				517531E9F7354371CBB12CC070D0AD8F /* Pods_Agenda.framework */,
-				BD4211E19F330F29C2D137294AB20431 /* ScrollableDatepicker.bundle */,
-				A11494A9C63165F5A5ACE0D76DE8C11B /* ScrollableDatepicker.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */,
-				CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */,
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7131FC56F94E0622988C03274CEC7716 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FAB3EA30F6C2094A158804E357FEEA4B /* iCarousel.modulemap */,
-				146B17E9D7D67B42F0904FFE97C04204 /* iCarousel.xcconfig */,
-				335826B7A21A590BB055108DA8C4A927 /* iCarousel-dummy.m */,
-				55CAE7E89FFF5E467DF7E2B8690BEA09 /* iCarousel-Info.plist */,
-				0A63D83A57F643CBC19B06F7A3B42C2D /* iCarousel-prefix.pch */,
-				8E9F6C955D7BD26AEBD79DB5D32CE98B /* iCarousel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iCarousel";
-			sourceTree = "<group>";
-		};
-		7E0D1625AE49C4F6F80A16C1256CFAF6 /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				3A1E7FB88499BD7DD11FA344918393ED /* Support Files */,
-			);
-			name = SwiftLint;
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
-		AABA44A89A3E189164774AAFA3FAD49E /* ScrollableDatepicker */ = {
-			isa = PBXGroup;
-			children = (
-				B33EE0FF7BFC409791D0F6BC7369796A /* Configuration.swift */,
-				65FE3E3A2E58D4E21AC7B493F070A59A /* DayCell.swift */,
-				1A8C10A2EFE3D6AE4390C1C716359212 /* LoadableFromXibView.swift */,
-				BAC94F6B6C3EEC8AD5C3564B75D51595 /* ScrollableDatepicker.swift */,
-				5B0E5311835CC9194DA790F91FAE2D67 /* Resources */,
-				F9C4871BE810196570FAC917DF23DEE4 /* Support Files */,
-			);
-			name = ScrollableDatepicker;
-			path = ScrollableDatepicker;
 			sourceTree = "<group>";
 		};
 		C934CECD522672598B6B40A3AC57D281 /* Pods-Agenda */ = {
@@ -281,44 +243,50 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				39F9852DD8086BC4DA0DA4028C568EB5 /* Pods */,
-				5C039375CBC58224F10DCA22D52DD4B6 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				18EB3BE1A48B71A7DFC8B5EE9522F58C /* Pods */,
+				F09D04D8F5DE0985984647D813E94C52 /* Products */,
 				3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F9C4871BE810196570FAC917DF23DEE4 /* Support Files */ = {
+		DE453AD55C9F746B3901F58BD3D919F6 /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				61B4906832F1FD9258787817EDCAD065 /* ResourceBundle-ScrollableDatepicker-ScrollableDatepicker-Info.plist */,
-				3F8C7D1454027F993CDEA90724EAFD36 /* ScrollableDatepicker.modulemap */,
-				26E8F41ECA9CF9BD018CDD5809DB90B6 /* ScrollableDatepicker.xcconfig */,
-				1B63FDF63546D1548C0747CCEBD8AD8F /* ScrollableDatepicker-dummy.m */,
-				3D7230C93792214D8A3E5C3A2C753545 /* ScrollableDatepicker-Info.plist */,
-				F47B6705BBF8AB30DC3BBED9860EA1A6 /* ScrollableDatepicker-prefix.pch */,
-				970117A6F8570D12A56042EFFA0FAE8D /* ScrollableDatepicker-umbrella.h */,
+				D91B50D81F6953372FAE085016BAF147 /* iCarousel.h */,
+				59DFC7DBDFA3136CDAB627B54FCC3BE0 /* iCarousel.m */,
+				0BF014E1BC84089E162862A36FE96D59 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ScrollableDatepicker";
+			name = iCarousel;
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		F09D04D8F5DE0985984647D813E94C52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D14E1506F00A7F2ADFB99DFA7E0030 /* iCarousel.framework */,
+				4D9348231781DEFB6C736A982816B466 /* JBTabBarAnimation.framework */,
+				BDB0D1CE50A71802A73487AFAE2E4580 /* Pods_Agenda.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6688DF10EC1E56B83986537B3011809D /* Headers */ = {
+		4B91770C5A22FCDE284D5B010BD80894 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE631FC47DF8740847CEEACB0E2DE29 /* Pods-Agenda-umbrella.h in Headers */,
+				61C11F5D75E1E49393ADEE85310BE94F /* Pods-Agenda-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B272293DA5C3B6BF94AF8561B70ABA42 /* Headers */ = {
+		DD978F98CC76AD7620B5FAD2842D5207 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93BAF2DD2449983DEBFE6ABF3144E02F /* ScrollableDatepicker-umbrella.h in Headers */,
+				C8F9A0659BAD42ABECBD8F08F6E1AD7F /* JBTabBarAnimation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,23 +304,23 @@
 /* Begin PBXNativeTarget section */
 		3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C6201C4E6CAC06797D0B929739365AD /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
+			buildConfigurationList = 60FDC05F9F056ED4EB321AD7BF4A2ED6 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
 			buildPhases = (
-				6688DF10EC1E56B83986537B3011809D /* Headers */,
-				99A079444E503BEEC6CB0E81DC820F34 /* Sources */,
-				C92F75D9AF6CD7C6DE91DF3F7137EA2A /* Frameworks */,
-				30BC8D56B2E7733960B7F2DFF991C7B2 /* Resources */,
+				4B91770C5A22FCDE284D5B010BD80894 /* Headers */,
+				7BEA06EAFC93DFA47DF7EE93941D9A0E /* Sources */,
+				F011AB2D6F4C999F71044684711A6456 /* Frameworks */,
+				DB655CD5410903E12B59E316ED471D05 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D7AC179A8EB0BFB64DFCB1C1FF18078 /* PBXTargetDependency */,
-				B102C3B3C08797AB84AEFF8F7A90E938 /* PBXTargetDependency */,
-				8939AEB614A08D92B4562A452F3A3C94 /* PBXTargetDependency */,
+				D1E615A192F21851D2FF42ADCB69F9D5 /* PBXTargetDependency */,
+				75453A3127DF8E52E5313E18AB4BA275 /* PBXTargetDependency */,
+				4FC1133F5E7326C24F0A98D4A27F4703 /* PBXTargetDependency */,
 			);
 			name = "Pods-Agenda";
 			productName = "Pods-Agenda";
-			productReference = 517531E9F7354371CBB12CC070D0AD8F /* Pods_Agenda.framework */;
+			productReference = BDB0D1CE50A71802A73487AFAE2E4580 /* Pods_Agenda.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		548E0F26A10990707D8D4870D2490ACC /* iCarousel */ = {
@@ -370,44 +338,26 @@
 			);
 			name = iCarousel;
 			productName = iCarousel;
-			productReference = CB82C7699607AFAA75AB465BC1B9BE5F /* iCarousel.framework */;
+			productReference = 92D14E1506F00A7F2ADFB99DFA7E0030 /* iCarousel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CAFCF3F715D42328C2F1E2699D15C956 /* ScrollableDatepicker */ = {
+		67AE524A4BD618FF3E94E0A0F9D9DCC1 /* JBTabBarAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5419E0D4E03DCB3877B430F628B7B16 /* Build configuration list for PBXNativeTarget "ScrollableDatepicker" */;
+			buildConfigurationList = CE59774233C6354D9AB5461E2C2B4183 /* Build configuration list for PBXNativeTarget "JBTabBarAnimation" */;
 			buildPhases = (
-				B272293DA5C3B6BF94AF8561B70ABA42 /* Headers */,
-				37DB59ED57E67FE49C7AE5725C9839DD /* Sources */,
-				6674B32DAD7D8E0CCAE22EB0853AA519 /* Frameworks */,
-				1FB3EB7169770CA35D7913EF5FD19311 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6AD234107B077CC0077EAF12B2A1EB09 /* PBXTargetDependency */,
-			);
-			name = ScrollableDatepicker;
-			productName = ScrollableDatepicker;
-			productReference = A11494A9C63165F5A5ACE0D76DE8C11B /* ScrollableDatepicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4EEAAD169D412555710D72970676B58 /* ScrollableDatepicker-ScrollableDatepicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4BB11F16D68913F5A8F84A137628B584 /* Build configuration list for PBXNativeTarget "ScrollableDatepicker-ScrollableDatepicker" */;
-			buildPhases = (
-				13AED02BA7A93932104BE28C8D8068EA /* Sources */,
-				A311B4D636C9AD478D220F0A82A1AC87 /* Frameworks */,
-				29F0FBA3972F9247EFD3844812D13B67 /* Resources */,
+				DD978F98CC76AD7620B5FAD2842D5207 /* Headers */,
+				DF95DD1697B2898294E9987928AC3FDE /* Sources */,
+				542CB50FF167E148329831C2D7918EE3 /* Frameworks */,
+				10AD7455A3B34097E13F771D2A5713D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ScrollableDatepicker-ScrollableDatepicker";
-			productName = "ScrollableDatepicker-ScrollableDatepicker";
-			productReference = BD4211E19F330F29C2D137294AB20431 /* ScrollableDatepicker.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = JBTabBarAnimation;
+			productName = JBTabBarAnimation;
+			productReference = 4D9348231781DEFB6C736A982816B466 /* JBTabBarAnimation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -426,14 +376,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5C039375CBC58224F10DCA22D52DD4B6 /* Products */;
+			productRefGroup = F09D04D8F5DE0985984647D813E94C52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				548E0F26A10990707D8D4870D2490ACC /* iCarousel */,
+				67AE524A4BD618FF3E94E0A0F9D9DCC1 /* JBTabBarAnimation */,
 				3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */,
-				CAFCF3F715D42328C2F1E2699D15C956 /* ScrollableDatepicker */,
-				F4EEAAD169D412555710D72970676B58 /* ScrollableDatepicker-ScrollableDatepicker */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
@@ -447,24 +396,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FB3EB7169770CA35D7913EF5FD19311 /* Resources */ = {
+		10AD7455A3B34097E13F771D2A5713D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				508FB76CBFE968043DECCF8940B63977 /* ScrollableDatepicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29F0FBA3972F9247EFD3844812D13B67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E96A0F72961923BDC885B009E7EE0FFA /* DayCell.xib in Resources */,
-				19134CC6B0B1919A1569825EC4DA7406 /* ScrollableDatepicker.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30BC8D56B2E7733960B7F2DFF991C7B2 /* Resources */ = {
+		DB655CD5410903E12B59E316ED471D05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,13 +413,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13AED02BA7A93932104BE28C8D8068EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		35D132E7401CF96BCC68000EC6337EB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,91 +422,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DB59ED57E67FE49C7AE5725C9839DD /* Sources */ = {
+		7BEA06EAFC93DFA47DF7EE93941D9A0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016FC87C4AC8D06443131D0911697F3E /* Configuration.swift in Sources */,
-				3C2B9882FBB54A4C4FD04DDD07670C3D /* DayCell.swift in Sources */,
-				679D379BB1AFF9A0A46826A2E9AD65FF /* LoadableFromXibView.swift in Sources */,
-				766F6CB9EEED4015C70828A5F2E4CE53 /* ScrollableDatepicker-dummy.m in Sources */,
-				6C7B277B3708AED2692DEB202945232E /* ScrollableDatepicker.swift in Sources */,
+				A0D84E548415D522E7F61BFDC1F1CE5C /* Pods-Agenda-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99A079444E503BEEC6CB0E81DC820F34 /* Sources */ = {
+		DF95DD1697B2898294E9987928AC3FDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B6E0263E4F1226851AA966450DD3EC /* Pods-Agenda-dummy.m in Sources */,
+				4754C931CAF28C898BA93F9D39461779 /* CircleLayer.swift in Sources */,
+				055A0F0B2D67939778B686121FB46BBE /* JBTabBar.swift in Sources */,
+				8F4FB451D6D045BFF14C183D47E4D869 /* JBTabBarAnimation-dummy.m in Sources */,
+				3FEA63047845F925B52A396BA7AEDB22 /* JBTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6AD234107B077CC0077EAF12B2A1EB09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ScrollableDatepicker-ScrollableDatepicker";
-			target = F4EEAAD169D412555710D72970676B58 /* ScrollableDatepicker-ScrollableDatepicker */;
-			targetProxy = 4B947B18B6538DDE86B8AF938458514E /* PBXContainerItemProxy */;
-		};
-		8939AEB614A08D92B4562A452F3A3C94 /* PBXTargetDependency */ = {
+		4FC1133F5E7326C24F0A98D4A27F4703 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iCarousel;
 			target = 548E0F26A10990707D8D4870D2490ACC /* iCarousel */;
-			targetProxy = 77613F6B7E69FE202CF5C334A31287AF /* PBXContainerItemProxy */;
+			targetProxy = CB9B88046469025A5C376EA6DFC5D700 /* PBXContainerItemProxy */;
 		};
-		9D7AC179A8EB0BFB64DFCB1C1FF18078 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ScrollableDatepicker;
-			target = CAFCF3F715D42328C2F1E2699D15C956 /* ScrollableDatepicker */;
-			targetProxy = C703431413709BB76B233059745FB9F3 /* PBXContainerItemProxy */;
-		};
-		B102C3B3C08797AB84AEFF8F7A90E938 /* PBXTargetDependency */ = {
+		75453A3127DF8E52E5313E18AB4BA275 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = E26994C3C2B6921C1C4E93C249A27D40 /* PBXContainerItemProxy */;
+			targetProxy = BB9912BFA8CC36C3C08A965E4AE2ED13 /* PBXContainerItemProxy */;
+		};
+		D1E615A192F21851D2FF42ADCB69F9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JBTabBarAnimation;
+			target = 67AE524A4BD618FF3E94E0A0F9D9DCC1 /* JBTabBarAnimation */;
+			targetProxy = 5B1684BCA5658382BA965A301D2C5E88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AA285EA3D51A743146984BE582577FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26E8F41ECA9CF9BD018CDD5809DB90B6 /* ScrollableDatepicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScrollableDatepicker/ScrollableDatepicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScrollableDatepicker/ScrollableDatepicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ScrollableDatepicker/ScrollableDatepicker.modulemap";
-				PRODUCT_MODULE_NAME = ScrollableDatepicker;
-				PRODUCT_NAME = ScrollableDatepicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -635,10 +525,11 @@
 			};
 			name = Release;
 		};
-		31554B1F12090E66F5AB74FFC782086C /* Release */ = {
+		3FBEAF89B1283E4A9C74E056CB139FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26E8F41ECA9CF9BD018CDD5809DB90B6 /* ScrollableDatepicker.xcconfig */;
+			baseConfigurationReference = 28170D7768E0D8FAE39EF2453D2E3013 /* JBTabBarAnimation.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -648,30 +539,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScrollableDatepicker/ScrollableDatepicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScrollableDatepicker/ScrollableDatepicker-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/ScrollableDatepicker/ScrollableDatepicker.modulemap";
-				PRODUCT_MODULE_NAME = ScrollableDatepicker;
-				PRODUCT_NAME = ScrollableDatepicker;
+				MODULEMAP_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation.modulemap";
+				PRODUCT_MODULE_NAME = JBTabBarAnimation;
+				PRODUCT_NAME = JBTabBarAnimation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		3DCAFF015989C6F93792094FD7FA1C12 /* Release */ = {
+		41D2D880E8694BB327A9888B49BE8EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */;
 			buildSettings = {
@@ -712,7 +602,7 @@
 		};
 		545B688CCFE6667EC443EFEA2B70F8C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 146B17E9D7D67B42F0904FFE97C04204 /* iCarousel.xcconfig */;
+			baseConfigurationReference = CFC167D3569054B4E953B8992603F49E /* iCarousel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -745,25 +635,9 @@
 			};
 			name = Debug;
 		};
-		63BA184777221E77418DCABC24A53F76 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26E8F41ECA9CF9BD018CDD5809DB90B6 /* ScrollableDatepicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ScrollableDatepicker";
-				INFOPLIST_FILE = "Target Support Files/ScrollableDatepicker/ResourceBundle-ScrollableDatepicker-ScrollableDatepicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = ScrollableDatepicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2F2F9D02D39589DC06027ABFE0855C7 /* SwiftLint.xcconfig */;
+			baseConfigurationReference = 2D65D30F72A2344486A63BEE975E99B8 /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -778,59 +652,7 @@
 			};
 			name = Release;
 		};
-		872BB0B26EEF81B0D2B42B2096F60F1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 146B17E9D7D67B42F0904FFE97C04204 /* iCarousel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iCarousel/iCarousel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
-				PRODUCT_MODULE_NAME = iCarousel;
-				PRODUCT_NAME = iCarousel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C9AFFD996D09E067C69E185E48635554 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26E8F41ECA9CF9BD018CDD5809DB90B6 /* ScrollableDatepicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ScrollableDatepicker";
-				INFOPLIST_FILE = "Target Support Files/ScrollableDatepicker/ResourceBundle-ScrollableDatepicker-ScrollableDatepicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = ScrollableDatepicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D88968BC7329D61E86FF3FA12CE507E8 /* Debug */ = {
+		85F8C1BE9A17B5068532DD31773B3CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */;
 			buildSettings = {
@@ -867,6 +689,79 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		872BB0B26EEF81B0D2B42B2096F60F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC167D3569054B4E953B8992603F49E /* iCarousel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/iCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				PRODUCT_MODULE_NAME = iCarousel;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5299CDF684A04770004AE6432F99EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28170D7768E0D8FAE39EF2453D2E3013 /* JBTabBarAnimation.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation.modulemap";
+				PRODUCT_MODULE_NAME = JBTabBarAnimation;
+				PRODUCT_NAME = JBTabBarAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -934,7 +829,7 @@
 		};
 		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2F2F9D02D39589DC06027ABFE0855C7 /* SwiftLint.xcconfig */;
+			baseConfigurationReference = 2D65D30F72A2344486A63BEE975E99B8 /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -960,15 +855,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BB11F16D68913F5A8F84A137628B584 /* Build configuration list for PBXNativeTarget "ScrollableDatepicker-ScrollableDatepicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9AFFD996D09E067C69E185E48635554 /* Debug */,
-				63BA184777221E77418DCABC24A53F76 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4F9D840304C3E1AC00101560390272D6 /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -978,20 +864,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C6201C4E6CAC06797D0B929739365AD /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
+		60FDC05F9F056ED4EB321AD7BF4A2ED6 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D88968BC7329D61E86FF3FA12CE507E8 /* Debug */,
-				3DCAFF015989C6F93792094FD7FA1C12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5419E0D4E03DCB3877B430F628B7B16 /* Build configuration list for PBXNativeTarget "ScrollableDatepicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0AA285EA3D51A743146984BE582577FA /* Debug */,
-				31554B1F12090E66F5AB74FFC782086C /* Release */,
+				85F8C1BE9A17B5068532DD31773B3CE4 /* Debug */,
+				41D2D880E8694BB327A9888B49BE8EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1001,6 +878,15 @@
 			buildConfigurations = (
 				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
 				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE59774233C6354D9AB5461E2C2B4183 /* Build configuration list for PBXNativeTarget "JBTabBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBEAF89B1283E4A9C74E056CB139FE1 /* Debug */,
+				A5299CDF684A04770004AE6432F99EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
