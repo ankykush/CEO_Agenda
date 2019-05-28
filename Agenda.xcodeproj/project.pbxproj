@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47AB990322979EF200A59799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB990222979EF200A59799 /* AppDelegate.swift */; };
 		47AB990822979EF200A59799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB990622979EF200A59799 /* Main.storyboard */; };
 		47AB990A22979EF600A59799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AB990922979EF600A59799 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47AB98FF22979EF200A59799 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47AB990222979EF200A59799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47AB990722979EF200A59799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				47AB99282297A80D00A59799 /* AlertDisplayer.swift */,
 				47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */,
+				47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				54F02F722298851100A40060 /* Executive.swift in Sources */,
 				47AB99182297A10800A59799 /* ScheduleViewController.swift in Sources */,
 				47AB99312297BC2400A59799 /* ScheduleDetailViewController.swift in Sources */,
+				47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */,
 				47AB991C2297A12400A59799 /* ExecutiveViewController.swift in Sources */,
 				47AB990322979EF200A59799 /* AppDelegate.swift in Sources */,
 				47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */,

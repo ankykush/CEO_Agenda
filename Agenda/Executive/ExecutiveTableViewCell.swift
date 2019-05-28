@@ -20,8 +20,12 @@ class ExecutiveTableViewCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 0, left: 0, bottom: 10, right: 0))
+        configureUI()
+    }
+    
+    private func configureUI() {
+        contentView.addBottomInset()
+        contentView.addShadow()
     }
     
     func populate(executive: Executive) {
@@ -29,5 +33,4 @@ class ExecutiveTableViewCell: UITableViewCell {
         executiveRole?.text = executive.role
         executiveImage?.image = UIImage(named: executive.imageUrl)
     }
-    
 }

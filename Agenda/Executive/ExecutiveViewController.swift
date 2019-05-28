@@ -9,8 +9,11 @@
 import UIKit
 
 class ExecutiveViewController: UIViewController {
+    @IBOutlet weak var tableView: UITableView!
     
     var executives = [
+        Executive(name: "Name", role: "Role", imageUrl: "LINK-icon-directions"),
+        Executive(name: "Name", role: "Role", imageUrl: "LINK-icon-directions"),
         Executive(name: "Name", role: "Role", imageUrl: "LINK-icon-directions")
     ]
     
@@ -18,7 +21,11 @@ class ExecutiveViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.isHidden = true
-
+        tableView.tableFooterView = UIView()
+    }
+    
+    @IBAction func backButtonAction(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
     }
     
 }
