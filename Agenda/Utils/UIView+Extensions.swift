@@ -19,4 +19,14 @@ extension UIView {
     func addBottomInset() {
         frame = frame.inset(by: UIEdgeInsets(top: 0, left: 0, bottom: 10, right: 0))
     }
+    
+    public class func instantiateFromNib<T: UIView>(_ viewType: T.Type) -> T? {
+        return Bundle.main.loadNibNamed(String(describing: viewType), owner: nil, options: nil)?.first as? T
+        
+    }
+    
+    public class func instantiateFromNib() -> Self? {
+        return instantiateFromNib(self)
+    }
+    
 }
