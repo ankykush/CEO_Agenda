@@ -1,14 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ONd-f8-YCo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S0a-IJ-bEM">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="J6K-sb-fWB">
+            <objects>
+                <viewController id="S0a-IJ-bEM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oth-nB-oB0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-zS-xyw">
+                                <rect key="frame" x="96" y="698" width="223" height="56"/>
+                                <color key="backgroundColor" red="0.14587575197219849" green="0.38744097948074341" blue="0.58834952116012573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="3Ef-5y-iJ0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="21"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.cornerRadius" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="27"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ONd-f8-YCo" kind="show" id="2bd-RA-XLI"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="KAD-pB-ddL">
+                                <rect key="frame" x="87" y="230" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="NDU-0W-biO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KAD-pB-ddL" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="87" id="CWa-h7-3jI"/>
+                            <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="oth-nB-oB0" secondAttribute="centerX" id="CdF-XU-4le"/>
+                            <constraint firstItem="WNC-uR-UAf" firstAttribute="bottom" secondItem="RQz-zS-xyw" secondAttribute="bottom" constant="108" id="H5H-Di-HQL"/>
+                            <constraint firstItem="KAD-pB-ddL" firstAttribute="top" secondItem="WNC-uR-UAf" secondAttribute="top" constant="186" id="NN0-AE-ide"/>
+                            <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="RQz-zS-xyw" secondAttribute="centerX" id="mFi-lc-4Pp"/>
+                            <constraint firstItem="RQz-zS-xyw" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="96" id="q2n-u4-SkI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WNC-uR-UAf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EzW-76-pTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1985.5072463768117" y="-488.16964285714283"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Fde-QF-SsS">
             <objects>
@@ -59,4 +111,7 @@
             <point key="canvasLocation" x="-556" y="-798"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logo" width="3900" height="1685"/>
+    </resources>
 </document>
