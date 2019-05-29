@@ -11,4 +11,10 @@ import UIKit
 class CarouselContent: UIView {
     @IBOutlet weak var carouselImageView: UIImageView!
     @IBOutlet weak var carouselTitle: UILabel!
+    
+    func configureUI(_ imageName: String) {
+        backgroundColor = UIColor.lightGray
+        carouselImageView.image = UIImage(named: imageName)
+        carouselImageView.contentMode = .scaleToFill
+    }
 }

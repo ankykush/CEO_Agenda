@@ -12,6 +12,10 @@ class ScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureUI()
     }
 
+    private func configureUI() {
+        hideNavigationBar()
+    }
 }

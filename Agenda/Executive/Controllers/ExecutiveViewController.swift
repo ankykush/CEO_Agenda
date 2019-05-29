@@ -20,7 +20,11 @@ class ExecutiveViewController: UIViewController {
     //MARK: Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationBar.isHidden = true
+        configureUI()
+    }
+    
+    private func configureUI() {
+        hideNavigationBar()
         tableView.tableFooterView = UIView()
     }
     

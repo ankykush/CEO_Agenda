@@ -19,6 +19,7 @@
 		47051D0E229E38EE00D9FACF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D0B229E38EE00D9FACF /* ScheduleViewController.swift */; };
 		47051D0F229E38EE00D9FACF /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D0C229E38EE00D9FACF /* ScheduleDetailViewController.swift */; };
 		47051D11229E393000D9FACF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D10229E393000D9FACF /* Location.swift */; };
+		47051D15229E3C1500D9FACF /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D14229E3C1500D9FACF /* UIViewController+Extensions.swift */; };
 		47AB990322979EF200A59799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB990222979EF200A59799 /* AppDelegate.swift */; };
 		47AB990822979EF200A59799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB990622979EF200A59799 /* Main.storyboard */; };
 		47AB990A22979EF600A59799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AB990922979EF600A59799 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		47051D0B229E38EE00D9FACF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		47051D0C229E38EE00D9FACF /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
 		47051D10229E393000D9FACF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		47051D14229E3C1500D9FACF /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		47AB98FF22979EF200A59799 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47AB990222979EF200A59799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47AB990722979EF200A59799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				47AB99282297A80D00A59799 /* AlertDisplayer.swift */,
 				47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */,
 				47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */,
+				47051D14229E3C1500D9FACF /* UIViewController+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				47051CFC229E388E00D9FACF /* ExecutiveDetailViewController.swift in Sources */,
 				47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */,
 				47AB990322979EF200A59799 /* AppDelegate.swift in Sources */,
+				47051D15229E3C1500D9FACF /* UIViewController+Extensions.swift in Sources */,
 				47051D0F229E38EE00D9FACF /* ScheduleDetailViewController.swift in Sources */,
 				47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */,
 				47AB992B2297B02D00A59799 /* UIStoryboard+Identifiable.swift in Sources */,

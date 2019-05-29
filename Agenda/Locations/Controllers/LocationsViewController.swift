@@ -21,7 +21,8 @@ class LocationsViewController: UIViewController {
         configureUI()
     }
     
-    func configureUI() {
+    private func configureUI() {
+        hideNavigationBar()
         carousel.type = .coverFlow2
     }
 }
@@ -37,11 +38,7 @@ extension LocationsViewController: iCarouselDataSource {
         guard let carouselContentView = CarouselContent.instantiateFromNib() else {
             return UIView()
         }
-        
-        //        carouselContentView.frame.size = CGSize(width: self.view.frame.size.width/2, height: 83.0)
-        carouselContentView.backgroundColor = UIColor.lightGray
-        carouselContentView.carouselImageView.image = UIImage(named: locationImages[index])
-        carouselContentView.contentMode = .scaleAspectFill
+        carouselContentView.configureUI(locationImages[index])
         
         return carouselContentView
     }
@@ -59,7 +56,7 @@ extension LocationsViewController: iCarouselDelegate {
         case .wrap:
             return 0
         case .spacing:
-            return value * 1.05
+            return value * 1.5
         default:
             return value
         }
