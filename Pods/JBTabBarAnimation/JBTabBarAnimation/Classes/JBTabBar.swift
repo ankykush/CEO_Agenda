@@ -37,7 +37,7 @@ public class JBTabBar: UITabBar {
         self.clipsToBounds = false
         
         tabBarCurveShapeLayer.frame = CGRect(x: 0, y: 0, width: self.bounds.width, height: self.bounds.height)
-        tabBarCurveShapeLayer.fillColor = UIColor.white.cgColor
+        tabBarCurveShapeLayer.fillColor = UIColor.blue.cgColor
         tabBarCurveShapeLayer.strokeColor = UIColor.white.cgColor
         tabBarCurveShapeLayer.path = createPathForTabBar().cgPath
         self.layer.insertSublayer(tabBarCurveShapeLayer, at: 0)

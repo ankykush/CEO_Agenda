@@ -64,54 +64,153 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Fde-QF-SsS">
             <objects>
-                <tabBarController id="ONd-f8-YCo" customClass="JBTabBarController" customModule="JBTabBarAnimation" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CcE-wr-V0B" customClass="JBTabBar" customModule="JBTabBarAnimation">
+                <tabBarController id="ONd-f8-YCo" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CcE-wr-V0B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BW2-Ba-ksj" kind="relationship" relationship="viewControllers" id="y8t-HL-56j"/>
-                        <segue destination="DNf-ja-EXm" kind="relationship" relationship="viewControllers" id="r6b-3X-WIf"/>
-                        <segue destination="WxA-Qb-roo" kind="relationship" relationship="viewControllers" id="efW-Vg-h36"/>
+                        <segue destination="BQy-pa-znQ" kind="relationship" relationship="viewControllers" id="Kgs-15-hE4"/>
+                        <segue destination="HSc-Nh-sdT" kind="relationship" relationship="viewControllers" id="Xjm-1P-Fue"/>
+                        <segue destination="T3i-Ah-9ee" kind="relationship" relationship="viewControllers" id="cRr-Pc-9cZ"/>
+                        <segue destination="cg2-4o-YjF" kind="relationship" relationship="viewControllers" id="sbV-ar-I5Z"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cK-dW-1YK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1191" y="-506"/>
+            <point key="canvasLocation" x="-1171" y="-488"/>
         </scene>
-        <!--ScheduleNavigationViewController-->
+        <!--ScheduleViewController-->
         <scene sceneID="euu-PO-L4U">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="ScheduleViewController" storyboardName="Schedule" referencedIdentifier="ScheduleNavigationViewController" id="WxA-Qb-roo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="hz1-aE-Xy5"/>
+                <viewControllerPlaceholder storyboardIdentifier="ScheduleViewController" storyboardName="Schedule" referencedIdentifier="ScheduleViewController" id="WxA-Qb-roo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="hz1-aE-Xy5"/>
+                    <navigationItem key="navigationItem" id="TT5-cS-faY"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cu-Ib-RKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-554" y="-297"/>
+            <point key="canvasLocation" x="745" y="364"/>
         </scene>
-        <!--LocationsNavigationViewController-->
+        <!--LocationsViewController-->
         <scene sceneID="Kb9-qb-heL">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="LocationsViewController" storyboardName="Locations" referencedIdentifier="LocationsNavigationViewController" id="DNf-ja-EXm" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="LocationsViewController" storyboardName="Locations" referencedIdentifier="LocationsViewController" id="DNf-ja-EXm" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="ju5-nu-V8W"/>
+                    <navigationItem key="navigationItem" id="FmB-FM-lRo"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VhY-sj-bYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-641" y="-506"/>
+            <point key="canvasLocation" x="593" y="-383"/>
         </scene>
-        <!--ExecutiveNavigationViewController-->
+        <!--ExecutiveViewController-->
         <scene sceneID="XRE-m5-mjd">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="ExecutiveViewController" storyboardName="Executive" referencedIdentifier="ExecutiveNavigationViewController" id="BW2-Ba-ksj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="nhI-51-g3e"/>
-                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJu-zL-xuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="ExecutiveViewController" storyboardName="Executive" referencedIdentifier="ExecutiveViewController" id="BW2-Ba-ksj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="nhI-51-g3e"/>
+                    <navigationItem key="navigationItem" id="aUI-sP-joh"/>
+                </viewControllerPlaceholder>
             </objects>
-            <point key="canvasLocation" x="-556" y="-798"/>
+            <point key="canvasLocation" x="626" y="-1053"/>
+        </scene>
+        <!--ContactsViewController-->
+        <scene sceneID="bLd-jP-yXB">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ContactsViewController" storyboardName="Contacts" referencedIdentifier="ContactsViewController" id="uEF-I3-FYr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="p89-CQ-91M"/>
+                    <navigationItem key="navigationItem" id="RN7-yP-fJ4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k91-gz-aQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="651" y="1258"/>
+        </scene>
+        <!--Executive-->
+        <scene sceneID="MIC-VH-lga">
+            <objects>
+                <navigationController storyboardIdentifier="ExecutiveNavigationViewController" title="Executive" automaticallyAdjustsScrollViewInsets="NO" id="BQy-pa-znQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="profiles" selectedImage="white_profiles" id="V9q-Fo-cDf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oNc-6S-i2l">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BW2-Ba-ksj" kind="relationship" relationship="rootViewController" id="AKk-xX-ti0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lAa-5x-H2C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="-1053"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="CT4-W3-6M3">
+            <objects>
+                <navigationController storyboardIdentifier="ScheduleNavigationViewController" title="Schedule" automaticallyAdjustsScrollViewInsets="NO" id="T3i-Ah-9ee" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="schedule" selectedImage="white_schedule" id="Jfp-5U-QQh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jmp-Gf-I0f">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WxA-Qb-roo" kind="relationship" relationship="rootViewController" id="v5i-gk-Mcf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17W-pO-Lse" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="364"/>
+        </scene>
+        <!--Locations-->
+        <scene sceneID="KRy-2t-d1c">
+            <objects>
+                <navigationController storyboardIdentifier="LocationsNavigationViewController" title="Locations" automaticallyAdjustsScrollViewInsets="NO" id="HSc-Nh-sdT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="locations" selectedImage="white_locations" id="STu-4q-Orh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zze-B0-Pwg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DNf-ja-EXm" kind="relationship" relationship="rootViewController" id="LZZ-DB-VLI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x18-3b-UKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="-383"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cdW-qu-G7d">
+            <objects>
+                <navigationController storyboardIdentifier="ContactsNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="cg2-4o-YjF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="contacts" selectedImage="white_contacts" id="j4e-XY-4vA"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zm5-a2-s4b">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uEF-I3-FYr" kind="relationship" relationship="rootViewController" id="w73-sK-XSg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PfT-qn-DlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228" y="1258"/>
         </scene>
     </scenes>
     <resources>
         <image name="Logo" width="3900" height="1685"/>
+        <image name="contacts" width="60" height="60"/>
+        <image name="locations" width="60" height="60"/>
+        <image name="profiles" width="60" height="60"/>
+        <image name="schedule" width="60" height="60"/>
+        <image name="white_contacts" width="60" height="60"/>
+        <image name="white_locations" width="60" height="60"/>
+        <image name="white_profiles" width="60" height="60"/>
+        <image name="white_schedule" width="60" height="60"/>
     </resources>
 </document>
