@@ -18,8 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-zS-xyw">
-                                <rect key="frame" x="96" y="698" width="223" height="56"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch_background" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-tN-nKp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-zS-xyw">
+                                <rect key="frame" x="96" y="698" width="222" height="56"/>
                                 <color key="backgroundColor" red="0.14587575197219849" green="0.38744097948074341" blue="0.58834952116012573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="3Ef-5y-iJ0"/>
@@ -47,12 +50,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="hMS-tN-nKp" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" id="AVg-5j-KPZ"/>
                             <constraint firstItem="KAD-pB-ddL" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="87" id="CWa-h7-3jI"/>
                             <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="oth-nB-oB0" secondAttribute="centerX" id="CdF-XU-4le"/>
                             <constraint firstItem="WNC-uR-UAf" firstAttribute="bottom" secondItem="RQz-zS-xyw" secondAttribute="bottom" constant="108" id="H5H-Di-HQL"/>
                             <constraint firstItem="KAD-pB-ddL" firstAttribute="top" secondItem="WNC-uR-UAf" secondAttribute="top" constant="186" id="NN0-AE-ide"/>
+                            <constraint firstAttribute="bottom" secondItem="hMS-tN-nKp" secondAttribute="bottom" id="lSA-Yp-3pN"/>
                             <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="RQz-zS-xyw" secondAttribute="centerX" id="mFi-lc-4Pp"/>
+                            <constraint firstItem="hMS-tN-nKp" firstAttribute="top" secondItem="oth-nB-oB0" secondAttribute="top" id="mac-1K-EId"/>
                             <constraint firstItem="RQz-zS-xyw" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="96" id="q2n-u4-SkI"/>
+                            <constraint firstItem="WNC-uR-UAf" firstAttribute="trailing" secondItem="hMS-tN-nKp" secondAttribute="trailing" id="uXE-wm-w7C"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WNC-uR-UAf"/>
                     </view>
@@ -203,14 +210,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Launch_background" width="1125" height="2436"/>
         <image name="Logo" width="3900" height="1685"/>
-        <image name="contacts" width="60" height="60"/>
-        <image name="locations" width="60" height="60"/>
-        <image name="profiles" width="60" height="60"/>
-        <image name="schedule" width="60" height="60"/>
-        <image name="white_contacts" width="60" height="60"/>
-        <image name="white_locations" width="60" height="60"/>
-        <image name="white_profiles" width="60" height="60"/>
-        <image name="white_schedule" width="60" height="60"/>
+        <image name="contacts" width="50" height="50"/>
+        <image name="locations" width="50" height="50"/>
+        <image name="profiles" width="50" height="50"/>
+        <image name="schedule" width="50" height="50"/>
+        <image name="white_contacts" width="50" height="50"/>
+        <image name="white_locations" width="50" height="50"/>
+        <image name="white_profiles" width="50" height="50"/>
+        <image name="white_schedule" width="50" height="50"/>
     </resources>
 </document>
