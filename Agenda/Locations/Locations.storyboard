@@ -24,8 +24,14 @@
                                     <constraint firstAttribute="height" constant="180" id="Xbp-ae-FIP"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCATIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hv-UG-UhT">
+                                <rect key="frame" x="20" y="110" width="386" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2oQ-Ye-942" customClass="iCarousel">
-                                <rect key="frame" x="20" y="200" width="374" height="642"/>
+                                <rect key="frame" x="0.0" y="180" width="414" height="682"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="3ry-Fs-q9f" id="VtP-pM-29F"/>
@@ -37,11 +43,14 @@
                         <constraints>
                             <constraint firstItem="Knx-sM-nCm" firstAttribute="leading" secondItem="qEg-Fj-Saa" secondAttribute="leading" id="6Fg-KB-09A"/>
                             <constraint firstItem="Knx-sM-nCm" firstAttribute="trailing" secondItem="qEg-Fj-Saa" secondAttribute="trailing" id="7qE-Jr-CnF"/>
-                            <constraint firstItem="qEg-Fj-Saa" firstAttribute="bottom" secondItem="2oQ-Ye-942" secondAttribute="bottom" constant="20" id="BGZ-2j-Fef"/>
-                            <constraint firstItem="2oQ-Ye-942" firstAttribute="leading" secondItem="qEg-Fj-Saa" secondAttribute="leading" constant="20" id="FcF-mm-vPe"/>
-                            <constraint firstItem="qEg-Fj-Saa" firstAttribute="trailing" secondItem="2oQ-Ye-942" secondAttribute="trailing" constant="20" id="QZE-TQ-g2s"/>
+                            <constraint firstItem="qEg-Fj-Saa" firstAttribute="bottom" secondItem="2oQ-Ye-942" secondAttribute="bottom" id="BGZ-2j-Fef"/>
+                            <constraint firstItem="2oQ-Ye-942" firstAttribute="leading" secondItem="qEg-Fj-Saa" secondAttribute="leading" id="FcF-mm-vPe"/>
+                            <constraint firstItem="2oQ-Ye-942" firstAttribute="top" secondItem="4hv-UG-UhT" secondAttribute="bottom" constant="40" id="JPC-9V-9xh"/>
+                            <constraint firstItem="qEg-Fj-Saa" firstAttribute="trailing" secondItem="2oQ-Ye-942" secondAttribute="trailing" id="QZE-TQ-g2s"/>
+                            <constraint firstAttribute="trailing" secondItem="4hv-UG-UhT" secondAttribute="trailing" constant="8" id="YzD-Za-kpf"/>
                             <constraint firstItem="Knx-sM-nCm" firstAttribute="top" secondItem="e0F-B3-kKJ" secondAttribute="top" id="iYg-xF-AYZ"/>
-                            <constraint firstItem="2oQ-Ye-942" firstAttribute="top" secondItem="Knx-sM-nCm" secondAttribute="bottom" constant="20" id="zRY-ek-7FS"/>
+                            <constraint firstItem="4hv-UG-UhT" firstAttribute="leading" secondItem="e0F-B3-kKJ" secondAttribute="leading" constant="20" id="wTx-pQ-hee"/>
+                            <constraint firstItem="2oQ-Ye-942" firstAttribute="top" secondItem="Knx-sM-nCm" secondAttribute="bottom" id="zRY-ek-7FS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qEg-Fj-Saa"/>
                     </view>
