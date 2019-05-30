@@ -56,7 +56,7 @@ extension LocationsViewController: iCarouselDelegate {
         case .wrap:
             return 0
         case .spacing:
-            return value * 1.5
+            return value * 2.0
         default:
             return value
         }

@@ -20,13 +20,7 @@ class ExecutiveTableViewCell: UITableViewCell {
         configureUI()
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-    }
-    
     private func configureUI() {
-        //contentView.addBottomInset()
         containerView.addShadow()
     }
     
