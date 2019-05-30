@@ -84,14 +84,19 @@ class ScheduleViewController: UIViewController {
 extension ScheduleViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return selectedDateSchedule?.schedule.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ScheduleTableViewCell", for: indexPath) as? ScheduleTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ScheduleTableViewCell", for: indexPath) as? ScheduleTableViewCell
+            else {
             return UITableViewCell()
         }
         //cell.populate()
+        let scheduleData = selectedDateSchedule?.schedule[indexPath.row]
+        cell.timeLbl.text = scheduleData?.time
+        cell.venueLbl.text = selectedDateSchedule?.place
+        cell.purposeLbl.text = scheduleData?.meeting 
         return cell
     }
 }
@@ -163,7 +168,7 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
 //        cell?.backgroundColor = UIColor(red: 0.98, green: 0.78, blue: 0.0, alpha: 1.0)
 //
         selectedIndexPath = indexPath
-        collectionView.reloadData()
+        dateCellClicked(at: indexPath.row)
 //        let mainData = finalScheduleArray[indexPath.row] as? ScheduleElement
 //        dateSelectedIndex = indexPath.row
 //        selectedMonthLabel.text = mainData?.month
@@ -186,9 +191,5 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
         
     }
     
-    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-        let cell = collectionView.cellForItem(at: indexPath) as? CollectionViewCell
-        cell?.backgroundColor = UIColor.clear
-//        selectedIndexPath = IndexPath(index: -1)
-    }
+    
 }
