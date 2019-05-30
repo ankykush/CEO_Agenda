@@ -13,19 +13,21 @@ class ExecutiveTableViewCell: UITableViewCell {
     @IBOutlet weak var executiveImage: UIImageView!
     @IBOutlet weak var executiveName: UILabel!
     @IBOutlet weak var executiveRole: UILabel!
+    @IBOutlet weak var containerView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        configureUI()
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        configureUI()
+        
     }
     
     private func configureUI() {
-        contentView.addBottomInset()
-        contentView.addShadow()
+        //contentView.addBottomInset()
+        containerView.addShadow()
     }
     
     func populate(executive: Executive) {

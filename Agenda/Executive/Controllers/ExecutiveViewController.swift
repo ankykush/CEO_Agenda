@@ -38,14 +38,14 @@ class ExecutiveViewController: UIViewController {
 extension ExecutiveViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return executives.count
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ExecutiveTableViewCell", for: indexPath) as? ExecutiveTableViewCell else {
             return UITableViewCell()
         }
-        cell.populate(executive: executives[indexPath.row])
+        //cell.populate(executive: executives[indexPath.row])
         return cell
     }
 }
