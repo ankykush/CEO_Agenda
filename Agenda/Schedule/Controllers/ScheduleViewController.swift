@@ -11,6 +11,8 @@ import UIKit
 class ScheduleViewController: UIViewController {
     //MARK: Properties
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var taglineLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var scheduleDateScroller: UICollectionView!
     var finalScheduleArray: ScheduleData = ScheduleData()
     var selectedDateSchedule: ScheduleElement?
@@ -95,6 +97,7 @@ extension ScheduleViewController: UITableViewDataSource {
         //cell.populate()
         let scheduleData = selectedDateSchedule?.schedule[indexPath.row]
         cell.timeLbl.text = scheduleData?.time
+        locationLabel.text = selectedDateSchedule?.place
         cell.venueLbl.text = selectedDateSchedule?.place
         cell.purposeLbl.text = scheduleData?.meeting 
         return cell
