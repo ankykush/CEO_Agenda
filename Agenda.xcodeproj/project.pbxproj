@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2031F254229F980500BE68A4 /* ModelsNConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F253229F980500BE68A4 /* ModelsNConnection.swift */; };
+		2031F256229F989D00BE68A4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F255229F989D00BE68A4 /* CollectionViewCell.swift */; };
+		2031F262229FC0AD00BE68A4 /* CollectionViewCellSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47051CFA229E388E00D9FACF /* Executive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF4229E388D00D9FACF /* Executive.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2031F253229F980500BE68A4 /* ModelsNConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsNConnection.swift; sourceTree = "<group>"; };
+		2031F255229F989D00BE68A4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellSelected.swift; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47051CF4229E388D00D9FACF /* Executive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executive.swift; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +142,8 @@
 		47051D09229E38EE00D9FACF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */,
+				2031F255229F989D00BE68A4 /* CollectionViewCell.swift */,
 				47051D1D229F803800D9FACF /* ScheduleTableViewCell.swift */,
 			);
 			path = Views;
@@ -264,6 +272,7 @@
 		47AB99272297A6AF00A59799 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2031F253229F980500BE68A4 /* ModelsNConnection.swift */,
 				47AB99282297A80D00A59799 /* AlertDisplayer.swift */,
 				47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */,
 				47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */,
@@ -419,8 +428,11 @@
 				47051D06229E38C800D9FACF /* LocationDetailViewController.swift in Sources */,
 				47051D11229E393000D9FACF /* Location.swift in Sources */,
 				47051D05229E38C800D9FACF /* LocationsViewController.swift in Sources */,
+				2031F256229F989D00BE68A4 /* CollectionViewCell.swift in Sources */,
+				2031F262229FC0AD00BE68A4 /* CollectionViewCellSelected.swift in Sources */,
 				47051CFC229E388E00D9FACF /* ExecutiveDetailViewController.swift in Sources */,
 				47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */,
+				2031F254229F980500BE68A4 /* ModelsNConnection.swift in Sources */,
 				47051D1E229F803800D9FACF /* ScheduleTableViewCell.swift in Sources */,
 				47AB990322979EF200A59799 /* AppDelegate.swift in Sources */,
 				47051D15229E3C1500D9FACF /* UIViewController+Extensions.swift in Sources */,

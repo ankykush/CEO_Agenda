@@ -106,10 +106,10 @@
                                                     </constraints>
                                                 </view>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_schedulelist" translatesAutoresizingMaskIntoConstraints="NO" id="FhG-e5-xvZ">
-                                                    <rect key="frame" x="120" y="0.0" width="294" height="107.5"/>
+                                                    <rect key="frame" x="120" y="0.0" width="294" height="284"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast at Hotel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVn-ye-RvW">
-                                                    <rect key="frame" x="170" y="0.0" width="244" height="107.5"/>
+                                                    <rect key="frame" x="170" y="0.0" width="244" height="284"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.194234252" green="0.34600409869999998" blue="0.54765492680000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -147,22 +147,100 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="b34-dg-6uU"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cgy-zW-CLT">
-                                    <size key="itemSize" width="50" height="50"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cgy-zW-CLT">
+                                    <size key="itemSize" width="48" height="88"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5Nl-r4-K6d">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="datecell" id="5Nl-r4-K6d" customClass="CollectionViewCell" customModule="Agenda" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="16" width="70" height="88"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oA1-gj-2dR">
+                                                    <rect key="frame" x="16" y="4" width="40" height="23"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                                    <color key="textColor" red="0.046304531400000001" green="0.30757302050000002" blue="0.39215680959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hk-pG-Sj4">
+                                                    <rect key="frame" x="9" y="31" width="52" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.046304531400000001" green="0.30757302050000002" blue="0.39215680959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="0hk-pG-Sj4" secondAttribute="trailing" constant="1" id="2aT-Ii-vIZ"/>
+                                            <constraint firstItem="oA1-gj-2dR" firstAttribute="leading" secondItem="5Nl-r4-K6d" secondAttribute="leading" constant="16" id="AYb-SU-nje"/>
+                                            <constraint firstItem="0hk-pG-Sj4" firstAttribute="leading" secondItem="5Nl-r4-K6d" secondAttribute="leadingMargin" constant="1" id="QCb-M2-pm0"/>
+                                            <constraint firstItem="0hk-pG-Sj4" firstAttribute="top" secondItem="oA1-gj-2dR" secondAttribute="bottom" constant="4" id="g49-8I-ToR"/>
+                                            <constraint firstItem="oA1-gj-2dR" firstAttribute="top" secondItem="5Nl-r4-K6d" secondAttribute="top" constant="4" id="gLQ-vf-5gx"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="0hk-pG-Sj4" secondAttribute="bottom" constant="25" id="q8U-lY-CoK"/>
+                                            <constraint firstAttribute="trailing" secondItem="oA1-gj-2dR" secondAttribute="trailing" constant="14" id="w2O-Ps-pFP"/>
+                                        </constraints>
+                                        <size key="customSize" width="70" height="88"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="0hk-pG-Sj4" id="wvg-HL-RlU"/>
+                                            <outlet property="dayLabel" destination="oA1-gj-2dR" id="P8b-Bi-3h4"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="datecellselected" id="chT-Eh-TVc" customClass="CollectionViewCellSelected" customModule="Agenda" customModuleProvider="target">
+                                        <rect key="frame" x="80" y="11" width="91" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="91" height="98"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axn-e0-IAF">
+                                                    <rect key="frame" x="21" y="64" width="50" height="23"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                    <color key="textColor" red="0.046304531400000001" green="0.30757302050000002" blue="0.39215680959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3J-U6-XqW">
+                                                    <rect key="frame" x="21" y="40" width="50" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <color key="textColor" red="0.046304531400000001" green="0.30757302050000002" blue="0.39215680959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="WEDNESDAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRq-7H-Fuj">
+                                                    <rect key="frame" x="3" y="17" width="84" height="19"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                                    <color key="textColor" red="0.046304531400000001" green="0.30757302050000002" blue="0.39215680959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Y3J-U6-XqW" secondAttribute="trailing" constant="20" id="4iw-rW-IB7"/>
+                                            <constraint firstItem="axn-e0-IAF" firstAttribute="top" secondItem="Y3J-U6-XqW" secondAttribute="bottom" constant="3" id="5HX-Mt-Ent"/>
+                                            <constraint firstAttribute="trailing" secondItem="axn-e0-IAF" secondAttribute="trailing" constant="20" id="Fvh-1s-0W8"/>
+                                            <constraint firstAttribute="bottom" secondItem="axn-e0-IAF" secondAttribute="bottom" constant="11" id="UmV-tK-Smu"/>
+                                            <constraint firstItem="Y3J-U6-XqW" firstAttribute="leading" secondItem="chT-Eh-TVc" secondAttribute="leading" constant="21" id="XGm-DY-ExL"/>
+                                            <constraint firstItem="sRq-7H-Fuj" firstAttribute="leading" secondItem="chT-Eh-TVc" secondAttribute="leading" constant="3" id="eSu-CX-yA9"/>
+                                            <constraint firstItem="axn-e0-IAF" firstAttribute="leading" secondItem="chT-Eh-TVc" secondAttribute="leading" constant="21" id="gi3-1b-hMg"/>
+                                            <constraint firstAttribute="trailing" secondItem="sRq-7H-Fuj" secondAttribute="trailing" constant="4" id="oh4-7F-BIk"/>
+                                            <constraint firstItem="sRq-7H-Fuj" firstAttribute="top" secondItem="chT-Eh-TVc" secondAttribute="top" constant="17" id="shJ-fA-RAh"/>
+                                            <constraint firstItem="Y3J-U6-XqW" firstAttribute="top" secondItem="sRq-7H-Fuj" secondAttribute="bottom" constant="4" id="uaj-Uw-tXW"/>
+                                        </constraints>
+                                        <size key="customSize" width="91" height="98"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="axn-e0-IAF" id="rqd-lw-fMD"/>
+                                            <outlet property="dayLabel" destination="sRq-7H-Fuj" id="GZu-jP-5Zo"/>
+                                            <outlet property="monthLabel" destination="Y3J-U6-XqW" id="KEk-k1-rUH"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="t63-42-ba6" id="oUe-h8-1SH"/>
+                                    <outlet property="delegate" destination="t63-42-ba6" id="jCn-pZ-z22"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -182,6 +260,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Qql-F9-A5Y"/>
                     <connections>
+                        <outlet property="scheduleDateScroller" destination="lCm-Lf-kJz" id="9FL-aL-hGg"/>
                         <outlet property="tableView" destination="udv-8q-rSK" id="NUC-L5-uiz"/>
                     </connections>
                 </viewController>
