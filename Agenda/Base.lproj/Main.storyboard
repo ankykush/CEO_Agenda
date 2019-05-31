@@ -71,7 +71,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Fde-QF-SsS">
             <objects>
-                <tabBarController id="ONd-f8-YCo" sceneMemberID="viewController">
+                <tabBarController id="ONd-f8-YCo" customClass="TabBarController" customModule="Agenda" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CcE-wr-V0B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -82,6 +82,7 @@
                         <segue destination="HSc-Nh-sdT" kind="relationship" relationship="viewControllers" id="Xjm-1P-Fue"/>
                         <segue destination="T3i-Ah-9ee" kind="relationship" relationship="viewControllers" id="cRr-Pc-9cZ"/>
                         <segue destination="cg2-4o-YjF" kind="relationship" relationship="viewControllers" id="sbV-ar-I5Z"/>
+                        <segue destination="Fu3-8x-gXd" kind="relationship" relationship="viewControllers" id="amK-Ws-h8d"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cK-dW-1YK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -113,11 +114,11 @@
         <!--ExecutiveViewController-->
         <scene sceneID="XRE-m5-mjd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uJu-zL-xuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardIdentifier="ExecutiveViewController" storyboardName="Executive" referencedIdentifier="ExecutiveViewController" id="BW2-Ba-ksj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="nhI-51-g3e"/>
                     <navigationItem key="navigationItem" id="aUI-sP-joh"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uJu-zL-xuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="626" y="-1053"/>
         </scene>
@@ -132,11 +133,38 @@
             </objects>
             <point key="canvasLocation" x="651" y="1258"/>
         </scene>
+        <!--Info-->
+        <scene sceneID="48a-GZ-ONe">
+            <objects>
+                <navigationController storyboardIdentifier="InfoNavigationViewController" title="Info" id="Fu3-8x-gXd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="white_info" selectedImage="info" id="sOs-vW-7wW"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="flg-wf-pMo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wKL-K0-X2b" kind="relationship" relationship="rootViewController" id="xfG-4q-Frs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r6Q-Ic-UKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-59" y="1813"/>
+        </scene>
+        <!--InfoViewController-->
+        <scene sceneID="v9g-oa-LGv">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="InfoViewController" storyboardName="Info" referencedIdentifier="InfoViewController" id="wKL-K0-X2b" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="e3t-tA-sX9"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEC-CE-Fwo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="607" y="1826"/>
+        </scene>
         <!--Executive-->
         <scene sceneID="MIC-VH-lga">
             <objects>
                 <navigationController storyboardIdentifier="ExecutiveNavigationViewController" title="Executive" automaticallyAdjustsScrollViewInsets="NO" id="BQy-pa-znQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="profiles" selectedImage="white_profiles" id="V9q-Fo-cDf"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_profiles" selectedImage="profiles" id="V9q-Fo-cDf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oNc-6S-i2l">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -155,7 +183,7 @@
         <scene sceneID="CT4-W3-6M3">
             <objects>
                 <navigationController storyboardIdentifier="ScheduleNavigationViewController" title="Schedule" automaticallyAdjustsScrollViewInsets="NO" id="T3i-Ah-9ee" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="schedule" selectedImage="white_schedule" id="Jfp-5U-QQh"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_schedule" selectedImage="schedule" id="Jfp-5U-QQh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jmp-Gf-I0f">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -174,7 +202,7 @@
         <scene sceneID="KRy-2t-d1c">
             <objects>
                 <navigationController storyboardIdentifier="LocationsNavigationViewController" title="Locations" automaticallyAdjustsScrollViewInsets="NO" id="HSc-Nh-sdT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="locations" selectedImage="white_locations" id="STu-4q-Orh"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_locations" selectedImage="locations" id="STu-4q-Orh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zze-B0-Pwg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -193,7 +221,7 @@
         <scene sceneID="cdW-qu-G7d">
             <objects>
                 <navigationController storyboardIdentifier="ContactsNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="cg2-4o-YjF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="contacts" selectedImage="white_contacts" id="j4e-XY-4vA"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_contacts" selectedImage="contacts" id="j4e-XY-4vA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zm5-a2-s4b">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -206,17 +234,19 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PfT-qn-DlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-228" y="1258"/>
+            <point key="canvasLocation" x="-59" y="1124"/>
         </scene>
     </scenes>
     <resources>
         <image name="Launch_background" width="1125" height="2436"/>
         <image name="Logo" width="3900" height="1685"/>
         <image name="contacts" width="50" height="50"/>
+        <image name="info" width="60" height="60"/>
         <image name="locations" width="50" height="50"/>
         <image name="profiles" width="50" height="50"/>
         <image name="schedule" width="50" height="50"/>
         <image name="white_contacts" width="50" height="50"/>
+        <image name="white_info" width="50" height="50"/>
         <image name="white_locations" width="50" height="50"/>
         <image name="white_profiles" width="50" height="50"/>
         <image name="white_schedule" width="50" height="50"/>
