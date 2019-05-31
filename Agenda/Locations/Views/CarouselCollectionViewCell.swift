@@ -8,14 +8,14 @@
 
 import UIKit
 
-class CarouselContent: UIView {
+class CarouselCollectionViewCell: UICollectionViewCell {
+    static let identifier = "CarouselCollectionViewCell"
     @IBOutlet weak var carouselImageView: UIImageView!
     @IBOutlet weak var carouselTitle: UILabel!
-    @IBOutlet weak var contentView: UIView!
     
     func configureUI(_ imageName: String) {
         carouselImageView.image = UIImage(named: imageName)
         carouselImageView.contentMode = .scaleToFill
-        contentView.addShadow()
+        carouselTitle.text = "LOS ANGELES"
     }
 }

@@ -7,11 +7,12 @@
 //
 
 import UIKit
-import iCarousel
+import UPCarouselFlowLayout
 
 class LocationsViewController: UIViewController {
     //MARK: Properties
-    @IBOutlet weak var carousel: iCarousel!
+    
+    @IBOutlet weak var collectionView: UICollectionView!
     
     let locationImages = ["location1", "location2", "location3"]
     
@@ -23,45 +24,41 @@ class LocationsViewController: UIViewController {
     
     private func configureUI() {
         hideNavigationBar()
-        carousel.type = .coverFlow2
     }
 }
 
 //MARK: iCarouselDataSource Methods
-extension LocationsViewController: iCarouselDataSource {
-    func numberOfItems(in carousel: iCarousel) -> Int {
+extension LocationsViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return locationImages.count
     }
     
-    func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
-        
-        guard let carouselContentView = CarouselContent.instantiateFromNib() else {
-            return UIView()
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCollectionViewCell.identifier, for: indexPath) as? CarouselCollectionViewCell else {
+            return UICollectionViewCell()
         }
-        carouselContentView.configureUI(locationImages[index])
-        
-        return carouselContentView
-    }
-}
-
-//MARK: iCarouselDelegate Methods
-extension LocationsViewController: iCarouselDelegate {
-    func carousel(_ carousel: iCarousel, itemTransformForOffset offset: CGFloat, baseTransform transform: CATransform3D) -> CATransform3D {
-        let trans = CATransform3DRotate(transform, CGFloat.pi / 8.0, 0.0, 1.0, 0.0)
-        return CATransform3DTranslate(trans, 0.0, 0.0, offset * carousel.itemWidth)
+        cell.configureUI(locationImages[indexPath.row])
+        return cell
     }
     
-    func carousel(_ carousel: iCarousel, valueFor option: iCarouselOption, withDefault value: CGFloat) -> CGFloat {
-        switch option {
-        case .wrap:
-            return 0
-        case .spacing:
-            return value * 2.0
-        default:
-            return value
-        }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+      
     }
-    func carousel(_ carousel: iCarousel, didSelectItemAt index: Int) {
-        
-    }
+    
+    
+    // MARK: - UIScrollViewDelegate
+    
+//    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+//        let layout = self.collectionView.collectionViewLayout as! UPCarouselFlowLayout
+//        let pageSide = (layout.scrollDirection == .horizontal) ? self.pageSize.width : self.pageSize.height
+//        let offset = (layout.scrollDirection == .horizontal) ? scrollView.contentOffset.x : scrollView.contentOffset.y
+//        currentPage = Int(floor((offset - pageSide / 2) / pageSide) + 1)
+//    }
+
 }
+
+

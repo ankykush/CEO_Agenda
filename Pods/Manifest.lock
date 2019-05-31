@@ -1,24 +1,24 @@
 PODS:
-  - iCarousel (1.8.3)
   - JBTabBarAnimation (1.0.0)
   - SwiftLint (0.24.2)
+  - UPCarouselFlowLayout (1.1.2)
 
 DEPENDENCIES:
-  - iCarousel
   - JBTabBarAnimation
   - SwiftLint
+  - UPCarouselFlowLayout
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - iCarousel
     - JBTabBarAnimation
     - SwiftLint
+    - UPCarouselFlowLayout
 
 SPEC CHECKSUMS:
-  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   JBTabBarAnimation: 34a3d3abc0f53bd3baaa69cb8610be7236aa6d31
   SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
 
-PODFILE CHECKSUM: 24fa7bf8109223e5047d26f703ae97e1a1e1d9c3
+PODFILE CHECKSUM: 9183b4176d4fd3a83fc8b6f74941db27740eab04
 
 COCOAPODS: 1.7.0

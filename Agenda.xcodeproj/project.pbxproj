@@ -17,8 +17,7 @@
 		47051CFD229E388E00D9FACF /* ExecutiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF9229E388D00D9FACF /* ExecutiveTableViewCell.swift */; };
 		47051D05229E38C800D9FACF /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CFF229E38C800D9FACF /* LocationsViewController.swift */; };
 		47051D06229E38C800D9FACF /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D00229E38C800D9FACF /* LocationDetailViewController.swift */; };
-		47051D07229E38C800D9FACF /* CarouselContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47051D03229E38C800D9FACF /* CarouselContent.xib */; };
-		47051D08229E38C800D9FACF /* CarouselContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D04229E38C800D9FACF /* CarouselContent.swift */; };
+		47051D08229E38C800D9FACF /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D04229E38C800D9FACF /* CarouselCollectionViewCell.swift */; };
 		47051D0E229E38EE00D9FACF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D0B229E38EE00D9FACF /* ScheduleViewController.swift */; };
 		47051D0F229E38EE00D9FACF /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D0C229E38EE00D9FACF /* ScheduleDetailViewController.swift */; };
 		47051D11229E393000D9FACF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D10229E393000D9FACF /* Location.swift */; };
@@ -53,8 +52,7 @@
 		47051CF9229E388D00D9FACF /* ExecutiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveTableViewCell.swift; sourceTree = "<group>"; };
 		47051CFF229E38C800D9FACF /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		47051D00229E38C800D9FACF /* LocationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
-		47051D03229E38C800D9FACF /* CarouselContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselContent.xib; sourceTree = "<group>"; };
-		47051D04229E38C800D9FACF /* CarouselContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselContent.swift; sourceTree = "<group>"; };
+		47051D04229E38C800D9FACF /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		47051D0B229E38EE00D9FACF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		47051D0C229E38EE00D9FACF /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
 		47051D10229E393000D9FACF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -139,8 +137,7 @@
 		47051D02229E38C800D9FACF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				47051D03229E38C800D9FACF /* CarouselContent.xib */,
-				47051D04229E38C800D9FACF /* CarouselContent.swift */,
+				47051D04229E38C800D9FACF /* CarouselCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -379,7 +376,6 @@
 				47AB990D22979EF600A59799 /* LaunchScreen.storyboard in Resources */,
 				47051D1C229F602400D9FACF /* Contacts.storyboard in Resources */,
 				47AB99202297A15E00A59799 /* Locations.storyboard in Resources */,
-				47051D07229E38C800D9FACF /* CarouselContent.xib in Resources */,
 				47AB990A22979EF600A59799 /* Assets.xcassets in Resources */,
 				47AB990822979EF200A59799 /* Main.storyboard in Resources */,
 				47AB991E2297A14800A59799 /* Schedule.storyboard in Resources */,
@@ -438,7 +434,7 @@
 			files = (
 				47051CFA229E388E00D9FACF /* Executive.swift in Sources */,
 				47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */,
-				47051D08229E38C800D9FACF /* CarouselContent.swift in Sources */,
+				47051D08229E38C800D9FACF /* CarouselCollectionViewCell.swift in Sources */,
 				47051D0E229E38EE00D9FACF /* ScheduleViewController.swift in Sources */,
 				47051CFD229E388E00D9FACF /* ExecutiveTableViewCell.swift in Sources */,
 				47051D2A22A0A4F200D9FACF /* TabBarController.swift in Sources */,
