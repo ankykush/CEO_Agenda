@@ -181,6 +181,10 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
 //
 //        dateCellClicked(at: dateSelectedIndex)
 //        scheduleDateScroller.reloadData()
+        
+    
+        collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if selectedIndexPath?.row != indexPath.row {

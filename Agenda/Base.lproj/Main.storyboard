@@ -137,7 +137,7 @@
         <scene sceneID="48a-GZ-ONe">
             <objects>
                 <navigationController storyboardIdentifier="InfoNavigationViewController" title="Info" id="Fu3-8x-gXd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="info" selectedImage="white_info" id="sOs-vW-7wW"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_info" selectedImage="info" id="sOs-vW-7wW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="flg-wf-pMo">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -164,7 +164,7 @@
         <scene sceneID="MIC-VH-lga">
             <objects>
                 <navigationController storyboardIdentifier="ExecutiveNavigationViewController" title="Executive" automaticallyAdjustsScrollViewInsets="NO" id="BQy-pa-znQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="profiles" selectedImage="white_profiles" id="V9q-Fo-cDf"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_profiles" selectedImage="profiles" id="V9q-Fo-cDf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oNc-6S-i2l">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -183,7 +183,7 @@
         <scene sceneID="CT4-W3-6M3">
             <objects>
                 <navigationController storyboardIdentifier="ScheduleNavigationViewController" title="Schedule" automaticallyAdjustsScrollViewInsets="NO" id="T3i-Ah-9ee" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="schedule" selectedImage="white_schedule" id="Jfp-5U-QQh"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_schedule" selectedImage="schedule" id="Jfp-5U-QQh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jmp-Gf-I0f">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -202,7 +202,7 @@
         <scene sceneID="KRy-2t-d1c">
             <objects>
                 <navigationController storyboardIdentifier="LocationsNavigationViewController" title="Locations" automaticallyAdjustsScrollViewInsets="NO" id="HSc-Nh-sdT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="locations" selectedImage="white_locations" id="STu-4q-Orh"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_locations" selectedImage="locations" id="STu-4q-Orh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zze-B0-Pwg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -221,7 +221,7 @@
         <scene sceneID="cdW-qu-G7d">
             <objects>
                 <navigationController storyboardIdentifier="ContactsNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="cg2-4o-YjF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="contacts" selectedImage="white_contacts" id="j4e-XY-4vA"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_contacts" selectedImage="contacts" id="j4e-XY-4vA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zm5-a2-s4b">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
