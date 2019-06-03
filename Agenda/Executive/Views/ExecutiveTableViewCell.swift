@@ -24,9 +24,9 @@ class ExecutiveTableViewCell: UITableViewCell {
         containerView.addShadow()
     }
     
-    func populate(executive: Executive) {
+    func populate(executive: ExecutiveElement) {
         executiveName?.text = executive.name
-        executiveRole?.text = executive.role
-        executiveImage?.image = UIImage(named: executive.imageUrl)
+        executiveRole?.text = executive.designation
+        executiveImage?.image = UIImage(named: executive.organization!)
     }
 }

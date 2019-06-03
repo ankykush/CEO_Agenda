@@ -10,8 +10,8 @@
 		2031F254229F980500BE68A4 /* ModelsNConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F253229F980500BE68A4 /* ModelsNConnection.swift */; };
 		2031F256229F989D00BE68A4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F255229F989D00BE68A4 /* CollectionViewCell.swift */; };
 		2031F262229FC0AD00BE68A4 /* CollectionViewCellSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */; };
+		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
-		47051CFA229E388E00D9FACF /* Executive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF4229E388D00D9FACF /* Executive.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
 		47051CFC229E388E00D9FACF /* ExecutiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF7229E388D00D9FACF /* ExecutiveDetailViewController.swift */; };
 		47051CFD229E388E00D9FACF /* ExecutiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF9229E388D00D9FACF /* ExecutiveTableViewCell.swift */; };
@@ -45,8 +45,8 @@
 		2031F253229F980500BE68A4 /* ModelsNConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsNConnection.swift; sourceTree = "<group>"; };
 		2031F255229F989D00BE68A4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellSelected.swift; sourceTree = "<group>"; };
+		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		47051CF4229E388D00D9FACF /* Executive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executive.swift; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
 		47051CF7229E388D00D9FACF /* ExecutiveDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveDetailViewController.swift; sourceTree = "<group>"; };
 		47051CF9229E388D00D9FACF /* ExecutiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveTableViewCell.swift; sourceTree = "<group>"; };
@@ -95,7 +95,6 @@
 		47051CF3229E388D00D9FACF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				47051CF4229E388D00D9FACF /* Executive.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -113,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				47051CF9229E388D00D9FACF /* ExecutiveTableViewCell.swift */,
+				2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -432,7 +432,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47051CFA229E388E00D9FACF /* Executive.swift in Sources */,
 				47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */,
 				47051D08229E38C800D9FACF /* CarouselCollectionViewCell.swift in Sources */,
 				47051D0E229E38EE00D9FACF /* ScheduleViewController.swift in Sources */,
@@ -455,6 +454,7 @@
 				47051D0F229E38EE00D9FACF /* ScheduleDetailViewController.swift in Sources */,
 				47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */,
 				47AB992B2297B02D00A59799 /* UIStoryboard+Identifiable.swift in Sources */,
+				2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,17 +601,18 @@
 			baseConfigurationReference = 6869EC4AA8DDFA7ADF28822C /* Pods-Agenda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6ZF9TD7CTE;
 				INFOPLIST_FILE = Agenda/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.agenda.Agenda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.Agenda2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = com.tcs.mobility_May18_2018;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -622,17 +623,18 @@
 			baseConfigurationReference = A97F0C95D0E770131E614A45 /* Pods-Agenda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6ZF9TD7CTE;
 				INFOPLIST_FILE = Agenda/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.agenda.Agenda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.Agenda2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = com.tcs.mobility_May18_2018;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

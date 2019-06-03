@@ -28,33 +28,21 @@ enum TypeEnum: String, Codable {
     case travel = "Travel"
 }
 
-struct PeopleArray: Codable {
-    let tcsPeople, usaaPeople: [Person]
+struct Executive: Codable {
+    let orgNames: [String]?
+    let executives: [ExecutiveElement]?
     
     enum CodingKeys: String, CodingKey {
-        case tcsPeople = "TCSPeopleArray"
-        case usaaPeople = "USAAPeopleArray"
+        case orgNames
+        case executives
     }
 }
 
-struct Person: Codable {
-    let name, nickName, designation: String
-    let organization: Organization
-    let education: String
-    let experience: Experience
-    let desc, smallImg, largeImg: String
-    
-    
-}
-
-enum Experience: String, Codable {
-    case empty = ""
-    case over20Years = "Over 20 years"
-}
-
-enum Organization: String, Codable {
-    case tcs = "TCS"
-    case usaa = "USAA"
+// MARK: - ExecutiveElement
+struct ExecutiveElement: Codable {
+    let name, nickName, designation, organization: String?
+    let education, experience, desc, smallImg: String?
+    let largeImg: String?
 }
 
 func newJSONDecoder() -> JSONDecoder {
@@ -90,7 +78,7 @@ extension URLSession {
         return self.codableTask(with: url, completionHandler: completionHandler)
     }
     
-    func personTask(with url: URL, completionHandler: @escaping (PeopleArray?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+    func personTask(with url: URL, completionHandler: @escaping (Executive?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
         return self.codableTask(with: url, completionHandler: completionHandler)
     }
 }
