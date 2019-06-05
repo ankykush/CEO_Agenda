@@ -72,11 +72,18 @@ extension ExecutiveViewController: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ExecutiveTableViewCell", for: indexPath) as? ExecutiveTableViewCell else {
             return UITableViewCell()
         }
+        cell.selectionStyle = .none
         if executives.count > 0 {
             cell.populate(executive: (executives[indexPath.row]))
         }
         
         return cell
+    }
+}
+
+extension ExecutiveViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
     }
 }
 
