@@ -68,12 +68,19 @@ class ScheduleViewController: UIViewController {
         let task = URLSession.shared.scheduleTask(with: url!) { scheduleArray, response, error in
             if  scheduleArray != nil {
                 DispatchQueue.main.async {
+                    
                     self.finalScheduleArray = scheduleArray!
+                    //adding dummy elements to make sure selected element is always in the center
+                    for i in 0...2 {
+                        self.finalScheduleArray.insert(ScheduleElement(), at: i)
+                        self.finalScheduleArray.append(ScheduleElement())
+                    }
+                    
                     spinner.stopAnimating()
                     self.view.isUserInteractionEnabled = true
                     self.scheduleDateScroller.isHidden = false
                     
-                    self.dateCellClicked(at: 0)
+                    self.dateCellClicked(at: 3)
                     
                 }
             }
@@ -165,8 +172,12 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let noOfItems = finalScheduleArray.count
+        if [0, 1, 2, noOfItems - 1, noOfItems - 2, noOfItems - 3].contains(indexPath.row) {
+            return
+        }
         let cell = collectionView.cellForItem(at: indexPath) as? CollectionViewCell
+        
 //
 //        cell?.backgroundColor = UIColor(red: 0.98, green: 0.78, blue: 0.0, alpha: 1.0)
 //

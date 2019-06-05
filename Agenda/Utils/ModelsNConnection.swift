@@ -10,6 +10,17 @@ struct ScheduleElement: Codable {
     let logo: String
     let place, meetingdatecount: String
     let schedule: ScheduleArray
+    
+    init() {
+        self.dates = ""
+        self.month = ""
+        self.date = ""
+        self.day = ""
+        self.logo = ""
+        self.place = ""
+        self.meetingdatecount = ""
+        self.schedule = []
+    }
 }
 
 

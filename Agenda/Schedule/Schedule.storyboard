@@ -69,7 +69,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="udv-8q-rSK">
-                                <rect key="frame" x="0.0" y="120" width="414" height="602"/>
+                                <rect key="frame" x="0.0" y="120" width="414" height="592"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScheduleTableViewCell" rowHeight="108" id="BYy-2J-OIJ" customClass="ScheduleTableViewCell" customModule="Agenda" customModuleProvider="target">
@@ -150,7 +150,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="b34-dg-6uU"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cgy-zW-CLT">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cgy-zW-CLT" customClass="UPCarouselFlowLayout" customModule="UPCarouselFlowLayout">
                                     <size key="itemSize" width="48" height="88"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -246,6 +246,12 @@
                                     <outlet property="delegate" destination="t63-42-ba6" id="jCn-pZ-z22"/>
                                 </connections>
                             </collectionView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowAgenda" translatesAutoresizingMaskIntoConstraints="NO" id="WH8-5V-pd8">
+                                <rect key="frame" x="0.0" y="712" width="414" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="myC-sa-Fqz"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -254,11 +260,14 @@
                             <constraint firstItem="U27-a9-Vhi" firstAttribute="top" secondItem="mhw-oL-Xw7" secondAttribute="top" id="98a-rt-uAP"/>
                             <constraint firstItem="udv-8q-rSK" firstAttribute="leading" secondItem="Pky-9C-qYu" secondAttribute="leading" id="BgK-CN-zy6"/>
                             <constraint firstAttribute="trailing" secondItem="U27-a9-Vhi" secondAttribute="trailing" id="Dwm-l0-K0N"/>
+                            <constraint firstItem="lCm-Lf-kJz" firstAttribute="top" secondItem="WH8-5V-pd8" secondAttribute="bottom" constant="-40" id="JFo-ne-TXo"/>
                             <constraint firstItem="U27-a9-Vhi" firstAttribute="leading" secondItem="mhw-oL-Xw7" secondAttribute="leading" id="OaB-IE-MvR"/>
                             <constraint firstItem="udv-8q-rSK" firstAttribute="trailing" secondItem="Pky-9C-qYu" secondAttribute="trailing" id="Y0c-60-iMh"/>
+                            <constraint firstItem="Pky-9C-qYu" firstAttribute="trailing" secondItem="WH8-5V-pd8" secondAttribute="trailing" id="bvj-8r-3ee"/>
                             <constraint firstItem="lCm-Lf-kJz" firstAttribute="leading" secondItem="Pky-9C-qYu" secondAttribute="leading" id="gnJ-Fq-SXt"/>
-                            <constraint firstItem="lCm-Lf-kJz" firstAttribute="top" secondItem="udv-8q-rSK" secondAttribute="bottom" constant="20" id="nOB-Nr-Ixe"/>
                             <constraint firstItem="Pky-9C-qYu" firstAttribute="trailing" secondItem="lCm-Lf-kJz" secondAttribute="trailing" id="nSd-Nd-1Sj"/>
+                            <constraint firstItem="WH8-5V-pd8" firstAttribute="leading" secondItem="Pky-9C-qYu" secondAttribute="leading" id="oG7-hp-bEc"/>
+                            <constraint firstItem="WH8-5V-pd8" firstAttribute="top" secondItem="udv-8q-rSK" secondAttribute="bottom" id="w9Y-uD-GHh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Pky-9C-qYu"/>
                     </view>
@@ -319,6 +328,7 @@
     <resources>
         <image name="BANNER-sections" width="4500" height="1800"/>
         <image name="TATAlogo" width="34" height="30"/>
+        <image name="arrowAgenda" width="4680" height="1200"/>
         <image name="background_schedulelist" width="1238" height="284"/>
     </resources>
 </document>
