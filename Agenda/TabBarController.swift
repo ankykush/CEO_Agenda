@@ -19,6 +19,7 @@ class TabBarController: UITabBarController {
         bgView.frame = CGRect.init(x: 0, y: 0, width: view.frame.width, height: UIDevice.current.hasNotch ? 84: 49)
         tabBar.addSubview(bgView)
         tabBar.sendSubviewToBack(bgView)
+        tabBar.isTranslucent = false
     }
     
     private func populateBarItems() {

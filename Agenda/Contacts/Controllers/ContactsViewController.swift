@@ -22,6 +22,8 @@ class ContactsViewController: UIViewController {
     private func configureUI() {
         hideNavigationBar()
         tableView.tableFooterView = UIView()
+        tableView.estimatedRowHeight = 90
+        tableView.rowHeight = UITableView.automaticDimension
     }
     
 }

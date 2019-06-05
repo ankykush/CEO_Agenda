@@ -36,8 +36,6 @@ class ScheduleViewController: UIViewController {
     func dateCellClicked(at index: Int) {
         let mainData : ScheduleElement = finalScheduleArray[index]
         
-        
-        
         //dateCellClicked(at: dateSelectedIndex)
         scheduleDateScroller.reloadData()
         
@@ -79,7 +77,7 @@ class ScheduleViewController: UIViewController {
                     spinner.stopAnimating()
                     self.view.isUserInteractionEnabled = true
                     self.scheduleDateScroller.isHidden = false
-                    
+                    self.selectedIndexPath = IndexPath(row: 3, section: 0)
                     self.dateCellClicked(at: 3)
                     
                 }
