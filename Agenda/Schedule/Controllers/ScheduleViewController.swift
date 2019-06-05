@@ -186,17 +186,13 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
         collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
 
     }
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if selectedIndexPath?.row != indexPath.row {
-            
-            return CGSize(width: 70, height: 88)
+            return CGSize(width: 50, height: 88)
         } else {
             
             return CGSize(width: 91, height: 98)
         }
-     
-        
     }
-    
-    
 }
