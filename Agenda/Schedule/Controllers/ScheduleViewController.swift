@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import EventKit
 
 class ScheduleViewController: UIViewController {
     //MARK: Properties
@@ -14,6 +15,19 @@ class ScheduleViewController: UIViewController {
     @IBOutlet weak var taglineLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var scheduleDateScroller: UICollectionView!
+    @IBOutlet weak var descriptionDetails: UILabel!
+    
+    @IBOutlet weak var cityLocationDetails: UILabel!
+    @IBOutlet weak var eventLocationDetails: UILabel!
+    @IBOutlet weak var alarmSwitch: UISwitch!
+    @IBOutlet weak var locationDetails: UILabel!
+    @IBOutlet weak var presenterDetails: UILabel!
+    @IBOutlet weak var timeDetails: UILabel!
+    @IBOutlet weak var scheduleDetailsView: UIView!
+    
+    
+    
+    
     var finalScheduleArray: ScheduleData = ScheduleData()
     var selectedDateSchedule: ScheduleElement?
     var selectedIndexPath: IndexPath?
@@ -23,8 +37,10 @@ class ScheduleViewController: UIViewController {
         selectedIndexPath = [0,0]
         configureUI()
         getDataFromServer()
+        hideDetailsView()
     }
 
+    
     //MARK: Helper Methods
     private func configureUI() {
         hideNavigationBar()
@@ -33,8 +49,13 @@ class ScheduleViewController: UIViewController {
         tableView.rowHeight = UITableView.automaticDimension
     }
     
+    @IBAction func addReminder(_ sender: Any) {
+    }
+    @IBAction func closeDetailsClicked(_ sender: Any) {
+        hideDetailsView()
+    }
     func dateCellClicked(at index: Int) {
-        let mainData : ScheduleElement = finalScheduleArray[index]
+        //let mainData : ScheduleElement = finalScheduleArray[index]
         
         //dateCellClicked(at: dateSelectedIndex)
         scheduleDateScroller.reloadData()
@@ -49,6 +70,22 @@ class ScheduleViewController: UIViewController {
         //}
 //        tableView.setContentOffset(CGPoint(x: 0, y: 0 - scheduleTableView.contentInset.top), animated: false)
         tableView.reloadData()
+    }
+    
+    func showDetailsView() {
+        scheduleDetailsView.isHidden = false
+        UIView.animate(withDuration: 0.5) {
+            self.scheduleDetailsView.frame = self.tableView.frame
+        }
+    }
+    
+    func hideDetailsView() {
+        scheduleDetailsView.isHidden = false
+        UIView.animate(withDuration: 0.5, animations: {
+            self.scheduleDetailsView.frame = CGRect(x: 100, y: 100, width: 80, height: 80)
+        }) { (true) in
+            self.scheduleDetailsView.isHidden = true
+        }
     }
     
     func getDataFromServer() {
@@ -111,6 +148,15 @@ extension ScheduleViewController: UITableViewDataSource {
 
 extension ScheduleViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let scheduleData = selectedDateSchedule?.schedule[indexPath.row]
+        cityLocationDetails.text = selectedDateSchedule?.place
+        timeDetails.text = scheduleData?.time
+        locationDetails.text = selectedDateSchedule?.place
+        presenterDetails.text = scheduleData?.name
+        descriptionDetails.text = scheduleData?.desc
+        eventLocationDetails.text = scheduleData?.place
+        
+        showDetailsView()
         
     }
 }
@@ -150,10 +196,6 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
             return cell!
         }
         
-        
-        
-        
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
@@ -174,23 +216,10 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
         if [0, 1, 2, noOfItems - 1, noOfItems - 2, noOfItems - 3].contains(indexPath.row) {
             return
         }
-        let cell = collectionView.cellForItem(at: indexPath) as? CollectionViewCell
-        
-//
-//        cell?.backgroundColor = UIColor(red: 0.98, green: 0.78, blue: 0.0, alpha: 1.0)
-//
+
         selectedIndexPath = indexPath
         dateCellClicked(at: indexPath.row)
-//        let mainData = finalScheduleArray[indexPath.row] as? ScheduleElement
-//        dateSelectedIndex = indexPath.row
-//        selectedMonthLabel.text = mainData?.month
-//        selectedDateLabel.text = mainData?.date
-//        selectedDayLabel.text = mainData?.day
-//        locationNameLabel.text = mainData?.place
-//
-//        dateCellClicked(at: dateSelectedIndex)
-//        scheduleDateScroller.reloadData()
-        
+   
     
         collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
 
