@@ -59,6 +59,9 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iaz-SI-dEq">
                                                             <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                                             <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="executiveCellBg" translatesAutoresizingMaskIntoConstraints="NO" id="Tq9-hL-hQw">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                                                </imageView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-hh-Hes">
                                                                     <rect key="frame" x="255" y="0.0" width="120" height="110"/>
                                                                     <constraints>
@@ -83,11 +86,15 @@
                                                                 <constraint firstItem="D2y-hh-Hes" firstAttribute="leading" secondItem="ScX-5x-KY5" secondAttribute="trailing" constant="8" symbolic="YES" id="4Nv-6w-tcw"/>
                                                                 <constraint firstItem="ScX-5x-KY5" firstAttribute="leading" secondItem="Iaz-SI-dEq" secondAttribute="leading" constant="15" id="9Ug-qG-TKB"/>
                                                                 <constraint firstItem="D2y-hh-Hes" firstAttribute="leading" secondItem="3RJ-Tn-Qhc" secondAttribute="trailing" constant="8" symbolic="YES" id="BS7-7j-gc0"/>
+                                                                <constraint firstAttribute="bottom" secondItem="Tq9-hL-hQw" secondAttribute="bottom" id="CI4-wo-gud"/>
                                                                 <constraint firstAttribute="trailing" secondItem="D2y-hh-Hes" secondAttribute="trailing" id="QgI-kU-q8l"/>
                                                                 <constraint firstItem="3RJ-Tn-Qhc" firstAttribute="top" secondItem="ScX-5x-KY5" secondAttribute="bottom" constant="2" id="fhV-Ty-Szm"/>
+                                                                <constraint firstItem="Tq9-hL-hQw" firstAttribute="leading" secondItem="Iaz-SI-dEq" secondAttribute="leading" id="hkD-XZ-VHG"/>
                                                                 <constraint firstAttribute="bottom" secondItem="D2y-hh-Hes" secondAttribute="bottom" id="iuR-8B-x8m"/>
+                                                                <constraint firstAttribute="trailing" secondItem="Tq9-hL-hQw" secondAttribute="trailing" id="joB-uN-wRx"/>
                                                                 <constraint firstItem="D2y-hh-Hes" firstAttribute="top" secondItem="Iaz-SI-dEq" secondAttribute="top" id="mig-Xa-JDj"/>
                                                                 <constraint firstAttribute="bottom" secondItem="3RJ-Tn-Qhc" secondAttribute="bottom" constant="10" id="stP-L1-gYo"/>
+                                                                <constraint firstItem="Tq9-hL-hQw" firstAttribute="top" secondItem="Iaz-SI-dEq" secondAttribute="top" id="vxw-Uc-lAX"/>
                                                                 <constraint firstItem="ScX-5x-KY5" firstAttribute="leading" secondItem="3RJ-Tn-Qhc" secondAttribute="leading" id="xzk-ct-27c"/>
                                                             </constraints>
                                                         </view>
@@ -216,5 +223,6 @@
     <resources>
         <image name="BANNER-sections2" width="4500" height="1800"/>
         <image name="USAA" width="40" height="40"/>
+        <image name="executiveCellBg" width="288" height="288"/>
     </resources>
 </document>

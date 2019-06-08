@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locationsBg" translatesAutoresizingMaskIntoConstraints="NO" id="Rxc-9R-zns">
+                                <rect key="frame" x="0.0" y="120" width="414" height="742"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uhq-j2-XoS">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <subviews>
@@ -45,7 +48,7 @@
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8wh-te-cNF">
                                 <rect key="frame" x="0.0" y="120" width="414" height="742"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JOW-WM-07g" customClass="UPCarouselFlowLayout" customModule="UPCarouselFlowLayout">
                                     <size key="itemSize" width="230" height="400"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -107,9 +110,13 @@
                         <constraints>
                             <constraint firstItem="Uhq-j2-XoS" firstAttribute="top" secondItem="e0F-B3-kKJ" secondAttribute="top" id="Fng-ZX-naT"/>
                             <constraint firstItem="qEg-Fj-Saa" firstAttribute="bottom" secondItem="8wh-te-cNF" secondAttribute="bottom" id="WNy-MD-xJj"/>
+                            <constraint firstItem="qEg-Fj-Saa" firstAttribute="trailing" secondItem="Rxc-9R-zns" secondAttribute="trailing" id="dAJ-Uo-JHr"/>
                             <constraint firstItem="Uhq-j2-XoS" firstAttribute="leading" secondItem="qEg-Fj-Saa" secondAttribute="leading" id="dry-b9-tKh"/>
+                            <constraint firstItem="qEg-Fj-Saa" firstAttribute="bottom" secondItem="Rxc-9R-zns" secondAttribute="bottom" id="fKa-bC-C1x"/>
                             <constraint firstItem="qEg-Fj-Saa" firstAttribute="trailing" secondItem="8wh-te-cNF" secondAttribute="trailing" id="gJg-7J-P6T"/>
+                            <constraint firstItem="Rxc-9R-zns" firstAttribute="leading" secondItem="qEg-Fj-Saa" secondAttribute="leading" id="m6E-a7-VZA"/>
                             <constraint firstItem="8wh-te-cNF" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="bottom" id="uPt-az-wjO"/>
+                            <constraint firstItem="Rxc-9R-zns" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="bottom" id="uyv-Gx-rAb"/>
                             <constraint firstItem="Uhq-j2-XoS" firstAttribute="trailing" secondItem="qEg-Fj-Saa" secondAttribute="trailing" id="xfn-yK-AF3"/>
                             <constraint firstItem="8wh-te-cNF" firstAttribute="leading" secondItem="qEg-Fj-Saa" secondAttribute="leading" id="ygK-qy-FTZ"/>
                         </constraints>
@@ -142,5 +149,6 @@
     </scenes>
     <resources>
         <image name="BANNER-sections" width="4500" height="1800"/>
+        <image name="locationsBg" width="738" height="1600"/>
     </resources>
 </document>
