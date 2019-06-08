@@ -83,7 +83,12 @@ extension ExecutiveViewController: UITableViewDataSource {
 
 extension ExecutiveViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let executiveDetailViewController = UIStoryboard(name: "Executive", bundle: nil).instantiateViewController(withIdentifier: "ExecutiveDetailViewController") as? ExecutiveDetailViewController else {
+            return
+        }
         
+        executiveDetailViewController.executive = executives[indexPath.row]
+        navigationController?.pushViewController(executiveDetailViewController, animated: true)
     }
 }
 
