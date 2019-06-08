@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EventKit
+
 
 class ScheduleViewController: UIViewController {
     //MARK: Properties
@@ -15,15 +15,11 @@ class ScheduleViewController: UIViewController {
     @IBOutlet weak var taglineLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var scheduleDateScroller: UICollectionView!
-    @IBOutlet weak var descriptionDetails: UILabel!
-    
-    @IBOutlet weak var cityLocationDetails: UILabel!
-    @IBOutlet weak var eventLocationDetails: UILabel!
-    @IBOutlet weak var alarmSwitch: UISwitch!
-    @IBOutlet weak var locationDetails: UILabel!
-    @IBOutlet weak var presenterDetails: UILabel!
-    @IBOutlet weak var timeDetails: UILabel!
+  
     @IBOutlet weak var scheduleDetailsView: UIView!
+    
+    private var scheduleDetailViewController: ScheduleDetailViewController?
+
     
     
     
@@ -37,7 +33,11 @@ class ScheduleViewController: UIViewController {
         selectedIndexPath = [0,0]
         configureUI()
         getDataFromServer()
-        hideDetailsView()
+   
+        scheduleDetailViewController?.hideDetailsClosure  = { [weak self] in
+            self?.hideDetailsView()
+        }
+        
     }
 
     
@@ -47,13 +47,10 @@ class ScheduleViewController: UIViewController {
         tableView.tableFooterView = UIView()
         tableView.estimatedRowHeight = 120
         tableView.rowHeight = UITableView.automaticDimension
+        
+        scheduleDetailViewController = children.first as? ScheduleDetailViewController
     }
     
-    @IBAction func addReminder(_ sender: Any) {
-    }
-    @IBAction func closeDetailsClicked(_ sender: Any) {
-        hideDetailsView()
-    }
     func dateCellClicked(at index: Int) {
         //let mainData : ScheduleElement = finalScheduleArray[index]
         
@@ -73,18 +70,12 @@ class ScheduleViewController: UIViewController {
     }
     
     func showDetailsView() {
-        scheduleDetailsView.isHidden = false
-        UIView.animate(withDuration: 0.5) {
-            self.scheduleDetailsView.frame = self.tableView.frame
-        }
+        scheduleDetailsView.fadeIn()
     }
     
     func hideDetailsView() {
-        scheduleDetailsView.isHidden = false
-        UIView.animate(withDuration: 0.5, animations: {
-            self.scheduleDetailsView.frame = CGRect(x: 100, y: 100, width: 80, height: 80)
-        }) { (true) in
-            self.scheduleDetailsView.isHidden = true
+        if !scheduleDetailsView.isHidden {
+            scheduleDetailsView.fadeOut()
         }
     }
     
@@ -148,16 +139,8 @@ extension ScheduleViewController: UITableViewDataSource {
 
 extension ScheduleViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let scheduleData = selectedDateSchedule?.schedule[indexPath.row]
-        cityLocationDetails.text = selectedDateSchedule?.place
-        timeDetails.text = scheduleData?.time
-        locationDetails.text = selectedDateSchedule?.place
-        presenterDetails.text = scheduleData?.name
-        descriptionDetails.text = scheduleData?.desc
-        eventLocationDetails.text = scheduleData?.place
-        
+        scheduleDetailViewController?.populate(selectedDateSchedule, indexPath: indexPath)
         showDetailsView()
-        
     }
 }
 
@@ -217,6 +200,7 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
             return
         }
 
+        hideDetailsView()
         selectedIndexPath = indexPath
         dateCellClicked(at: indexPath.row)
    

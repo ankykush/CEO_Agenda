@@ -29,6 +29,8 @@ extension UIView {
         return instantiateFromNib(self)
     }
     
+    
+    
 }
 
 
@@ -37,4 +39,27 @@ extension UIDevice {
         let bottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
         return bottom > 0
     }
+}
+
+
+extension UIView {
+    
+    func fadeIn() {
+        self.alpha = 0
+        self.isHidden = false
+        UIView.transition(with: self, duration: 0.5, options: .transitionCurlDown, animations: {
+            self.alpha = 1
+        }) { (value) in
+            
+        }
+    }
+    
+    func fadeOut() {
+        UIView.transition(with: self, duration: 0.5, options: .transitionCurlUp, animations: {
+            self.alpha = 0
+        }) { (value) in
+            self.isHidden = true
+        }
+    }
+    
 }
