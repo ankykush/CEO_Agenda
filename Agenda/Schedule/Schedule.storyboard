@@ -150,7 +150,7 @@
                                     <segue destination="CIt-jt-oxC" kind="embed" id="jkU-4d-OlP"/>
                                 </connections>
                             </containerView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lCm-Lf-kJz">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lCm-Lf-kJz">
                                 <rect key="frame" x="0.0" y="742" width="414" height="120"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -510,6 +510,7 @@
                             <constraint firstItem="gjn-7U-Lvr" firstAttribute="leading" secondItem="Sd5-Rz-VD8" secondAttribute="leading" id="orn-TE-YYT"/>
                             <constraint firstItem="gjn-7U-Lvr" firstAttribute="top" secondItem="Sd5-Rz-VD8" secondAttribute="top" id="rxm-TB-u9n"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="F5G-nH-Mba"/>
                     </view>
                     <size key="freeformSize" width="414" height="555"/>
                     <connections>
@@ -530,7 +531,7 @@
     <resources>
         <image name="BANNER-sections" width="4500" height="1800"/>
         <image name="TATAlogo" width="34" height="30"/>
-        <image name="arrowAgenda" width="1600" height="410"/>
+        <image name="arrowAgenda" width="4680" height="1200"/>
         <image name="arrowup" width="60" height="60"/>
         <image name="background_schedulelist" width="1238" height="284"/>
     </resources>

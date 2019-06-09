@@ -19,39 +19,25 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		055A0F0B2D67939778B686121FB46BBE /* JBTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22749586876C44490E49EC6D73BEE77C /* JBTabBar.swift */; };
-		08722B16ABC59A5E381D01FA766054AC /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F8B8CE114A778C8A81258EE2C4E632 /* UPCarouselFlowLayout.swift */; };
-		15CA5946420D4CA12AF821E1B1A93AC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		1D976666151BDB2F9A11CA0EF859FDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		34071D1E7C68796EAF3C1D8DCF84191C /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7275F9FD8016B365B1C38CC12082B65 /* UPCarouselFlowLayout-dummy.m */; };
-		343B8DE3D7716411178EF16816E72F7C /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 537CFA0E738137D932603A13A5D0654F /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FEA63047845F925B52A396BA7AEDB22 /* JBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036C4D5DC5C849CE9312EA43037D12DA /* JBTabBarController.swift */; };
-		4754C931CAF28C898BA93F9D39461779 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCD19A652D6A4EA14A6A5F0730E6F7 /* CircleLayer.swift */; };
-		8F4FB451D6D045BFF14C183D47E4D869 /* JBTabBarAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F10D17E165B5C313B1F1BB6DB62A /* JBTabBarAnimation-dummy.m */; };
-		9F586C109952B66D3A727FE8ED8DE6C8 /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
-		A654176DE8063C039786A5CF7925EC8A /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 368AC59A7E450893BB24E62D8CEFF843 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8F9A0659BAD42ABECBD8F08F6E1AD7F /* JBTabBarAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0614A81560B5B82086C3A89E305CF4 /* JBTabBarAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBB5AC2203450D07CA0CB46DEF45BC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		D4CA318B335F11F6A63EEFD14408901C /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDFB2BC63DFA110B92A8CF7E487DA04D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		08722B16ABC59A5E381D01FA766054AC /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F6FFE7D1A9856A36DF8AC71D118C4 /* UPCarouselFlowLayout.swift */; };
+		34071D1E7C68796EAF3C1D8DCF84191C /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72363119D07445CB8D5ED862594B9C99 /* UPCarouselFlowLayout-dummy.m */; };
+		343B8DE3D7716411178EF16816E72F7C /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE92942DA00D36EDFB63CF56EF9617D6 /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A654176DE8063C039786A5CF7925EC8A /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A2F2B66C5EB5957BC4670A713AFE39 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB5AC2203450D07CA0CB46DEF45BC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D2788B44BB87B5C104C8B91F82D6E877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E24AEE159AEC34E80B0DC5AFA0D82AAA /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
+		F740883176DEDEAD83AE3DC066A1738D /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1916145DF853D577FC2613ADC63255E3 /* PBXContainerItemProxy */ = {
+		0B612E35DBB08E1906E3C7EA2A39DED8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5E17C38B9D32C429A1EC461038461FF9;
 			remoteInfo = UPCarouselFlowLayout;
 		};
-		448AE2AB15339D0833CF5296919F94E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 67AE524A4BD618FF3E94E0A0F9D9DCC1;
-			remoteInfo = JBTabBarAnimation;
-		};
-		AFB1D3781BFF9DC4F7C1E6355920A91E /* PBXContainerItemProxy */ = {
+		716426C050E25B6B74909EF0F7E72398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -61,39 +47,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036C4D5DC5C849CE9312EA43037D12DA /* JBTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBTabBarController.swift; path = JBTabBarAnimation/Classes/JBTabBarController.swift; sourceTree = "<group>"; };
+		180484AD562BD621723D3B183723669D /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
 		182E54198D5688248B025B0F75B68491 /* Pods-Agenda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Agenda-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A7D09AAC3C2AC75401F3DFA9A01CD2F /* Pods-Agenda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Agenda.modulemap"; sourceTree = "<group>"; };
-		21F8B8CE114A778C8A81258EE2C4E632 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
-		22749586876C44490E49EC6D73BEE77C /* JBTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBTabBar.swift; path = JBTabBarAnimation/Classes/JBTabBar.swift; sourceTree = "<group>"; };
 		23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Agenda-umbrella.h"; sourceTree = "<group>"; };
-		246B94442FE375FCDA2D4D5A3A7A7673 /* JBTabBarAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBTabBarAnimation-prefix.pch"; sourceTree = "<group>"; };
-		25CFFEAF82B936EBE5E5AD322B2D14BA /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		368AC59A7E450893BB24E62D8CEFF843 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
-		3A0614A81560B5B82086C3A89E305CF4 /* JBTabBarAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBTabBarAnimation-umbrella.h"; sourceTree = "<group>"; };
-		3BBFE2CBD5283CC4981D7BD5337A9E65 /* UPCarouselFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPCarouselFlowLayout-Info.plist"; sourceTree = "<group>"; };
-		3CB00F1802E540B668CC635D99DC54A8 /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		537CFA0E738137D932603A13A5D0654F /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52B9A13675B711067E8C2CB66F533B02 /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
 		560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
-		5C68F10D17E165B5C313B1F1BB6DB62A /* JBTabBarAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JBTabBarAnimation-dummy.m"; sourceTree = "<group>"; };
-		6D2C171F5F2186AC5CEF7FA29E2E17EB /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
-		6D98010F6682EC14D0A90655E025DDED /* JBTabBarAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JBTabBarAnimation.modulemap; sourceTree = "<group>"; };
+		72363119D07445CB8D5ED862594B9C99 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
 		7348A23717905CB8D56C39A7770ED4FB /* Pods-Agenda-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-Info.plist"; sourceTree = "<group>"; };
-		7514B1C51CBE61D82254023E843290B2 /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1F6FFE7D1A9856A36DF8AC71D118C4 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		8040D4703E823514FFD2880BA45082F2 /* Pods-Agenda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E7B78EAC69B847F9BFF9AACF1C3E08D /* JBTabBarAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JBTabBarAnimation.framework; path = JBTabBarAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B3A75A91F4EA8996F425C09458A090 /* UPCarouselFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPCarouselFlowLayout-Info.plist"; sourceTree = "<group>"; };
 		8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
 		96E8528227A5D75C287BC89824DB8C51 /* Pods-Agenda-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Agenda-frameworks.sh"; sourceTree = "<group>"; };
+		98A2F2B66C5EB5957BC4670A713AFE39 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA2D09C795D19F6352F8D7387BC864AD /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B05D60C2860C7A26A897A7659A7D9CD2 /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
-		D3AB70F34DB0081371D6E81DAD1E2AE3 /* JBTabBarAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBTabBarAnimation.xcconfig; sourceTree = "<group>"; };
+		AC4EA1E774659116C33495E84F21DB9D /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
 		DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Agenda-dummy.m"; sourceTree = "<group>"; };
-		E7275F9FD8016B365B1C38CC12082B65 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
-		EDCCD19A652D6A4EA14A6A5F0730E6F7 /* CircleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleLayer.swift; path = JBTabBarAnimation/Classes/CircleLayer.swift; sourceTree = "<group>"; };
-		EE272D1FD6619520DBF6859627C01125 /* JBTabBarAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JBTabBarAnimation-Info.plist"; sourceTree = "<group>"; };
+		DCD53B8E3A2D0F3EA8A7DCE607DF1E1D /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92942DA00D36EDFB63CF56EF9617D6 /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,65 +80,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		215345EC7193932492E844DDFB674C7A /* Frameworks */ = {
+		513C077ED37FAAAC39D8B38D23350534 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D976666151BDB2F9A11CA0EF859FDDE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		542CB50FF167E148329831C2D7918EE3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDFB2BC63DFA110B92A8CF7E487DA04D /* Foundation.framework in Frameworks */,
-				15CA5946420D4CA12AF821E1B1A93AC9 /* UIKit.framework in Frameworks */,
+				D2788B44BB87B5C104C8B91F82D6E877 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0095F0FE1DADE39BD136320F5389EC8E /* Support Files */ = {
+		1322C28E34936A12200A10C1BFAE0B8A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D98010F6682EC14D0A90655E025DDED /* JBTabBarAnimation.modulemap */,
-				D3AB70F34DB0081371D6E81DAD1E2AE3 /* JBTabBarAnimation.xcconfig */,
-				5C68F10D17E165B5C313B1F1BB6DB62A /* JBTabBarAnimation-dummy.m */,
-				EE272D1FD6619520DBF6859627C01125 /* JBTabBarAnimation-Info.plist */,
-				246B94442FE375FCDA2D4D5A3A7A7673 /* JBTabBarAnimation-prefix.pch */,
-				3A0614A81560B5B82086C3A89E305CF4 /* JBTabBarAnimation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JBTabBarAnimation";
-			sourceTree = "<group>";
-		};
-		052851E7ACC09466D2099452A1F4C0C4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				65775ED6A1EA6BE0E54685F3A192DD52 /* JBTabBarAnimation */,
-				A8CA75063DFFA4D9454EC9ADC6F77650 /* SwiftLint */,
-				F91B5F33A11DE713B1234C599F0FD480 /* UPCarouselFlowLayout */,
+				85FA6534C3368E77E2DF1D4F1EEA7C58 /* SwiftLint */,
+				67FEF07489F3FD2A432F84B78CF620F2 /* UPCarouselFlowLayout */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		11BA1948AEB14333CCE2A06A8FEA0D86 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D2C171F5F2186AC5CEF7FA29E2E17EB /* SwiftLint.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */ = {
@@ -174,49 +108,64 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4866D879830EFD2519CF56E859CBAB6F /* Products */ = {
+		39A901696FF2CFF8E351C63D5DD17683 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8E7B78EAC69B847F9BFF9AACF1C3E08D /* JBTabBarAnimation.framework */,
-				AA2D09C795D19F6352F8D7387BC864AD /* Pods_Agenda.framework */,
-				7514B1C51CBE61D82254023E843290B2 /* UPCarouselFlowLayout.framework */,
+				26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		570216D90104AED294340DA22AA758F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD53B8E3A2D0F3EA8A7DCE607DF1E1D /* Pods_Agenda.framework */,
+				AC4EA1E774659116C33495E84F21DB9D /* UPCarouselFlowLayout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65775ED6A1EA6BE0E54685F3A192DD52 /* JBTabBarAnimation */ = {
+		67FEF07489F3FD2A432F84B78CF620F2 /* UPCarouselFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				EDCCD19A652D6A4EA14A6A5F0730E6F7 /* CircleLayer.swift */,
-				22749586876C44490E49EC6D73BEE77C /* JBTabBar.swift */,
-				036C4D5DC5C849CE9312EA43037D12DA /* JBTabBarController.swift */,
-				0095F0FE1DADE39BD136320F5389EC8E /* Support Files */,
+				98A2F2B66C5EB5957BC4670A713AFE39 /* UPCarouselFlowLayout.h */,
+				7B1F6FFE7D1A9856A36DF8AC71D118C4 /* UPCarouselFlowLayout.swift */,
+				A09DE7DA97CF428324E8BE91981C17F0 /* Support Files */,
 			);
-			name = JBTabBarAnimation;
-			path = JBTabBarAnimation;
+			name = UPCarouselFlowLayout;
+			path = UPCarouselFlowLayout;
 			sourceTree = "<group>";
 		};
-		8364A63175D900FEFFE1E798D7A67FAF /* Support Files */ = {
+		85FA6534C3368E77E2DF1D4F1EEA7C58 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				3CB00F1802E540B668CC635D99DC54A8 /* UPCarouselFlowLayout.modulemap */,
-				B05D60C2860C7A26A897A7659A7D9CD2 /* UPCarouselFlowLayout.xcconfig */,
-				E7275F9FD8016B365B1C38CC12082B65 /* UPCarouselFlowLayout-dummy.m */,
-				3BBFE2CBD5283CC4981D7BD5337A9E65 /* UPCarouselFlowLayout-Info.plist */,
-				25CFFEAF82B936EBE5E5AD322B2D14BA /* UPCarouselFlowLayout-prefix.pch */,
-				537CFA0E738137D932603A13A5D0654F /* UPCarouselFlowLayout-umbrella.h */,
+				39A901696FF2CFF8E351C63D5DD17683 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		A09DE7DA97CF428324E8BE91981C17F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				180484AD562BD621723D3B183723669D /* UPCarouselFlowLayout.modulemap */,
+				BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */,
+				72363119D07445CB8D5ED862594B9C99 /* UPCarouselFlowLayout-dummy.m */,
+				89B3A75A91F4EA8996F425C09458A090 /* UPCarouselFlowLayout-Info.plist */,
+				52B9A13675B711067E8C2CB66F533B02 /* UPCarouselFlowLayout-prefix.pch */,
+				EE92942DA00D36EDFB63CF56EF9617D6 /* UPCarouselFlowLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/UPCarouselFlowLayout";
 			sourceTree = "<group>";
 		};
-		A8CA75063DFFA4D9454EC9ADC6F77650 /* SwiftLint */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				11BA1948AEB14333CCE2A06A8FEA0D86 /* Support Files */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = SwiftLint;
-			path = SwiftLint;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C934CECD522672598B6B40A3AC57D281 /* Pods-Agenda */ = {
@@ -240,36 +189,32 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				052851E7ACC09466D2099452A1F4C0C4 /* Pods */,
-				4866D879830EFD2519CF56E859CBAB6F /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1322C28E34936A12200A10C1BFAE0B8A /* Pods */,
+				570216D90104AED294340DA22AA758F0 /* Products */,
 				3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F91B5F33A11DE713B1234C599F0FD480 /* UPCarouselFlowLayout */ = {
-			isa = PBXGroup;
-			children = (
-				368AC59A7E450893BB24E62D8CEFF843 /* UPCarouselFlowLayout.h */,
-				21F8B8CE114A778C8A81258EE2C4E632 /* UPCarouselFlowLayout.swift */,
-				8364A63175D900FEFFE1E798D7A67FAF /* Support Files */,
-			);
-			name = UPCarouselFlowLayout;
-			path = UPCarouselFlowLayout;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0528512019B110687830823B86CBF49B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F740883176DEDEAD83AE3DC066A1738D /* Pods-Agenda-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC78CAC95B3C11B3179F6DD38326D1CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,44 +224,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD978F98CC76AD7620B5FAD2842D5207 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8F9A0659BAD42ABECBD8F08F6E1AD7F /* JBTabBarAnimation-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E992C35CE13D079E25B82B70D721D3DB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4CA318B335F11F6A63EEFD14408901C /* Pods-Agenda-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BB10FFF0F7DA3316D6F8FBEA58347E8 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
+			buildConfigurationList = 1CF0183DCE64BC9214B89A816B8339CD /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
 			buildPhases = (
-				E992C35CE13D079E25B82B70D721D3DB /* Headers */,
-				632876721F3C83F335A66296DAEF0C54 /* Sources */,
-				215345EC7193932492E844DDFB674C7A /* Frameworks */,
-				15311CDD35BEA676269337E58E4DBD81 /* Resources */,
+				0528512019B110687830823B86CBF49B /* Headers */,
+				EE176762DC65F52B84BD1B3A814B8482 /* Sources */,
+				513C077ED37FAAAC39D8B38D23350534 /* Frameworks */,
+				C72345E996B717F1D7C03472E3F20CE4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9C1533AA97B4951A1A49009E2FCEC4B /* PBXTargetDependency */,
-				72F12ABAA583302A2282252CCF8C3910 /* PBXTargetDependency */,
-				71DE50F07310700E9E7E03B36B2C15AA /* PBXTargetDependency */,
+				1A78482DEDCD0F318E189BDCD13CD15A /* PBXTargetDependency */,
+				3914136D7ED50ACA7C005539A812C40A /* PBXTargetDependency */,
 			);
 			name = "Pods-Agenda";
 			productName = "Pods-Agenda";
-			productReference = AA2D09C795D19F6352F8D7387BC864AD /* Pods_Agenda.framework */;
+			productReference = DCD53B8E3A2D0F3EA8A7DCE607DF1E1D /* Pods_Agenda.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */ = {
@@ -334,25 +262,7 @@
 			);
 			name = UPCarouselFlowLayout;
 			productName = UPCarouselFlowLayout;
-			productReference = 7514B1C51CBE61D82254023E843290B2 /* UPCarouselFlowLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		67AE524A4BD618FF3E94E0A0F9D9DCC1 /* JBTabBarAnimation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE59774233C6354D9AB5461E2C2B4183 /* Build configuration list for PBXNativeTarget "JBTabBarAnimation" */;
-			buildPhases = (
-				DD978F98CC76AD7620B5FAD2842D5207 /* Headers */,
-				DF95DD1697B2898294E9987928AC3FDE /* Sources */,
-				542CB50FF167E148329831C2D7918EE3 /* Frameworks */,
-				10AD7455A3B34097E13F771D2A5713D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JBTabBarAnimation;
-			productName = JBTabBarAnimation;
-			productReference = 8E7B78EAC69B847F9BFF9AACF1C3E08D /* JBTabBarAnimation.framework */;
+			productReference = AC4EA1E774659116C33495E84F21DB9D /* UPCarouselFlowLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -372,11 +282,10 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4866D879830EFD2519CF56E859CBAB6F /* Products */;
+			productRefGroup = 570216D90104AED294340DA22AA758F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67AE524A4BD618FF3E94E0A0F9D9DCC1 /* JBTabBarAnimation */,
 				3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 				5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */,
@@ -385,21 +294,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		10AD7455A3B34097E13F771D2A5713D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15311CDD35BEA676269337E58E4DBD81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B3A437DFE042A5466BF5683EB5127E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72345E996B717F1D7C03472E3F20CE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,22 +311,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		632876721F3C83F335A66296DAEF0C54 /* Sources */ = {
+		EE176762DC65F52B84BD1B3A814B8482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F586C109952B66D3A727FE8ED8DE6C8 /* Pods-Agenda-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF95DD1697B2898294E9987928AC3FDE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4754C931CAF28C898BA93F9D39461779 /* CircleLayer.swift in Sources */,
-				055A0F0B2D67939778B686121FB46BBE /* JBTabBar.swift in Sources */,
-				8F4FB451D6D045BFF14C183D47E4D869 /* JBTabBarAnimation-dummy.m in Sources */,
-				3FEA63047845F925B52A396BA7AEDB22 /* JBTabBarController.swift in Sources */,
+				E24AEE159AEC34E80B0DC5AFA0D82AAA /* Pods-Agenda-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,28 +331,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		71DE50F07310700E9E7E03B36B2C15AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UPCarouselFlowLayout;
-			target = 5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */;
-			targetProxy = 1916145DF853D577FC2613ADC63255E3 /* PBXContainerItemProxy */;
-		};
-		72F12ABAA583302A2282252CCF8C3910 /* PBXTargetDependency */ = {
+		1A78482DEDCD0F318E189BDCD13CD15A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = AFB1D3781BFF9DC4F7C1E6355920A91E /* PBXContainerItemProxy */;
+			targetProxy = 716426C050E25B6B74909EF0F7E72398 /* PBXContainerItemProxy */;
 		};
-		A9C1533AA97B4951A1A49009E2FCEC4B /* PBXTargetDependency */ = {
+		3914136D7ED50ACA7C005539A812C40A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JBTabBarAnimation;
-			target = 67AE524A4BD618FF3E94E0A0F9D9DCC1 /* JBTabBarAnimation */;
-			targetProxy = 448AE2AB15339D0833CF5296919F94E2 /* PBXContainerItemProxy */;
+			name = UPCarouselFlowLayout;
+			target = 5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */;
+			targetProxy = 0B612E35DBB08E1906E3C7EA2A39DED8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0361DD1AE415C47B31CFD57364F1566F /* Debug */ = {
+		17EB2CF59611FA61910018169E19414C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */;
 			buildSettings = {
@@ -559,114 +444,7 @@
 			};
 			name = Release;
 		};
-		3FBEAF89B1283E4A9C74E056CB139FE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3AB70F34DB0081371D6E81DAD1E2AE3 /* JBTabBarAnimation.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation.modulemap";
-				PRODUCT_MODULE_NAME = JBTabBarAnimation;
-				PRODUCT_NAME = JBTabBarAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		492B9A41EC040F1E8F1ECF27DD6320F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B05D60C2860C7A26A897A7659A7D9CD2 /* UPCarouselFlowLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
-				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
-				PRODUCT_NAME = UPCarouselFlowLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		68522914872323EA5EBE8FDA1F773F85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B05D60C2860C7A26A897A7659A7D9CD2 /* UPCarouselFlowLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
-				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
-				PRODUCT_NAME = UPCarouselFlowLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8159AAFACD9D23F632510B49794D0B23 /* Release */ = {
+		44BD22D9179CA593BF9A6B3735928AB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */;
 			buildSettings = {
@@ -705,9 +483,80 @@
 			};
 			name = Release;
 		};
+		492B9A41EC040F1E8F1ECF27DD6320F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68522914872323EA5EBE8FDA1F773F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D2C171F5F2186AC5CEF7FA29E2E17EB /* SwiftLint.xcconfig */;
+			baseConfigurationReference = 26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -719,43 +568,6 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A5299CDF684A04770004AE6432F99EB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3AB70F34DB0081371D6E81DAD1E2AE3 /* JBTabBarAnimation.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JBTabBarAnimation/JBTabBarAnimation.modulemap";
-				PRODUCT_MODULE_NAME = JBTabBarAnimation;
-				PRODUCT_NAME = JBTabBarAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -825,7 +637,7 @@
 		};
 		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D2C171F5F2186AC5CEF7FA29E2E17EB /* SwiftLint.xcconfig */;
+			baseConfigurationReference = 26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -842,20 +654,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1CF0183DCE64BC9214B89A816B8339CD /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EB2CF59611FA61910018169E19414C /* Debug */,
+				44BD22D9179CA593BF9A6B3735928AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
 				257497152829C177993B5EC99C1D227A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4BB10FFF0F7DA3316D6F8FBEA58347E8 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0361DD1AE415C47B31CFD57364F1566F /* Debug */,
-				8159AAFACD9D23F632510B49794D0B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -874,15 +686,6 @@
 			buildConfigurations = (
 				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
 				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE59774233C6354D9AB5461E2C2B4183 /* Build configuration list for PBXNativeTarget "JBTabBarAnimation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FBEAF89B1283E4A9C74E056CB139FE1 /* Debug */,
-				A5299CDF684A04770004AE6432F99EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
