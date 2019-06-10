@@ -21,8 +21,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_background" translatesAutoresizingMaskIntoConstraints="NO" id="tUa-hE-fvN">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hp7-l9-YkM">
-                                <rect key="frame" x="82" y="144" width="250" height="250"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hp7-l9-YkM">
+                                <rect key="frame" x="82" y="131" width="250" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9z-xb-95W">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
@@ -56,8 +56,8 @@
                                     <constraint firstItem="n9z-xb-95W" firstAttribute="leading" secondItem="hp7-l9-YkM" secondAttribute="leading" id="yE1-tZ-C2r"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4g-F1-NnG">
-                                <rect key="frame" x="82" y="444" width="250" height="250"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j4g-F1-NnG">
+                                <rect key="frame" x="82" y="431" width="250" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyT-Wr-BIg">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
@@ -95,7 +95,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hp7-l9-YkM" firstAttribute="centerX" secondItem="Zfs-dw-I7u" secondAttribute="centerX" id="4sl-Q8-NeG"/>
-                            <constraint firstItem="hp7-l9-YkM" firstAttribute="top" secondItem="Qco-Gj-xTW" secondAttribute="top" constant="100" id="AlO-hv-wRi"/>
+                            <constraint firstItem="hp7-l9-YkM" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Qco-Gj-xTW" secondAttribute="top" constant="50" id="AlO-hv-wRi"/>
                             <constraint firstItem="j4g-F1-NnG" firstAttribute="centerX" secondItem="Zfs-dw-I7u" secondAttribute="centerX" id="GEv-ko-7bh"/>
                             <constraint firstItem="tUa-hE-fvN" firstAttribute="top" secondItem="Zfs-dw-I7u" secondAttribute="top" id="MJA-CS-6kX"/>
                             <constraint firstItem="tUa-hE-fvN" firstAttribute="leading" secondItem="Qco-Gj-xTW" secondAttribute="leading" id="RB8-iW-b4Y"/>
