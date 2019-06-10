@@ -131,7 +131,7 @@ extension ScheduleViewController: UITableViewDataSource {
         let scheduleData = selectedDateSchedule?.schedule[indexPath.row]
         cell.timeLbl.text = scheduleData?.time
         locationLabel.text = selectedDateSchedule?.place
-        cell.venueLbl.text = selectedDateSchedule?.place
+        cell.venueLbl.text = scheduleData?.place
         cell.purposeLbl.text = scheduleData?.meeting 
         return cell
     }

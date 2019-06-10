@@ -12,6 +12,9 @@
 		2031F262229FC0AD00BE68A4 /* CollectionViewCellSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */; };
 		204050B022AE34B700F9054D /* TCS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050AE22AE34B700F9054D /* TCS.pdf */; };
 		204050B122AE34B700F9054D /* TATA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050AF22AE34B700F9054D /* TATA.pdf */; };
+		204050B522AED88E00F9054D /* Hyderabad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B222AED88E00F9054D /* Hyderabad.pdf */; };
+		204050B622AED88E00F9054D /* Chennai.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B322AED88E00F9054D /* Chennai.pdf */; };
+		204050B722AED88E00F9054D /* Pune.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B422AED88E00F9054D /* Pune.pdf */; };
 		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
@@ -50,6 +53,9 @@
 		2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellSelected.swift; sourceTree = "<group>"; };
 		204050AE22AE34B700F9054D /* TCS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TCS.pdf; sourceTree = "<group>"; };
 		204050AF22AE34B700F9054D /* TATA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TATA.pdf; sourceTree = "<group>"; };
+		204050B222AED88E00F9054D /* Hyderabad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hyderabad.pdf; sourceTree = "<group>"; };
+		204050B322AED88E00F9054D /* Chennai.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chennai.pdf; sourceTree = "<group>"; };
+		204050B422AED88E00F9054D /* Pune.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pune.pdf; sourceTree = "<group>"; };
 		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
@@ -297,6 +303,9 @@
 		47AB99152297A0C200A59799 /* Locations */ = {
 			isa = PBXGroup;
 			children = (
+				204050B322AED88E00F9054D /* Chennai.pdf */,
+				204050B222AED88E00F9054D /* Hyderabad.pdf */,
+				204050B422AED88E00F9054D /* Pune.pdf */,
 				47051CFE229E38C800D9FACF /* Controllers */,
 				47051D01229E38C800D9FACF /* Models */,
 				47051D02229E38C800D9FACF /* Views */,
@@ -405,6 +414,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204050B522AED88E00F9054D /* Hyderabad.pdf in Resources */,
+				204050B622AED88E00F9054D /* Chennai.pdf in Resources */,
+				204050B722AED88E00F9054D /* Pune.pdf in Resources */,
 				204050B122AE34B700F9054D /* TATA.pdf in Resources */,
 				204050B022AE34B700F9054D /* TCS.pdf in Resources */,
 				47051D2822A0A43F00D9FACF /* Info.storyboard in Resources */,

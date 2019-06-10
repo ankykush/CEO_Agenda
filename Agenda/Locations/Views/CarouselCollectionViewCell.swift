@@ -16,6 +16,6 @@ class CarouselCollectionViewCell: UICollectionViewCell {
     func configureUI(_ imageName: String) {
         carouselImageView.image = UIImage(named: imageName)
         carouselImageView.contentMode = .scaleToFill
-        carouselTitle.text = "LOS ANGELES"
+        carouselTitle.text = imageName
     }
 }

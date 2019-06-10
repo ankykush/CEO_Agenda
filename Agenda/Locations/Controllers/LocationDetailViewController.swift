@@ -7,13 +7,33 @@
 //
 
 import UIKit
+import PDFKit
 
 class LocationDetailViewController: UIViewController {
 
+    var pdfname: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        showNavigationBar()
+        let pdfView = PDFView()
+        self.title = pdfname!
+        pdfView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(pdfView)
+        
+        pdfView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+        pdfView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+        pdfView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+        pdfView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        
+        guard let path = Bundle.main.url(forResource: pdfname, withExtension: "pdf") else { return }
+        
+        if let document = PDFDocument(url: path) {
+            pdfView.document = document
+            pdfView.scaleFactor = 0.95
+        }
     }
     
 

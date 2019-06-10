@@ -14,7 +14,7 @@ class LocationsViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let locationImages = ["location1", "location2", "location3"]
+    let locationImages = ["Chennai", "Hyderabad", "Pune"]
     
     //MARK: Life Cycle Methods
     override func viewDidLoad() {
@@ -46,7 +46,11 @@ extension LocationsViewController: UICollectionViewDataSource, UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-      
+        let locationDetailsVC = storyboard!.instantiateViewController(withIdentifier: "LocationDetailViewController") as? LocationDetailViewController
+        if let locationDetailsVC = locationDetailsVC {
+            locationDetailsVC.pdfname = locationImages[indexPath.row]
+            navigationController?.pushViewController(locationDetailsVC, animated: true)
+        }
     }
     
     
