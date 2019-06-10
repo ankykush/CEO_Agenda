@@ -376,7 +376,6 @@
                                                 <rect key="frame" x="182.5" y="139.5" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="addReminder:" destination="t63-42-ba6" eventType="valueChanged" id="WqP-8Y-1Rs"/>
                                                     <action selector="addReminder:" destination="CIt-jt-oxC" eventType="valueChanged" id="dQd-o8-po6"/>
                                                 </connections>
                                             </switch>
