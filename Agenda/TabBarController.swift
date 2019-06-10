@@ -20,6 +20,9 @@ class TabBarController: UITabBarController {
         tabBar.addSubview(bgView)
         tabBar.sendSubviewToBack(bgView)
         tabBar.isTranslucent = false
+        
+        //select schedule tab for the first load
+        selectedIndex = 2
     }
     
     private func populateBarItems() {

@@ -1,6 +1,0 @@
-framework module JBTabBarAnimation {
-  umbrella header "JBTabBarAnimation-umbrella.h"
-
-  export *
-  module * { export * }
-}

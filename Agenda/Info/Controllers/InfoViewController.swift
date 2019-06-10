@@ -12,9 +12,16 @@ class InfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        hideNavigationBar()
     }
 
-
+    @IBAction func aboutTataAction(_ sender: Any) {
+        
+    }
+    
+    @IBAction func aboutTCSAction(_ sender: Any) {
+        
+    }
+    
 }

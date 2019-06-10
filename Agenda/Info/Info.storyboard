@@ -17,7 +17,92 @@
                     <view key="view" contentMode="scaleToFill" id="Zfs-dw-I7u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_background" translatesAutoresizingMaskIntoConstraints="NO" id="tUa-hE-fvN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hp7-l9-YkM">
+                                <rect key="frame" x="82" y="144" width="250" height="250"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9z-xb-95W">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <connections>
+                                            <action selector="aboutTataAction:" destination="W3u-XZ-WJQ" eventType="touchUpInside" id="Nit-s2-fYZ"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tata_background" translatesAutoresizingMaskIntoConstraints="NO" id="hWj-Xh-jVg">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkv-Fm-8VY">
+                                        <rect key="frame" x="62" y="112" width="126.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="0ZB-Tm-Al2"/>
+                                    <constraint firstAttribute="bottom" secondItem="n9z-xb-95W" secondAttribute="bottom" id="8cx-zj-Bc0"/>
+                                    <constraint firstAttribute="bottom" secondItem="hWj-Xh-jVg" secondAttribute="bottom" id="8m0-vT-MeU"/>
+                                    <constraint firstItem="hWj-Xh-jVg" firstAttribute="top" secondItem="hp7-l9-YkM" secondAttribute="top" id="JH9-v0-Qt8"/>
+                                    <constraint firstItem="n9z-xb-95W" firstAttribute="top" secondItem="hp7-l9-YkM" secondAttribute="top" id="bRc-on-BaO"/>
+                                    <constraint firstAttribute="trailing" secondItem="n9z-xb-95W" secondAttribute="trailing" id="ehw-xY-Map"/>
+                                    <constraint firstAttribute="width" constant="250" id="hHB-6z-nd5"/>
+                                    <constraint firstAttribute="trailing" secondItem="hWj-Xh-jVg" secondAttribute="trailing" id="hOI-d9-Tmt"/>
+                                    <constraint firstItem="Mkv-Fm-8VY" firstAttribute="centerX" secondItem="hp7-l9-YkM" secondAttribute="centerX" id="mER-Ej-tsT"/>
+                                    <constraint firstItem="Mkv-Fm-8VY" firstAttribute="centerY" secondItem="hp7-l9-YkM" secondAttribute="centerY" id="nCS-Ok-ymP"/>
+                                    <constraint firstItem="hWj-Xh-jVg" firstAttribute="leading" secondItem="hp7-l9-YkM" secondAttribute="leading" id="wMi-4k-oCN"/>
+                                    <constraint firstItem="n9z-xb-95W" firstAttribute="leading" secondItem="hp7-l9-YkM" secondAttribute="leading" id="yE1-tZ-C2r"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4g-F1-NnG">
+                                <rect key="frame" x="82" y="444" width="250" height="250"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyT-Wr-BIg">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <connections>
+                                            <action selector="aboutTCSAction:" destination="W3u-XZ-WJQ" eventType="touchUpInside" id="VB8-Tm-cXS"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tata_background" translatesAutoresizingMaskIntoConstraints="NO" id="ELE-3Y-7Dd">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TCS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hc-Nx-vLY">
+                                        <rect key="frame" x="65.5" y="112" width="119" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ELE-3Y-7Dd" firstAttribute="leading" secondItem="j4g-F1-NnG" secondAttribute="leading" id="2ns-lX-TLY"/>
+                                    <constraint firstItem="4Hc-Nx-vLY" firstAttribute="centerY" secondItem="j4g-F1-NnG" secondAttribute="centerY" id="J4I-cg-9m0"/>
+                                    <constraint firstItem="ELE-3Y-7Dd" firstAttribute="top" secondItem="j4g-F1-NnG" secondAttribute="top" id="Ri4-7v-W8N"/>
+                                    <constraint firstAttribute="bottom" secondItem="ELE-3Y-7Dd" secondAttribute="bottom" id="SBT-Rg-cVw"/>
+                                    <constraint firstAttribute="width" constant="250" id="Sez-Iu-7SK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ELE-3Y-7Dd" secondAttribute="trailing" id="Waa-ec-UKI"/>
+                                    <constraint firstItem="wyT-Wr-BIg" firstAttribute="leading" secondItem="j4g-F1-NnG" secondAttribute="leading" id="Y5H-Zs-Tu4"/>
+                                    <constraint firstAttribute="trailing" secondItem="wyT-Wr-BIg" secondAttribute="trailing" id="lVH-kT-3vb"/>
+                                    <constraint firstItem="4Hc-Nx-vLY" firstAttribute="centerX" secondItem="j4g-F1-NnG" secondAttribute="centerX" id="nmX-lb-REM"/>
+                                    <constraint firstAttribute="height" constant="250" id="scR-uM-hnt"/>
+                                    <constraint firstItem="wyT-Wr-BIg" firstAttribute="top" secondItem="j4g-F1-NnG" secondAttribute="top" id="tnU-ah-6Nb"/>
+                                    <constraint firstAttribute="bottom" secondItem="wyT-Wr-BIg" secondAttribute="bottom" id="xxA-g4-4Mx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hp7-l9-YkM" firstAttribute="centerX" secondItem="Zfs-dw-I7u" secondAttribute="centerX" id="4sl-Q8-NeG"/>
+                            <constraint firstItem="hp7-l9-YkM" firstAttribute="top" secondItem="Qco-Gj-xTW" secondAttribute="top" constant="100" id="AlO-hv-wRi"/>
+                            <constraint firstItem="j4g-F1-NnG" firstAttribute="centerX" secondItem="Zfs-dw-I7u" secondAttribute="centerX" id="GEv-ko-7bh"/>
+                            <constraint firstItem="tUa-hE-fvN" firstAttribute="top" secondItem="Zfs-dw-I7u" secondAttribute="top" id="MJA-CS-6kX"/>
+                            <constraint firstItem="tUa-hE-fvN" firstAttribute="leading" secondItem="Qco-Gj-xTW" secondAttribute="leading" id="RB8-iW-b4Y"/>
+                            <constraint firstAttribute="bottom" secondItem="tUa-hE-fvN" secondAttribute="bottom" id="ddg-0T-B0b"/>
+                            <constraint firstItem="Qco-Gj-xTW" firstAttribute="trailing" secondItem="tUa-hE-fvN" secondAttribute="trailing" id="gGI-9B-oeG"/>
+                            <constraint firstItem="j4g-F1-NnG" firstAttribute="top" secondItem="hp7-l9-YkM" secondAttribute="bottom" constant="50" id="wbI-SG-WRd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Qco-Gj-xTW"/>
                     </view>
                 </viewController>
@@ -25,5 +110,24 @@
             </objects>
             <point key="canvasLocation" x="54" y="68"/>
         </scene>
+        <!--Info Detail View Controller-->
+        <scene sceneID="GWX-C5-idl">
+            <objects>
+                <viewController storyboardIdentifier="InfoDetailViewController" id="Hy6-A8-Lwf" customClass="InfoDetailViewController" customModule="Agenda" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RUy-hy-ubQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Mhq-ta-Rsv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zKk-bR-zKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="68"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="info_background" width="1125" height="2436"/>
+        <image name="info_tata_background" width="751" height="725"/>
+    </resources>
 </document>
