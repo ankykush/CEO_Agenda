@@ -21,13 +21,15 @@ class ScheduleDetailViewController: UIViewController {
     let appDelegate = UIApplication.shared.delegate
         as! AppDelegate
     var hideDetailsClosure: (() -> Void)? = nil
-    
+    var scheduleData: Schedule?
+    var selectedDate: ScheduleElement?
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     func populate(_ selectedDateSchedule: ScheduleElement?, indexPath: IndexPath) {
-        let scheduleData = selectedDateSchedule?.schedule[indexPath.row]
+        scheduleData = selectedDateSchedule?.schedule[indexPath.row]
+        selectedDate = selectedDateSchedule
         cityLocationDetails.text = selectedDateSchedule?.place
         timeDetails.text = scheduleData?.time
         locationDetails.text = scheduleData?.place
@@ -37,40 +39,36 @@ class ScheduleDetailViewController: UIViewController {
     }
     
     @IBAction func addReminder(_ sender: Any) {
-//        let reminder = EKReminder(eventStore: appDelegate.eventStore)
-//        
-//        reminder.title = descriptionDetails.text!
-//        reminder.calendar =
-//            appDelegate.eventStore.defaultCalendarForNewReminders()
-//        // Specify date components
-//        let formatter = DateFormatter()
-//        formatter.dateFormat = "dd MMMM yyyy HH:mm a"
-//        formatter.date(from: <#T##String#>)
-//        let someDateTime = formatter.date(from: "2016/10/08 22:31")
-//        
-//        
-//        var dateComponents = DateComponents()
-//        dateComponents.year = 1980
-//        dateComponents.month = 7
-//        dateComponents.day = 11
-//        dateComponents.timeZone = TimeZone(abbreviation: "IST") // Japan Standard Time
-//        dateComponents.hour = 8
-//        dateComponents.minute = 34
-//        
-//        // Create date from components
-//        let userCalendar = Calendar.current // user calendar
-//        guard let date = userCalendar.date(from: dateComponents) else { return Date() }
-//        
-//        let alarm = EKAlarm(absoluteDate: date)
-//        
-//        reminder.addAlarm(alarm)
-//        
-//        do {
-//            try appDelegate.eventStore?.save(reminder,
-//                                             commit: true)
-//        } catch let error {
-//            print("Reminder failed with error \(error.localizedDescription)")
-//        }
+        let switchV = sender as! UISwitch
+        if switchV.isOn {
+        let reminder = EKReminder(eventStore: appDelegate.eventStore)
+        
+        reminder.title = scheduleData?.meeting
+        reminder.calendar =
+            appDelegate.eventStore.defaultCalendarForNewReminders()
+        // Specify date components
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd MMMM yyyy HH:mm a"
+        if let date = formatter.date(from: (selectedDate!.dates + " " + scheduleData!.time)) {
+        
+        
+        
+        // Create date from components
+        
+        let alarm = EKAlarm(absoluteDate: date)
+        
+        reminder.addAlarm(alarm)
+        
+        do {
+            try appDelegate.eventStore.save(reminder,
+                                             commit: true)
+        } catch let error {
+            print("Reminder failed with error \(error.localizedDescription)")
+        }
+        }
+        } else {
+            
+        }
     }
     
     @IBAction func closeDetailsClicked(_ sender: Any) {

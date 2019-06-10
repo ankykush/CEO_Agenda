@@ -17,11 +17,19 @@ class InfoViewController: UIViewController {
     }
 
     @IBAction func aboutTataAction(_ sender: Any) {
-        
+        let infoDetailsVC = storyboard!.instantiateViewController(withIdentifier: "InfoDetailViewController") as? InfoDetailViewController
+        if let infoDetailsVC = infoDetailsVC {
+            infoDetailsVC.pdfName = "TATA"
+            navigationController?.pushViewController(infoDetailsVC, animated: true)
+        }
     }
     
     @IBAction func aboutTCSAction(_ sender: Any) {
-        
+        let infoDetailsVC = storyboard!.instantiateViewController(withIdentifier: "InfoDetailViewController") as? InfoDetailViewController
+        if let infoDetailsVC = infoDetailsVC {
+            infoDetailsVC.pdfName = "TCS"
+            navigationController?.pushViewController(infoDetailsVC, animated: true)
+        }
     }
     
 }
