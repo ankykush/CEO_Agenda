@@ -7,15 +7,23 @@
 //
 
 import UIKit
-
+import EventKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var eventStore = EKEventStore()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        eventStore.requestAccess(to: EKEntityType.reminder, completion:
+            {(granted, error) in
+                if !granted {
+                    print("Access to store not granted")
+                }
+        })
         return true
     }
 

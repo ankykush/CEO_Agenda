@@ -376,7 +376,6 @@
                                                 <rect key="frame" x="182.5" y="139.5" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="addReminder:" destination="t63-42-ba6" eventType="valueChanged" id="WqP-8Y-1Rs"/>
                                                     <action selector="addReminder:" destination="CIt-jt-oxC" eventType="valueChanged" id="dQd-o8-po6"/>
                                                 </connections>
                                             </switch>
@@ -510,6 +509,7 @@
                             <constraint firstItem="gjn-7U-Lvr" firstAttribute="leading" secondItem="Sd5-Rz-VD8" secondAttribute="leading" id="orn-TE-YYT"/>
                             <constraint firstItem="gjn-7U-Lvr" firstAttribute="top" secondItem="Sd5-Rz-VD8" secondAttribute="top" id="rxm-TB-u9n"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="rvl-tD-N6l"/>
                     </view>
                     <size key="freeformSize" width="414" height="555"/>
                     <connections>
@@ -530,7 +530,7 @@
     <resources>
         <image name="BANNER-sections" width="4500" height="1800"/>
         <image name="TATAlogo" width="34" height="30"/>
-        <image name="arrowAgenda" width="1600" height="410"/>
+        <image name="arrowAgenda" width="4680" height="1200"/>
         <image name="arrowup" width="60" height="60"/>
         <image name="background_schedulelist" width="1238" height="284"/>
     </resources>
