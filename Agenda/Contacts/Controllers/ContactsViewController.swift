@@ -29,7 +29,7 @@ class ContactsViewController: UIViewController {
 }
 
 //MARK: UITableViewDataSource Methods
-extension ContactsViewController: UITableViewDataSource {
+extension ContactsViewController: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -44,5 +44,13 @@ extension ContactsViewController: UITableViewDataSource {
         }
         //cell.populate()
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let telNo = "telprompt:12107071951"
+        if let url = URL(string: telNo) {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.openURL(url)
+            }
+        }
     }
 }

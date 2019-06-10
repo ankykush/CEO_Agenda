@@ -19,7 +19,7 @@ class InfoDetailViewController: UIViewController {
         super.viewDidLoad()
         showNavigationBar()
         let pdfView = PDFView()
-        
+        self.title = "ABOUT " + pdfName!
         pdfView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(pdfView)
         
