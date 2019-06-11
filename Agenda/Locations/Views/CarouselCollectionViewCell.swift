@@ -13,6 +13,11 @@ class CarouselCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var carouselImageView: UIImageView!
     @IBOutlet weak var carouselTitle: UILabel!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        carouselImageView.addShadow()
+    }
+    
     func configureUI(_ imageName: String) {
         carouselImageView.image = UIImage(named: imageName)
         carouselImageView.contentMode = .scaleToFill

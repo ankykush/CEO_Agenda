@@ -11,7 +11,7 @@ import UIKit
 extension UIView {
     func addShadow() {
         layer.shadowPath = UIBezierPath(rect: bounds).cgPath
-        layer.shadowRadius = 5
+        layer.shadowRadius = 2
         layer.shadowOffset = .zero
         layer.shadowOpacity = 1
     }
