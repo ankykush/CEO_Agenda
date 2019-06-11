@@ -48,6 +48,7 @@ class ExecutiveViewController: UIViewController {
                     self.personDetailsArray = self.completeDataArray?.executives
                     self.logoCollectionView.reloadData()
                     self.tableView.reloadData()
+                    self.logoCollectionView.delegate?.collectionView?(self.logoCollectionView, didSelectItemAt: IndexPath(item: 0, section: 0))
                 }
             } else {
                 spinner.stopAnimating()

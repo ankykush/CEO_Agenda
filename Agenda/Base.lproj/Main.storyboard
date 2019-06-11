@@ -163,7 +163,7 @@
         <!--Executive-->
         <scene sceneID="MIC-VH-lga">
             <objects>
-                <navigationController storyboardIdentifier="ExecutiveNavigationViewController" title="Executive" automaticallyAdjustsScrollViewInsets="NO" id="BQy-pa-znQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ExecutiveNavigationViewController" title="Executive" automaticallyAdjustsScrollViewInsets="NO" id="BQy-pa-znQ" customClass="NavController" customModule="Agenda" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="white_profiles" selectedImage="profiles" id="V9q-Fo-cDf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oNc-6S-i2l">

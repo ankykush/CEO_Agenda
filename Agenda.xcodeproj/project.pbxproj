@@ -33,6 +33,7 @@
 		47051D23229F82C400D9FACF /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D22229F82C400D9FACF /* ContactTableViewCell.swift */; };
 		47051D2822A0A43F00D9FACF /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47051D2722A0A43F00D9FACF /* Info.storyboard */; };
 		47051D2A22A0A4F200D9FACF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D2922A0A4F200D9FACF /* TabBarController.swift */; };
+		4736EE4222AF333D0042A209 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736EE4122AF333D0042A209 /* NavController.swift */; };
 		4744F20922AD86FA002F99D7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4744F20622AD86FA002F99D7 /* InfoViewController.swift */; };
 		4744F20B22AD870F002F99D7 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4744F20A22AD870F002F99D7 /* InfoDetailViewController.swift */; };
 		47AB990322979EF200A59799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB990222979EF200A59799 /* AppDelegate.swift */; };
@@ -74,6 +75,7 @@
 		47051D22229F82C400D9FACF /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		47051D2722A0A43F00D9FACF /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 		47051D2922A0A4F200D9FACF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4736EE4122AF333D0042A209 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		4744F20622AD86FA002F99D7 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		4744F20A22AD870F002F99D7 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
 		47AB98FF22979EF200A59799 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -328,6 +330,7 @@
 		47AB99272297A6AF00A59799 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4736EE4122AF333D0042A209 /* NavController.swift */,
 				2031F253229F980500BE68A4 /* ModelsNConnection.swift */,
 				47AB99282297A80D00A59799 /* AlertDisplayer.swift */,
 				47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */,
@@ -489,6 +492,7 @@
 				47051D06229E38C800D9FACF /* LocationDetailViewController.swift in Sources */,
 				47051D11229E393000D9FACF /* Location.swift in Sources */,
 				47051D05229E38C800D9FACF /* LocationsViewController.swift in Sources */,
+				4736EE4222AF333D0042A209 /* NavController.swift in Sources */,
 				2031F256229F989D00BE68A4 /* CollectionViewCell.swift in Sources */,
 				2031F262229FC0AD00BE68A4 /* CollectionViewCellSelected.swift in Sources */,
 				47051CFC229E388E00D9FACF /* ExecutiveDetailViewController.swift in Sources */,

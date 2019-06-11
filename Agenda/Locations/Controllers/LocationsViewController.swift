@@ -23,6 +23,11 @@ class LocationsViewController: UIViewController {
     }
     
     private func configureUI() {
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         hideNavigationBar()
     }
 }
