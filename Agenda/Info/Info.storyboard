@@ -30,8 +30,8 @@
                                             <action selector="aboutTataAction:" destination="W3u-XZ-WJQ" eventType="touchUpInside" id="Nit-s2-fYZ"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tata_background" translatesAutoresizingMaskIntoConstraints="NO" id="hWj-Xh-jVg">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tata_background" translatesAutoresizingMaskIntoConstraints="NO" id="hWj-Xh-jVg">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250.00000000000011"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkv-Fm-8VY">
                                         <rect key="frame" x="62" y="112" width="126.5" height="26.5"/>
@@ -65,8 +65,8 @@
                                             <action selector="aboutTCSAction:" destination="W3u-XZ-WJQ" eventType="touchUpInside" id="VB8-Tm-cXS"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tata_background" translatesAutoresizingMaskIntoConstraints="NO" id="ELE-3Y-7Dd">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tcs_background" translatesAutoresizingMaskIntoConstraints="NO" id="ELE-3Y-7Dd">
+                                        <rect key="frame" x="0.0" y="0.0" width="250.00000000000023" height="250.00000000000011"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TCS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hc-Nx-vLY">
                                         <rect key="frame" x="65.5" y="112" width="119" height="26.5"/>
@@ -129,5 +129,6 @@
     <resources>
         <image name="info_background" width="1125" height="2436"/>
         <image name="info_tata_background" width="751" height="725"/>
+        <image name="info_tcs_background" width="778" height="729"/>
     </resources>
 </document>
