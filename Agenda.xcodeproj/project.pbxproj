@@ -22,6 +22,7 @@
 		204050CB22AF9E3E00F9054D /* Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C722AF9E3E00F9054D /* Meenu.png */; };
 		204050CC22AF9E3E00F9054D /* PRK.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C822AF9E3E00F9054D /* PRK.png */; };
 		204050CD22AF9E3E00F9054D /* Ram.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C922AF9E3E00F9054D /* Ram.png */; };
+		204050CF22AFDE5100F9054D /* Kirthivasan.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050CE22AFDE5100F9054D /* Kirthivasan.png */; };
 		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
@@ -72,6 +73,7 @@
 		204050C722AF9E3E00F9054D /* Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meenu.png; sourceTree = "<group>"; };
 		204050C822AF9E3E00F9054D /* PRK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRK.png; sourceTree = "<group>"; };
 		204050C922AF9E3E00F9054D /* Ram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ram.png; sourceTree = "<group>"; };
+		204050CE22AFDE5100F9054D /* Kirthivasan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kirthivasan.png; sourceTree = "<group>"; };
 		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 				204050C822AF9E3E00F9054D /* PRK.png */,
 				204050C622AF9E3E00F9054D /* RakeshKumar.png */,
 				204050C922AF9E3E00F9054D /* Ram.png */,
+				204050CE22AFDE5100F9054D /* Kirthivasan.png */,
 				47051CF5229E388D00D9FACF /* Controllers */,
 				47051CF3229E388D00D9FACF /* Models */,
 				47051CF8229E388D00D9FACF /* Views */,
@@ -446,6 +449,7 @@
 				204050B622AED88E00F9054D /* Chennai.pdf in Resources */,
 				204050B722AED88E00F9054D /* Pune.pdf in Resources */,
 				204050B122AE34B700F9054D /* TATA.pdf in Resources */,
+				204050CF22AFDE5100F9054D /* Kirthivasan.png in Resources */,
 				204050B022AE34B700F9054D /* TCS.pdf in Resources */,
 				47051D2822A0A43F00D9FACF /* Info.storyboard in Resources */,
 				47AB990D22979EF600A59799 /* LaunchScreen.storyboard in Resources */,

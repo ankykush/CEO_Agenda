@@ -74,7 +74,7 @@
                                                                     <color key="textColor" red="0.19423425197601318" green="0.34600409865379333" blue="0.54765492677688599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-hh-Hes">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-hh-Hes">
                                                                     <rect key="frame" x="269" y="12" width="76" height="78"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="76" id="PYt-t5-LVq"/>

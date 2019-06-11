@@ -27,6 +27,6 @@ class ExecutiveTableViewCell: UITableViewCell {
     func populate(executive: ExecutiveElement) {
         executiveName?.text = executive.name
         executiveRole?.text = executive.designation
-        executiveImage?.image = UIImage(named: executive.organization!)
+        executiveImage?.image = UIImage(named: executive.largeImg!)
     }
 }
