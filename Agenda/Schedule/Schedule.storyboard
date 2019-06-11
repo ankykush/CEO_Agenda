@@ -63,6 +63,12 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_schedulelist" translatesAutoresizingMaskIntoConstraints="NO" id="FhG-e5-xvZ">
+                                                    <rect key="frame" x="120" y="0.0" width="294" height="108"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="108" id="N5L-1m-Tah"/>
+                                                    </constraints>
+                                                </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6m-qc-JL8">
                                                     <rect key="frame" x="0.0" y="0.0" width="120" height="108"/>
                                                     <subviews>
@@ -79,7 +85,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="120" id="1yt-Pj-shB"/>
                                                         <constraint firstItem="N3f-gA-f0H" firstAttribute="top" secondItem="xld-uS-VEH" secondAttribute="bottom" constant="2" id="2Af-xt-CdN"/>
@@ -88,12 +94,6 @@
                                                         <constraint firstItem="xld-uS-VEH" firstAttribute="top" secondItem="D6m-qc-JL8" secondAttribute="top" constant="35" id="mZt-3Y-MGB"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_schedulelist" translatesAutoresizingMaskIntoConstraints="NO" id="FhG-e5-xvZ">
-                                                    <rect key="frame" x="120" y="0.0" width="294" height="108"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="108" id="N5L-1m-Tah"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast at Hotel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVn-ye-RvW">
                                                     <rect key="frame" x="170" y="0.0" width="244" height="108"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -102,6 +102,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="FhG-e5-xvZ" firstAttribute="leading" secondItem="SqK-p7-374" secondAttribute="leading" constant="120" id="1l8-Ok-Jok"/>
                                                 <constraint firstItem="D6m-qc-JL8" firstAttribute="leading" secondItem="SqK-p7-374" secondAttribute="leading" id="7Hv-cI-kGQ"/>
                                                 <constraint firstItem="yVn-ye-RvW" firstAttribute="bottom" secondItem="FhG-e5-xvZ" secondAttribute="bottom" id="Dpo-SO-I56"/>
                                                 <constraint firstItem="FhG-e5-xvZ" firstAttribute="top" secondItem="D6m-qc-JL8" secondAttribute="top" id="GP0-Ep-M1E"/>
@@ -112,11 +113,11 @@
                                                 <constraint firstItem="yVn-ye-RvW" firstAttribute="bottom" secondItem="D6m-qc-JL8" secondAttribute="bottom" id="Stc-TA-By5"/>
                                                 <constraint firstItem="FhG-e5-xvZ" firstAttribute="top" secondItem="SqK-p7-374" secondAttribute="top" id="Wxt-gI-euI"/>
                                                 <constraint firstAttribute="bottom" secondItem="D6m-qc-JL8" secondAttribute="bottom" id="k8U-4Q-GU7"/>
-                                                <constraint firstItem="FhG-e5-xvZ" firstAttribute="leading" secondItem="D6m-qc-JL8" secondAttribute="trailing" id="kDi-hG-BeK"/>
                                                 <constraint firstAttribute="trailing" secondItem="yVn-ye-RvW" secondAttribute="trailing" id="ksJ-HL-FjN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="leadingConstraint" destination="1l8-Ok-Jok" id="GGr-7P-Dde"/>
                                             <outlet property="purposeLbl" destination="yVn-ye-RvW" id="dfx-Qe-c9W"/>
                                             <outlet property="timeLbl" destination="xld-uS-VEH" id="oqe-mW-U89"/>
                                             <outlet property="venueLbl" destination="N3f-gA-f0H" id="MfJ-f9-fPr"/>
