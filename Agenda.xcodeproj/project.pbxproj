@@ -15,6 +15,13 @@
 		204050B522AED88E00F9054D /* Hyderabad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B222AED88E00F9054D /* Hyderabad.pdf */; };
 		204050B622AED88E00F9054D /* Chennai.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B322AED88E00F9054D /* Chennai.pdf */; };
 		204050B722AED88E00F9054D /* Pune.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B422AED88E00F9054D /* Pune.pdf */; };
+		204050C322AF9C1C00F9054D /* Miller.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C022AF9C1B00F9054D /* Miller.png */; };
+		204050C422AF9C1C00F9054D /* Andrew.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C122AF9C1B00F9054D /* Andrew.png */; };
+		204050C522AF9C1C00F9054D /* Michael.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C222AF9C1C00F9054D /* Michael.png */; };
+		204050CA22AF9E3E00F9054D /* RakeshKumar.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C622AF9E3E00F9054D /* RakeshKumar.png */; };
+		204050CB22AF9E3E00F9054D /* Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C722AF9E3E00F9054D /* Meenu.png */; };
+		204050CC22AF9E3E00F9054D /* PRK.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C822AF9E3E00F9054D /* PRK.png */; };
+		204050CD22AF9E3E00F9054D /* Ram.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050C922AF9E3E00F9054D /* Ram.png */; };
 		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
@@ -58,6 +65,13 @@
 		204050B222AED88E00F9054D /* Hyderabad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hyderabad.pdf; sourceTree = "<group>"; };
 		204050B322AED88E00F9054D /* Chennai.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chennai.pdf; sourceTree = "<group>"; };
 		204050B422AED88E00F9054D /* Pune.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pune.pdf; sourceTree = "<group>"; };
+		204050C022AF9C1B00F9054D /* Miller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Miller.png; sourceTree = "<group>"; };
+		204050C122AF9C1B00F9054D /* Andrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Andrew.png; sourceTree = "<group>"; };
+		204050C222AF9C1C00F9054D /* Michael.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Michael.png; sourceTree = "<group>"; };
+		204050C622AF9E3E00F9054D /* RakeshKumar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RakeshKumar.png; sourceTree = "<group>"; };
+		204050C722AF9E3E00F9054D /* Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meenu.png; sourceTree = "<group>"; };
+		204050C822AF9E3E00F9054D /* PRK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRK.png; sourceTree = "<group>"; };
+		204050C922AF9E3E00F9054D /* Ram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ram.png; sourceTree = "<group>"; };
 		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
@@ -296,6 +310,13 @@
 		47AB99142297A0B000A59799 /* Executive */ = {
 			isa = PBXGroup;
 			children = (
+				204050C122AF9C1B00F9054D /* Andrew.png */,
+				204050C222AF9C1C00F9054D /* Michael.png */,
+				204050C022AF9C1B00F9054D /* Miller.png */,
+				204050C722AF9E3E00F9054D /* Meenu.png */,
+				204050C822AF9E3E00F9054D /* PRK.png */,
+				204050C622AF9E3E00F9054D /* RakeshKumar.png */,
+				204050C922AF9E3E00F9054D /* Ram.png */,
 				47051CF5229E388D00D9FACF /* Controllers */,
 				47051CF3229E388D00D9FACF /* Models */,
 				47051CF8229E388D00D9FACF /* Views */,
@@ -421,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				204050B522AED88E00F9054D /* Hyderabad.pdf in Resources */,
+				204050C522AF9C1C00F9054D /* Michael.png in Resources */,
 				204050B622AED88E00F9054D /* Chennai.pdf in Resources */,
 				204050B722AED88E00F9054D /* Pune.pdf in Resources */,
 				204050B122AE34B700F9054D /* TATA.pdf in Resources */,
@@ -429,10 +451,16 @@
 				47AB990D22979EF600A59799 /* LaunchScreen.storyboard in Resources */,
 				47051D1C229F602400D9FACF /* Contacts.storyboard in Resources */,
 				47AB99202297A15E00A59799 /* Locations.storyboard in Resources */,
+				204050CD22AF9E3E00F9054D /* Ram.png in Resources */,
 				47AB990A22979EF600A59799 /* Assets.xcassets in Resources */,
+				204050C422AF9C1C00F9054D /* Andrew.png in Resources */,
 				47AB990822979EF200A59799 /* Main.storyboard in Resources */,
 				47AB991E2297A14800A59799 /* Schedule.storyboard in Resources */,
+				204050C322AF9C1C00F9054D /* Miller.png in Resources */,
 				47AB99222297A16C00A59799 /* Executive.storyboard in Resources */,
+				204050CC22AF9E3E00F9054D /* PRK.png in Resources */,
+				204050CB22AF9E3E00F9054D /* Meenu.png in Resources */,
+				204050CA22AF9E3E00F9054D /* RakeshKumar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

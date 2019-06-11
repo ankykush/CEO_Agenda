@@ -38,7 +38,7 @@ class ExecutiveDetailViewController: UIViewController {
     
     func populate(_ executive: ExecutiveElement?) {
         guard let executive = executive else { return }
-        //imageView.image =
+        imageView.image = UIImage(named: executive.largeImg!)
         nameLbl.text = executive.name
         roleLbl.text = executive.designation
         descriptionLbl.text = executive.desc

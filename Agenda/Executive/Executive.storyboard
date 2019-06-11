@@ -62,12 +62,6 @@
                                                                 <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="executiveCellBg" translatesAutoresizingMaskIntoConstraints="NO" id="Tq9-hL-hQw">
                                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                                                 </imageView>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-hh-Hes">
-                                                                    <rect key="frame" x="255" y="0.0" width="120" height="100"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="width" constant="120" id="PYt-t5-LVq"/>
-                                                                    </constraints>
-                                                                </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rajesh Gopinathan" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScX-5x-KY5" userLabel="nameLabel">
                                                                     <rect key="frame" x="15" y="48" width="232" height="23"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
@@ -80,19 +74,25 @@
                                                                     <color key="textColor" red="0.19423425197601318" green="0.34600409865379333" blue="0.54765492677688599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-hh-Hes">
+                                                                    <rect key="frame" x="269" y="12" width="76" height="78"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="76" id="PYt-t5-LVq"/>
+                                                                    </constraints>
+                                                                </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" red="0.93716257810592651" green="0.93731957674026489" blue="0.93714183568954468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
-                                                                <constraint firstItem="D2y-hh-Hes" firstAttribute="leading" secondItem="ScX-5x-KY5" secondAttribute="trailing" constant="8" symbolic="YES" id="4Nv-6w-tcw"/>
+                                                                <constraint firstItem="D2y-hh-Hes" firstAttribute="leading" secondItem="ScX-5x-KY5" secondAttribute="trailing" constant="22" id="4Nv-6w-tcw"/>
                                                                 <constraint firstItem="ScX-5x-KY5" firstAttribute="leading" secondItem="Iaz-SI-dEq" secondAttribute="leading" constant="15" id="9Ug-qG-TKB"/>
-                                                                <constraint firstItem="D2y-hh-Hes" firstAttribute="leading" secondItem="3RJ-Tn-Qhc" secondAttribute="trailing" constant="8" symbolic="YES" id="BS7-7j-gc0"/>
+                                                                <constraint firstItem="D2y-hh-Hes" firstAttribute="leading" secondItem="3RJ-Tn-Qhc" secondAttribute="trailing" constant="22" id="BS7-7j-gc0"/>
                                                                 <constraint firstAttribute="bottom" secondItem="Tq9-hL-hQw" secondAttribute="bottom" id="CI4-wo-gud"/>
-                                                                <constraint firstAttribute="trailing" secondItem="D2y-hh-Hes" secondAttribute="trailing" id="QgI-kU-q8l"/>
+                                                                <constraint firstAttribute="trailing" secondItem="D2y-hh-Hes" secondAttribute="trailing" constant="30" id="QgI-kU-q8l"/>
                                                                 <constraint firstItem="3RJ-Tn-Qhc" firstAttribute="top" secondItem="ScX-5x-KY5" secondAttribute="bottom" constant="2" id="fhV-Ty-Szm"/>
                                                                 <constraint firstItem="Tq9-hL-hQw" firstAttribute="leading" secondItem="Iaz-SI-dEq" secondAttribute="leading" id="hkD-XZ-VHG"/>
-                                                                <constraint firstAttribute="bottom" secondItem="D2y-hh-Hes" secondAttribute="bottom" id="iuR-8B-x8m"/>
+                                                                <constraint firstAttribute="bottom" secondItem="D2y-hh-Hes" secondAttribute="bottom" constant="10" id="iuR-8B-x8m"/>
                                                                 <constraint firstAttribute="trailing" secondItem="Tq9-hL-hQw" secondAttribute="trailing" id="joB-uN-wRx"/>
-                                                                <constraint firstItem="D2y-hh-Hes" firstAttribute="top" secondItem="Iaz-SI-dEq" secondAttribute="top" id="mig-Xa-JDj"/>
+                                                                <constraint firstItem="D2y-hh-Hes" firstAttribute="top" secondItem="Iaz-SI-dEq" secondAttribute="top" constant="12" id="mig-Xa-JDj"/>
                                                                 <constraint firstAttribute="bottom" secondItem="3RJ-Tn-Qhc" secondAttribute="bottom" constant="10" id="stP-L1-gYo"/>
                                                                 <constraint firstItem="Tq9-hL-hQw" firstAttribute="top" secondItem="Iaz-SI-dEq" secondAttribute="top" id="vxw-Uc-lAX"/>
                                                                 <constraint firstItem="ScX-5x-KY5" firstAttribute="leading" secondItem="3RJ-Tn-Qhc" secondAttribute="leading" id="xzk-ct-27c"/>
@@ -202,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DIP-WW-8p6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="995.65217391304361" y="81.696428571428569"/>
+            <point key="canvasLocation" x="994.39999999999998" y="81.409295352323838"/>
         </scene>
         <!--Executive Detail View Controller-->
         <scene sceneID="Gnq-n2-7DE">
