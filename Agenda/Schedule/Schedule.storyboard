@@ -270,6 +270,7 @@
                     <navigationItem key="navigationItem" id="Qql-F9-A5Y"/>
                     <connections>
                         <outlet property="locationLabel" destination="FA3-d0-yvt" id="ReT-tZ-VAR"/>
+                        <outlet property="logoImage" destination="AQF-Zs-iKO" id="zGB-DO-RNd"/>
                         <outlet property="scheduleDateScroller" destination="lCm-Lf-kJz" id="9FL-aL-hGg"/>
                         <outlet property="scheduleDetailsView" destination="jE6-gR-8nO" id="MwL-Sa-cwz"/>
                         <outlet property="tableView" destination="udv-8q-rSK" id="NUC-L5-uiz"/>

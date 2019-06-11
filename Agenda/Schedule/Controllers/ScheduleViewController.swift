@@ -11,6 +11,7 @@ import UIKit
 
 class ScheduleViewController: UIViewController {
     //MARK: Properties
+    @IBOutlet weak var logoImage: UIImageView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var taglineLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
@@ -66,6 +67,10 @@ class ScheduleViewController: UIViewController {
         selectedDateSchedule = finalScheduleArray[index]
         //}
 //        tableView.setContentOffset(CGPoint(x: 0, y: 0 - scheduleTableView.contentInset.top), animated: false)
+        if let logo = selectedDateSchedule?.logo {
+            logoImage.image = UIImage(named: "\(logo)")
+        }
+        
         tableView.reloadData()
     }
     
