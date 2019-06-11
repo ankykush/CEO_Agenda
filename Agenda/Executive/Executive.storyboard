@@ -298,6 +298,9 @@
                                     <constraint firstAttribute="bottom" secondItem="Q7a-Yd-q93" secondAttribute="bottom" id="glq-LZ-fAe"/>
                                     <constraint firstItem="Q7a-Yd-q93" firstAttribute="leading" secondItem="3XD-NO-afP" secondAttribute="leading" id="wzC-Ff-QQH"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="fl7-P5-HhU" id="PEi-hn-S4T"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -317,6 +320,8 @@
                         <outlet property="imageView" destination="imv-Q2-WnX" id="agT-qn-x1C"/>
                         <outlet property="nameLbl" destination="35V-ga-rVH" id="s95-VR-1b1"/>
                         <outlet property="roleLbl" destination="wqe-E0-gPU" id="g5b-up-P65"/>
+                        <outlet property="scrollContentView" destination="Q7a-Yd-q93" id="CKS-ZA-ZZP"/>
+                        <outlet property="scrollView" destination="3XD-NO-afP" id="6MU-OV-5zk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="APr-1Q-1Bd" userLabel="First Responder" sceneMemberID="firstResponder"/>
