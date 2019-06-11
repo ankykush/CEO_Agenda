@@ -48,7 +48,9 @@ class ExecutiveViewController: UIViewController {
                     self.personDetailsArray = self.completeDataArray?.executives
                     self.logoCollectionView.reloadData()
                     self.tableView.reloadData()
-                    self.logoCollectionView.delegate?.collectionView?(self.logoCollectionView, didSelectItemAt: IndexPath(item: 0, section: 0))
+                    let firstIndexPath = IndexPath(item: 0, section: 0)
+                    self.logoCollectionView.selectItem(at: firstIndexPath, animated: true, scrollPosition: .left)
+                    self.logoCollectionView.delegate?.collectionView?(self.logoCollectionView, didSelectItemAt: firstIndexPath)
                 }
             } else {
                 spinner.stopAnimating()
@@ -100,6 +102,7 @@ extension ExecutiveViewController: UICollectionViewDataSource, UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ExecutiveViewController.collectionViewCellIdentifier, for: indexPath) as? ExecutiveCollectionViewCell
+        cell?.updateUI()
         let imageName = self.completeDataArray!.orgNames?[indexPath.row]
         cell?.logoImageView.image = UIImage(named: imageName!)
         // return the cell
