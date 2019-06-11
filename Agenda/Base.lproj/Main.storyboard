@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch_background" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-tN-nKp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch_background" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-tN-nKp">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-zS-xyw">
@@ -42,22 +42,22 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="KAD-pB-ddL">
-                                <rect key="frame" x="87" y="230" width="240" height="128"/>
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="NDU-0W-biO"/>
+                                    <constraint firstAttribute="width" constant="240" id="ZYY-0W-cuJ"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hMS-tN-nKp" firstAttribute="leading" secondItem="oth-nB-oB0" secondAttribute="leading" id="AVg-5j-KPZ"/>
-                            <constraint firstItem="KAD-pB-ddL" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="87" id="CWa-h7-3jI"/>
-                            <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="oth-nB-oB0" secondAttribute="centerX" id="CdF-XU-4le"/>
                             <constraint firstItem="WNC-uR-UAf" firstAttribute="bottom" secondItem="RQz-zS-xyw" secondAttribute="bottom" constant="108" id="H5H-Di-HQL"/>
-                            <constraint firstItem="KAD-pB-ddL" firstAttribute="top" secondItem="WNC-uR-UAf" secondAttribute="top" constant="186" id="NN0-AE-ide"/>
+                            <constraint firstItem="KAD-pB-ddL" firstAttribute="centerY" secondItem="oth-nB-oB0" secondAttribute="centerY" id="iEZ-T4-tra"/>
                             <constraint firstAttribute="bottom" secondItem="hMS-tN-nKp" secondAttribute="bottom" id="lSA-Yp-3pN"/>
                             <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="RQz-zS-xyw" secondAttribute="centerX" id="mFi-lc-4Pp"/>
                             <constraint firstItem="hMS-tN-nKp" firstAttribute="top" secondItem="oth-nB-oB0" secondAttribute="top" id="mac-1K-EId"/>
+                            <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="oth-nB-oB0" secondAttribute="centerX" id="me7-wO-uJm"/>
                             <constraint firstItem="RQz-zS-xyw" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="96" id="q2n-u4-SkI"/>
                             <constraint firstAttribute="trailing" secondItem="hMS-tN-nKp" secondAttribute="trailing" id="uXE-wm-w7C"/>
                         </constraints>

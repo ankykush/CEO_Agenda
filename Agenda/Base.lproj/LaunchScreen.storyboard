@@ -18,23 +18,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch_background" translatesAutoresizingMaskIntoConstraints="NO" id="LsL-DP-chx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch_background" translatesAutoresizingMaskIntoConstraints="NO" id="LsL-DP-chx">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="6FF-gG-W6I">
-                                <rect key="frame" x="87" y="230" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Fly-8I-m86">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="EAi-LL-8RQ"/>
+                                    <constraint firstAttribute="width" constant="240" id="YeF-fc-eEp"/>
+                                    <constraint firstAttribute="height" constant="128" id="aOF-D8-moi"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6FF-gG-W6I" firstAttribute="centerX" secondItem="Bwp-48-a00" secondAttribute="centerX" id="2I0-2U-Ju5"/>
-                            <constraint firstItem="6FF-gG-W6I" firstAttribute="leading" secondItem="d6L-Bz-KAN" secondAttribute="leading" constant="87" id="PXB-u7-wr3"/>
+                            <constraint firstItem="Fly-8I-m86" firstAttribute="centerY" secondItem="Bwp-48-a00" secondAttribute="centerY" id="088-jC-Lir"/>
                             <constraint firstItem="LsL-DP-chx" firstAttribute="leading" secondItem="d6L-Bz-KAN" secondAttribute="leading" id="bKM-XD-zBS"/>
-                            <constraint firstItem="6FF-gG-W6I" firstAttribute="top" secondItem="d6L-Bz-KAN" secondAttribute="top" constant="186" id="bdD-BJ-PeA"/>
                             <constraint firstAttribute="bottom" secondItem="LsL-DP-chx" secondAttribute="bottom" id="fbJ-B2-xWE"/>
+                            <constraint firstItem="Fly-8I-m86" firstAttribute="centerX" secondItem="Bwp-48-a00" secondAttribute="centerX" id="pJ5-yL-1Rl"/>
                             <constraint firstItem="d6L-Bz-KAN" firstAttribute="trailing" secondItem="LsL-DP-chx" secondAttribute="trailing" id="v8I-JB-uWG"/>
                             <constraint firstItem="LsL-DP-chx" firstAttribute="top" secondItem="Bwp-48-a00" secondAttribute="top" id="ygv-ZC-Zu5"/>
                         </constraints>
