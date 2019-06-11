@@ -15,6 +15,10 @@ class ScheduleTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+//        let bgColorView = UIView()
+//        bgColorView.backgroundColor = .brandLightBlue
+//        selectedBackgroundView = bgColorView
     }
 
     func populate() {
