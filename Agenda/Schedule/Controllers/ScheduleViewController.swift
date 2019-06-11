@@ -213,8 +213,21 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
         if selectedIndexPath?.row != indexPath.row {
             return CGSize(width: 50, height: 88)
         } else {
-            
             return CGSize(width: 91, height: 98)
         }
+    }
+    
+    func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
+        selectCenterItem()
+    }
+    
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        selectCenterItem()
+    }
+    
+    func selectCenterItem() {
+        let center = view.convert(scheduleDateScroller.center, to: self.scheduleDateScroller)
+        guard let index = scheduleDateScroller.indexPathForItem(at: center) else { return }
+        scheduleDateScroller.delegate?.collectionView?(scheduleDateScroller, didSelectItemAt: index)
     }
 }
