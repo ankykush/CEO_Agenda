@@ -30,6 +30,7 @@ class ScheduleViewController: UIViewController {
     var selectedIndexPath: IndexPath?
     //MARK: Life Cycle Methods
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         selectedIndexPath = [0,0]
         configureUI()
