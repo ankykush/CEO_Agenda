@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B8H-tt-q9i">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B8H-tt-q9i">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ati-cA-sYx">
@@ -66,10 +66,6 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg2" translatesAutoresizingMaskIntoConstraints="NO" id="YQz-LY-N7a">
                                         <rect key="frame" x="414" y="0.0" width="430" height="896"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrowLeftWhite" translatesAutoresizingMaskIntoConstraints="NO" id="zgP-OP-5Ja">
-                                        <rect key="frame" x="1" y="431" width="35" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="ati-cA-sYx" firstAttribute="centerY" secondItem="B8H-tt-q9i" secondAttribute="centerY" id="6rD-vO-xN3"/>
@@ -84,9 +80,12 @@
                                     <constraint firstItem="YQz-LY-N7a" firstAttribute="height" secondItem="ati-cA-sYx" secondAttribute="height" id="ydO-Qx-F0h"/>
                                 </constraints>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-zS-xyw">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-zS-xyw">
                                 <rect key="frame" x="96" y="698" width="222" height="56"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="roL-3d-NDU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="21"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="0.23137254900000001" green="0.34927546980000002" blue="0.59714227909999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -101,6 +100,13 @@
                                     <segue destination="ONd-f8-YCo" kind="show" id="2bd-RA-XLI"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowLeftWhite" translatesAutoresizingMaskIntoConstraints="NO" id="zgP-OP-5Ja">
+                                <rect key="frame" x="0.0" y="431" width="35" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="CXk-YK-ZgV"/>
+                                    <constraint firstAttribute="width" constant="35" id="uzw-MA-Akr"/>
+                                </constraints>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowRightWhite" translatesAutoresizingMaskIntoConstraints="NO" id="GeF-RC-3Xw">
                                 <rect key="frame" x="383" y="431" width="35" height="44"/>
                                 <constraints>
@@ -112,20 +118,25 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="RQz-zS-xyw" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="96" id="0C2-yG-rGB"/>
-                            <constraint firstItem="GeF-RC-3Xw" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" constant="383" id="35P-cv-4ea"/>
+                            <constraint firstItem="zgP-OP-5Ja" firstAttribute="centerY" secondItem="WNC-uR-UAf" secondAttribute="centerY" id="368-qe-HTf"/>
                             <constraint firstItem="WNC-uR-UAf" firstAttribute="bottom" secondItem="RQz-zS-xyw" secondAttribute="bottom" constant="108" id="Frn-Yt-Hcf"/>
                             <constraint firstItem="RQz-zS-xyw" firstAttribute="centerX" secondItem="oth-nB-oB0" secondAttribute="centerX" id="MTa-iv-kRk"/>
                             <constraint firstItem="B8H-tt-q9i" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" id="NAB-PC-CBE"/>
                             <constraint firstItem="B8H-tt-q9i" firstAttribute="trailing" secondItem="WNC-uR-UAf" secondAttribute="trailing" id="O8T-dH-2EP"/>
                             <constraint firstAttribute="bottom" secondItem="B8H-tt-q9i" secondAttribute="bottom" id="Ohj-tZ-fb2"/>
-                            <constraint firstItem="RQz-zS-xyw" firstAttribute="top" secondItem="WNC-uR-UAf" secondAttribute="top" constant="654" id="T2K-BO-o8h"/>
+                            <constraint firstItem="zgP-OP-5Ja" firstAttribute="leading" secondItem="WNC-uR-UAf" secondAttribute="leading" id="Q3y-nl-ZPe"/>
+                            <constraint firstItem="RQz-zS-xyw" firstAttribute="top" secondItem="WNC-uR-UAf" secondAttribute="top" priority="250" constant="654" id="T2K-BO-o8h"/>
+                            <constraint firstItem="GeF-RC-3Xw" firstAttribute="trailing" secondItem="WNC-uR-UAf" secondAttribute="trailing" constant="4" id="lWo-sg-NjT"/>
                             <constraint firstItem="GeF-RC-3Xw" firstAttribute="centerY" secondItem="WNC-uR-UAf" secondAttribute="centerY" id="mPQ-7p-ynZ"/>
                             <constraint firstItem="B8H-tt-q9i" firstAttribute="top" secondItem="oth-nB-oB0" secondAttribute="top" id="u4r-qm-i3j"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WNC-uR-UAf"/>
                     </view>
                     <connections>
-                        <outlet property="arrowLeadConstraint" destination="35P-cv-4ea" id="OCf-l1-phD"/>
+                        <outlet property="arrowtrailConstraint" destination="lWo-sg-NjT" id="uFG-yA-f8p"/>
+                        <outlet property="leftArrowLeadConstraint" destination="Q3y-nl-ZPe" id="g5u-be-KUw"/>
+                        <outlet property="leftarrow" destination="zgP-OP-5Ja" id="X7g-d9-0op"/>
+                        <outlet property="rightarrow" destination="GeF-RC-3Xw" id="eXS-7j-H2i"/>
                         <outlet property="scrollView" destination="B8H-tt-q9i" id="Nhx-ny-hYI"/>
                     </connections>
                 </viewController>
@@ -286,7 +297,7 @@
         <scene sceneID="cdW-qu-G7d">
             <objects>
                 <navigationController storyboardIdentifier="ContactsNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="cg2-4o-YjF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="white_contacts" selectedImage="contacts" id="j4e-XY-4vA"/>
+                    <tabBarItem key="tabBarItem" title="" image="airplane_white_inactive" selectedImage="airplane_white" id="j4e-XY-4vA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zm5-a2-s4b">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -319,15 +330,15 @@
     <resources>
         <image name="Launch_background" width="1125" height="2436"/>
         <image name="Logo" width="3900" height="1685"/>
+        <image name="airplane_white" width="30" height="30"/>
+        <image name="airplane_white_inactive" width="30" height="30"/>
         <image name="arrowLeftWhite" width="512" height="512"/>
         <image name="arrowRightWhite" width="512" height="512"/>
         <image name="bg2" width="908" height="1967"/>
-        <image name="contacts" width="30" height="30"/>
         <image name="info" width="30" height="30"/>
         <image name="locations" width="30" height="30"/>
         <image name="profiles" width="30" height="30"/>
         <image name="schedule" width="30" height="30"/>
-        <image name="white_contacts" width="30" height="30"/>
         <image name="white_info" width="30" height="30"/>
         <image name="white_locations" width="30" height="30"/>
         <image name="white_profiles" width="30" height="30"/>
