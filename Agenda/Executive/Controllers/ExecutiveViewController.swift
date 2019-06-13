@@ -91,7 +91,8 @@ extension ExecutiveViewController: UITableViewDelegate {
         }
         
         executiveDetailViewController.executive = executives[indexPath.row]
-        navigationController?.pushViewController(executiveDetailViewController, animated: true)
+        presentAsStork(executiveDetailViewController)
+        //navigationController?.pushViewController(executiveDetailViewController, animated: true)
     }
 }
 
@@ -124,7 +125,8 @@ extension ExecutiveViewController: UICollectionViewDataSource, UICollectionViewD
             $0.organization == selectedOrg
         }))!
         tableView.reloadData()
-        
+        let topIndex = IndexPath(row: 0, section: 0)
+        tableView.scrollToRow(at: topIndex, at: .top, animated: true)
     }
     
 }

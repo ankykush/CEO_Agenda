@@ -233,19 +233,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="421" height="270"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RAJESH GOPINATHAN" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35V-ga-rVH">
-                                <rect key="frame" x="167" y="216" width="247" height="30"/>
+                                <rect key="frame" x="171" y="216" width="243" height="30"/>
                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PRK.png" translatesAutoresizingMaskIntoConstraints="NO" id="vrQ-8L-MIa">
-                                <rect key="frame" x="13" y="292" width="146" height="16"/>
+                                <rect key="frame" x="13" y="158" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="146" id="Wi2-G8-7Yc"/>
+                                    <constraint firstAttribute="height" constant="150" id="GYl-oG-urm"/>
+                                    <constraint firstAttribute="width" constant="150" id="Wi2-G8-7Yc"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHIEF EXECUTIVE" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqe-E0-gPU">
-                                <rect key="frame" x="162" y="244" width="247" height="21"/>
+                                <rect key="frame" x="166" y="244" width="243" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="FpY-a1-5Yt"/>
                                 </constraints>
@@ -253,7 +254,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D58-TU-MuG">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D58-TU-MuG">
                                 <rect key="frame" x="13" y="113" width="41" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Tx9-Fu-RIa"/>
@@ -311,6 +312,7 @@
                     </view>
                     <connections>
                         <outlet property="descriptionLbl" destination="qGj-vB-5tL" id="k3Y-VZ-dDb"/>
+                        <outlet property="descriptionView" destination="0zo-d3-xB1" id="Jwg-5D-Rh5"/>
                         <outlet property="imageView" destination="vrQ-8L-MIa" id="fTA-BG-WGe"/>
                         <outlet property="nameLbl" destination="35V-ga-rVH" id="s95-VR-1b1"/>
                         <outlet property="roleLbl" destination="wqe-E0-gPU" id="g5b-up-P65"/>
