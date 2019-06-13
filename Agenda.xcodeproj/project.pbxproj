@@ -71,6 +71,7 @@
 		47AEB07122B2533A005086A3 /* Itinerary Michael Brady.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB06D22B2533A005086A3 /* Itinerary Michael Brady.pdf */; };
 		47AEB07222B2533A005086A3 /* Itinerary Andrew Walker.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB06E22B2533A005086A3 /* Itinerary Andrew Walker.pdf */; };
 		47AEB07522B25383005086A3 /* Itinerary Paul Miller 2nd.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB07422B25383005086A3 /* Itinerary Paul Miller 2nd.pdf */; };
+		47AEB07722B29A71005086A3 /* Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB07622B29A71005086A3 /* Meenu.png */; };
 		47C5340022B20E2700E68C6F /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C533EC22B20E2700E68C6F /* Lato-HeavyItalic.ttf */; };
 		47C5340122B20E2700E68C6F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C533ED22B20E2700E68C6F /* Lato-Italic.ttf */; };
 		47C5340222B20E2700E68C6F /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C533EE22B20E2700E68C6F /* Lato-LightItalic.ttf */; };
@@ -161,6 +162,7 @@
 		47AEB06D22B2533A005086A3 /* Itinerary Michael Brady.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Itinerary Michael Brady.pdf"; sourceTree = "<group>"; };
 		47AEB06E22B2533A005086A3 /* Itinerary Andrew Walker.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Itinerary Andrew Walker.pdf"; sourceTree = "<group>"; };
 		47AEB07422B25383005086A3 /* Itinerary Paul Miller 2nd.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Itinerary Paul Miller 2nd.pdf"; sourceTree = "<group>"; };
+		47AEB07622B29A71005086A3 /* Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meenu.png; sourceTree = "<group>"; };
 		47C533EC22B20E2700E68C6F /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
 		47C533ED22B20E2700E68C6F /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
 		47C533EE22B20E2700E68C6F /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				204050C822AF9E3E00F9054D /* PRK.png */,
 				2040510B22B29B0400F9054D /* Meenu.png */,
 				204050C622AF9E3E00F9054D /* RakeshKumar.png */,
+				47AEB07622B29A71005086A3 /* Meenu.png */,
 				204050C922AF9E3E00F9054D /* Ram.png */,
 				204050CE22AFDE5100F9054D /* Kirthivasan.png */,
 			);
