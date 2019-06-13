@@ -69,15 +69,9 @@ class ScheduleViewController: UIViewController {
         //}
 //        tableView.setContentOffset(CGPoint(x: 0, y: 0 - scheduleTableView.contentInset.top), animated: false)
         if let logo = selectedDateSchedule?.logo {
-            if logo == "TATA" {
-                logoImage.image = UIImage(named: "\(logo)")
-                logoImage.isHidden = false
-                companyLbl.isHidden = true
-            } else {
-                companyLbl.text = logo
-                companyLbl.isHidden = false
-                logoImage.isHidden = true
-            }
+            companyLbl.text = logo
+            companyLbl.isHidden = false
+            logoImage.isHidden = true
         }
         
         tableView.reloadData()
