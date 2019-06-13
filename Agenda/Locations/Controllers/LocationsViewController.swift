@@ -12,6 +12,7 @@ import UPCarouselFlowLayout
 class LocationsViewController: UIViewController {
     //MARK: Properties
     
+    @IBOutlet weak var segment: UISegmentedControl!
     @IBOutlet weak var collectionView: UICollectionView!
     
     let locationImages = ["Chennai", "Pune", "Hyderabad"]
@@ -31,7 +32,12 @@ class LocationsViewController: UIViewController {
         super.viewWillAppear(animated)
         hideNavigationBar()
     }
+    
+    @IBAction func segmentValueChanged(_ sender: Any) {
+        collectionView.reloadData()
+    }
 }
+
 
 //MARK: iCarouselDataSource Methods
 extension LocationsViewController: UICollectionViewDataSource, UICollectionViewDelegate {
@@ -40,21 +46,35 @@ extension LocationsViewController: UICollectionViewDataSource, UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return locationImages.count
+        if segment.selectedSegmentIndex == 0 {
+            return locationImages.count
+        } else {
+            return aboutUsImages.count
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCollectionViewCell.identifier, for: indexPath) as? CarouselCollectionViewCell else {
             return UICollectionViewCell()
         }
-        cell.configureUI(locationImages[indexPath.row])
+        if segment.selectedSegmentIndex == 0 {
+            cell.configureUI(locationImages[indexPath.row])
+        } else {
+            cell.configureUI(aboutUsImages[indexPath.row])
+        }
+        
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let locationDetailsVC = storyboard!.instantiateViewController(withIdentifier: "LocationDetailViewController") as? LocationDetailViewController
         if let locationDetailsVC = locationDetailsVC {
-            locationDetailsVC.pdfname = locationImages[indexPath.row]
+            if segment.selectedSegmentIndex == 0 {
+                locationDetailsVC.pdfname = locationImages[indexPath.row]
+            } else {
+                locationDetailsVC.pdfname = aboutUsImages[indexPath.row]
+            }
+            locationDetailsVC.selectedIndex = segment.selectedSegmentIndex
             navigationController?.pushViewController(locationDetailsVC, animated: true)
         }
     }

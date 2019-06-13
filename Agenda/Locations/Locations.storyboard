@@ -35,6 +35,9 @@
                                             <segment title="About Us"/>
                                         </segments>
                                         <color key="tintColor" red="0.88189756460000002" green="0.89567483709999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="segmentValueChanged:" destination="3ry-Fs-q9f" eventType="valueChanged" id="PLu-Rx-rUg"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -125,6 +128,7 @@
                     <navigationItem key="navigationItem" id="KVA-Bf-Dk0"/>
                     <connections>
                         <outlet property="collectionView" destination="8wh-te-cNF" id="DAB-gk-OsS"/>
+                        <outlet property="segment" destination="P44-dU-iQ2" id="hSQ-xc-QMg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QfQ-ZK-bdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
