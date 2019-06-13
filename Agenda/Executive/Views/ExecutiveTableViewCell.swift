@@ -21,7 +21,7 @@ class ExecutiveTableViewCell: UITableViewCell {
     }
     
     private func configureUI() {
-        containerView.addShadow()
+        //containerView.addShadow()
     }
     
     func populate(executive: ExecutiveElement) {
