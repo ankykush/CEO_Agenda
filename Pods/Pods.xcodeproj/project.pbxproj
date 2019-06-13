@@ -19,56 +19,99 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		08722B16ABC59A5E381D01FA766054AC /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F6FFE7D1A9856A36DF8AC71D118C4 /* UPCarouselFlowLayout.swift */; };
-		34071D1E7C68796EAF3C1D8DCF84191C /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72363119D07445CB8D5ED862594B9C99 /* UPCarouselFlowLayout-dummy.m */; };
-		343B8DE3D7716411178EF16816E72F7C /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE92942DA00D36EDFB63CF56EF9617D6 /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A654176DE8063C039786A5CF7925EC8A /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A2F2B66C5EB5957BC4670A713AFE39 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBB5AC2203450D07CA0CB46DEF45BC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D2788B44BB87B5C104C8B91F82D6E877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E24AEE159AEC34E80B0DC5AFA0D82AAA /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
-		F740883176DEDEAD83AE3DC066A1738D /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08722B16ABC59A5E381D01FA766054AC /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA9156EF33926439BFB48FA52D65EC /* UPCarouselFlowLayout.swift */; };
+		0CED47CA40D9A003E7193610674AC565 /* SPStorkViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ED16C7D1FE39B237BE485BD8211F96 /* SPStorkViewControllerExtenshion.swift */; };
+		27EC3BFB735230A02F10A3E7A9661E62 /* SPStorkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62120DC5A17C78FCE4A4E529A685902B /* SPStorkTransitioningDelegate.swift */; };
+		2BBB79080B91ADF4320A83548BA3AED8 /* SPStorkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A07F55803686656816467F854789B /* SPStorkDismissingAnimationController.swift */; };
+		34071D1E7C68796EAF3C1D8DCF84191C /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D986C023619FA35178E478A599622 /* UPCarouselFlowLayout-dummy.m */; };
+		343B8DE3D7716411178EF16816E72F7C /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1547793E0D11447EC22F842A96CDE4B8 /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C873051753487880557B026A62F001 /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C28A0E25F73FB7152EB8BCCF4DE75A3 /* SPStorkController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEC3B6B1D6662CE2975DC6155455CEF /* SPStorkController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51861A611A4307F4F0666167E376C5F7 /* SPStorkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81CB1B1523923074C0A8325E92BF5EC /* SPStorkPresentationController.swift */; };
+		55CF8DCB5143C30B939EF428DAAAAE7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		62F9CB198F25F37328DAD61544FB0F60 /* SPStorkCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FEDA76EB3AE48745B22D275B34CD4 /* SPStorkCloseView.swift */; };
+		6D0A484DDA327797966D44B35F7007A0 /* SPStorkController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8584EE12D008C6114EBB514DE840FD19 /* SPStorkController-dummy.m */; };
+		6DF9C9C28800362B25DB317A2AD21F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8304D48F4AE670C7DFB0BB333DC1FEE3 /* SPStorkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5910E8EB61FEBB2BB6E0662E45185E8 /* SPStorkPresentingAnimationController.swift */; };
+		84EFAA37ACA6F4F86F723A26C4348DD9 /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
+		93251E6E2AD574056EFEFB9A118F6406 /* SPStorkHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD2E76E19BE5582B1257BC84356943 /* SPStorkHaptic.swift */; };
+		A654176DE8063C039786A5CF7925EC8A /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC554433F7AA33537BE7EA029E4F8D4 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA370F72EC0BC58A1CD9C6C7E8EAA40D /* SPStorkIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B60C6A6F3871FA49DFCD71EF2A526B9 /* SPStorkIndicatorView.swift */; };
+		BF213AC4D112C237309468B1FCFE882B /* SPStorkCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596611589F9D9412ABC1B86D813A2BA3 /* SPStorkCodeDraw.swift */; };
+		CBB5AC2203450D07CA0CB46DEF45BC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		CCEEC309974A81C2B12C810F714D3C45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		DF58407DE405C8C478389C85AF0B7880 /* SPStorkCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE69583D8C5D54D73F35E7344483F15 /* SPStorkCloseButton.swift */; };
+		ED7080BD3502920ECA4388BC406BED6E /* SPStorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B885C7C076227F77D88B8FC3D3217D /* SPStorkController.swift */; };
+		F804B2CC32D29B1DFAF5DBACC6104439 /* SPStorkControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D673E2DC7FE60694DD606CFCF1765F /* SPStorkControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B612E35DBB08E1906E3C7EA2A39DED8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E17C38B9D32C429A1EC461038461FF9;
-			remoteInfo = UPCarouselFlowLayout;
-		};
-		716426C050E25B6B74909EF0F7E72398 /* PBXContainerItemProxy */ = {
+		307D043566F35D992A5FC57FECA2F044 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
 			remoteInfo = SwiftLint;
 		};
+		697733C9D7A998C033D04FD1D8B5AC3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E17C38B9D32C429A1EC461038461FF9;
+			remoteInfo = UPCarouselFlowLayout;
+		};
+		C6E1818CA47E60F33850EC851ADD0EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E95886B4E31CDABBDB7AF092755E05;
+			remoteInfo = SPStorkController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		180484AD562BD621723D3B183723669D /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
+		0193BB6684A2C47BD7485CBB90771842 /* SPStorkController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-prefix.pch"; sourceTree = "<group>"; };
+		0ECD2E76E19BE5582B1257BC84356943 /* SPStorkHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkHaptic.swift; path = Source/SPStorkController/Models/SPStorkHaptic.swift; sourceTree = "<group>"; };
+		1547793E0D11447EC22F842A96CDE4B8 /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
 		182E54198D5688248B025B0F75B68491 /* Pods-Agenda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Agenda-acknowledgements.markdown"; sourceTree = "<group>"; };
+		188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPStorkController.xcconfig; sourceTree = "<group>"; };
 		1A7D09AAC3C2AC75401F3DFA9A01CD2F /* Pods-Agenda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Agenda.modulemap"; sourceTree = "<group>"; };
+		1B60C6A6F3871FA49DFCD71EF2A526B9 /* SPStorkIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkIndicatorView.swift; path = Source/SPStorkController/Views/SPStorkIndicatorView.swift; sourceTree = "<group>"; };
 		23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Agenda-umbrella.h"; sourceTree = "<group>"; };
-		26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		52B9A13675B711067E8C2CB66F533B02 /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3781764931A63EBD49AA370FEACB2B9F /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DC554433F7AA33537BE7EA029E4F8D4 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
 		560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
-		72363119D07445CB8D5ED862594B9C99 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		596611589F9D9412ABC1B86D813A2BA3 /* SPStorkCodeDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCodeDraw.swift; path = Source/SPStorkController/CodeDraw/SPStorkCodeDraw.swift; sourceTree = "<group>"; };
+		5CEC3B6B1D6662CE2975DC6155455CEF /* SPStorkController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-umbrella.h"; sourceTree = "<group>"; };
+		62120DC5A17C78FCE4A4E529A685902B /* SPStorkTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkTransitioningDelegate.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkTransitioningDelegate.swift; sourceTree = "<group>"; };
 		7348A23717905CB8D56C39A7770ED4FB /* Pods-Agenda-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-Info.plist"; sourceTree = "<group>"; };
-		7B1F6FFE7D1A9856A36DF8AC71D118C4 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		7B4D986C023619FA35178E478A599622 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
 		8040D4703E823514FFD2880BA45082F2 /* Pods-Agenda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-acknowledgements.plist"; sourceTree = "<group>"; };
-		89B3A75A91F4EA8996F425C09458A090 /* UPCarouselFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPCarouselFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		825FEDA76EB3AE48745B22D275B34CD4 /* SPStorkCloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseView.swift; path = Source/SPStorkController/Views/SPStorkCloseView.swift; sourceTree = "<group>"; };
+		83ED16C7D1FE39B237BE485BD8211F96 /* SPStorkViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkViewControllerExtenshion.swift; path = Source/SPStorkController/Extenshion/SPStorkViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		8584EE12D008C6114EBB514DE840FD19 /* SPStorkController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPStorkController-dummy.m"; sourceTree = "<group>"; };
+		8BBA9156EF33926439BFB48FA52D65EC /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
+		91BFB116962B225F1777765024EB87CF /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		938A07F55803686656816467F854789B /* SPStorkDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkDismissingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkDismissingAnimationController.swift; sourceTree = "<group>"; };
 		96E8528227A5D75C287BC89824DB8C51 /* Pods-Agenda-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Agenda-frameworks.sh"; sourceTree = "<group>"; };
-		98A2F2B66C5EB5957BC4670A713AFE39 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
+		99D673E2DC7FE60694DD606CFCF1765F /* SPStorkControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkControllerDelegate.swift; path = Source/SPStorkController/Protocols/SPStorkControllerDelegate.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC4EA1E774659116C33495E84F21DB9D /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
+		A081C8D108EEA84BACAEC5131E720F1B /* UPCarouselFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPCarouselFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		A443639B272FF6FC9F1009F2A4E87991 /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
+		AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		B4A39E62EE9EB740A96AAE681A5A188B /* SPStorkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPStorkController.framework; path = SPStorkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE69583D8C5D54D73F35E7344483F15 /* SPStorkCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseButton.swift; path = Source/SPStorkController/Views/SPStorkCloseButton.swift; sourceTree = "<group>"; };
+		C81CB1B1523923074C0A8325E92BF5EC /* SPStorkPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentationController.swift; sourceTree = "<group>"; };
+		D0B885C7C076227F77D88B8FC3D3217D /* SPStorkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkController.swift; path = Source/SPStorkController/SPStorkController.swift; sourceTree = "<group>"; };
+		D46D0C725F172EB0AB9CD8E9913A63EE /* SPStorkController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPStorkController-Info.plist"; sourceTree = "<group>"; };
+		D5910E8EB61FEBB2BB6E0662E45185E8 /* SPStorkPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentingAnimationController.swift; sourceTree = "<group>"; };
+		D8255355AFE544F5B601394235A4346C /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Agenda-dummy.m"; sourceTree = "<group>"; };
-		DCD53B8E3A2D0F3EA8A7DCE607DF1E1D /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE92942DA00D36EDFB63CF56EF9617D6 /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		F5BA800B732556AE5AD8DEDC98B0548D /* SPStorkController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPStorkController.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,24 +123,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		513C077ED37FAAAC39D8B38D23350534 /* Frameworks */ = {
+		8C2CF82D3F5CE685CA121591CBB490AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2788B44BB87B5C104C8B91F82D6E877 /* Foundation.framework in Frameworks */,
+				6DF9C9C28800362B25DB317A2AD21F4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C2BA805573C76F0F9CE4642D71D863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF8DCB5143C30B939EF428DAAAAE7B /* Foundation.framework in Frameworks */,
+				CCEEC309974A81C2B12C810F714D3C45 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1322C28E34936A12200A10C1BFAE0B8A /* Pods */ = {
+		0F5BCD01CB79E20D14D19CB76E4A8361 /* UPCarouselFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				85FA6534C3368E77E2DF1D4F1EEA7C58 /* SwiftLint */,
-				67FEF07489F3FD2A432F84B78CF620F2 /* UPCarouselFlowLayout */,
+				4DC554433F7AA33537BE7EA029E4F8D4 /* UPCarouselFlowLayout.h */,
+				8BBA9156EF33926439BFB48FA52D65EC /* UPCarouselFlowLayout.swift */,
+				D481750BE44D75C9D7C4C49ED87E5A12 /* Support Files */,
 			);
-			name = Pods;
+			name = UPCarouselFlowLayout;
+			path = UPCarouselFlowLayout;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28B229DF6F7C6060044153BBC722AF12 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				89F6066B369FBDE34AB2F9B1E61DFAE8 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */ = {
@@ -108,64 +179,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39A901696FF2CFF8E351C63D5DD17683 /* Support Files */ = {
+		491499FAA84DEE63E110E2BC4BEF7F51 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */,
+				AF8E016BEA3796198DD376DC7A2D6981 /* SPStorkController */,
+				28B229DF6F7C6060044153BBC722AF12 /* SwiftLint */,
+				0F5BCD01CB79E20D14D19CB76E4A8361 /* UPCarouselFlowLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E93374A2EA06261C908FD07588A5D73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5BA800B732556AE5AD8DEDC98B0548D /* SPStorkController.modulemap */,
+				188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */,
+				8584EE12D008C6114EBB514DE840FD19 /* SPStorkController-dummy.m */,
+				D46D0C725F172EB0AB9CD8E9913A63EE /* SPStorkController-Info.plist */,
+				0193BB6684A2C47BD7485CBB90771842 /* SPStorkController-prefix.pch */,
+				5CEC3B6B1D6662CE2975DC6155455CEF /* SPStorkController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPStorkController";
+			sourceTree = "<group>";
+		};
+		89F6066B369FBDE34AB2F9B1E61DFAE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
-		570216D90104AED294340DA22AA758F0 /* Products */ = {
+		AF8E016BEA3796198DD376DC7A2D6981 /* SPStorkController */ = {
 			isa = PBXGroup;
 			children = (
-				DCD53B8E3A2D0F3EA8A7DCE607DF1E1D /* Pods_Agenda.framework */,
-				AC4EA1E774659116C33495E84F21DB9D /* UPCarouselFlowLayout.framework */,
+				BBE69583D8C5D54D73F35E7344483F15 /* SPStorkCloseButton.swift */,
+				825FEDA76EB3AE48745B22D275B34CD4 /* SPStorkCloseView.swift */,
+				596611589F9D9412ABC1B86D813A2BA3 /* SPStorkCodeDraw.swift */,
+				D0B885C7C076227F77D88B8FC3D3217D /* SPStorkController.swift */,
+				99D673E2DC7FE60694DD606CFCF1765F /* SPStorkControllerDelegate.swift */,
+				938A07F55803686656816467F854789B /* SPStorkDismissingAnimationController.swift */,
+				0ECD2E76E19BE5582B1257BC84356943 /* SPStorkHaptic.swift */,
+				1B60C6A6F3871FA49DFCD71EF2A526B9 /* SPStorkIndicatorView.swift */,
+				C81CB1B1523923074C0A8325E92BF5EC /* SPStorkPresentationController.swift */,
+				D5910E8EB61FEBB2BB6E0662E45185E8 /* SPStorkPresentingAnimationController.swift */,
+				62120DC5A17C78FCE4A4E529A685902B /* SPStorkTransitioningDelegate.swift */,
+				83ED16C7D1FE39B237BE485BD8211F96 /* SPStorkViewControllerExtenshion.swift */,
+				4E93374A2EA06261C908FD07588A5D73 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		67FEF07489F3FD2A432F84B78CF620F2 /* UPCarouselFlowLayout */ = {
-			isa = PBXGroup;
-			children = (
-				98A2F2B66C5EB5957BC4670A713AFE39 /* UPCarouselFlowLayout.h */,
-				7B1F6FFE7D1A9856A36DF8AC71D118C4 /* UPCarouselFlowLayout.swift */,
-				A09DE7DA97CF428324E8BE91981C17F0 /* Support Files */,
-			);
-			name = UPCarouselFlowLayout;
-			path = UPCarouselFlowLayout;
-			sourceTree = "<group>";
-		};
-		85FA6534C3368E77E2DF1D4F1EEA7C58 /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				39A901696FF2CFF8E351C63D5DD17683 /* Support Files */,
-			);
-			name = SwiftLint;
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
-		A09DE7DA97CF428324E8BE91981C17F0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				180484AD562BD621723D3B183723669D /* UPCarouselFlowLayout.modulemap */,
-				BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */,
-				72363119D07445CB8D5ED862594B9C99 /* UPCarouselFlowLayout-dummy.m */,
-				89B3A75A91F4EA8996F425C09458A090 /* UPCarouselFlowLayout-Info.plist */,
-				52B9A13675B711067E8C2CB66F533B02 /* UPCarouselFlowLayout-prefix.pch */,
-				EE92942DA00D36EDFB63CF56EF9617D6 /* UPCarouselFlowLayout-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UPCarouselFlowLayout";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = SPStorkController;
+			path = SPStorkController;
 			sourceTree = "<group>";
 		};
 		C934CECD522672598B6B40A3AC57D281 /* Pods-Agenda */ = {
@@ -189,29 +254,54 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1322C28E34936A12200A10C1BFAE0B8A /* Pods */,
-				570216D90104AED294340DA22AA758F0 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				491499FAA84DEE63E110E2BC4BEF7F51 /* Pods */,
+				EE7D7AEB98DE59100386C2E8586E7CF6 /* Products */,
 				3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D481750BE44D75C9D7C4C49ED87E5A12 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				A443639B272FF6FC9F1009F2A4E87991 /* UPCarouselFlowLayout.modulemap */,
+				392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */,
+				7B4D986C023619FA35178E478A599622 /* UPCarouselFlowLayout-dummy.m */,
+				A081C8D108EEA84BACAEC5131E720F1B /* UPCarouselFlowLayout-Info.plist */,
+				91BFB116962B225F1777765024EB87CF /* UPCarouselFlowLayout-prefix.pch */,
+				1547793E0D11447EC22F842A96CDE4B8 /* UPCarouselFlowLayout-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/UPCarouselFlowLayout";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE7D7AEB98DE59100386C2E8586E7CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3781764931A63EBD49AA370FEACB2B9F /* Pods_Agenda.framework */,
+				B4A39E62EE9EB740A96AAE681A5A188B /* SPStorkController.framework */,
+				D8255355AFE544F5B601394235A4346C /* UPCarouselFlowLayout.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0528512019B110687830823B86CBF49B /* Headers */ = {
+		A4632988A573B499E89755FD5F7F2784 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F740883176DEDEAD83AE3DC066A1738D /* Pods-Agenda-umbrella.h in Headers */,
+				36C873051753487880557B026A62F001 /* Pods-Agenda-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,27 +314,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5A5EE1AA4B621927A0A3B9AEE729AD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C28A0E25F73FB7152EB8BCCF4DE75A3 /* SPStorkController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CF0183DCE64BC9214B89A816B8339CD /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
+			buildConfigurationList = B2DD9DA792FAE5541A6EAA6AF6197B54 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
 			buildPhases = (
-				0528512019B110687830823B86CBF49B /* Headers */,
-				EE176762DC65F52B84BD1B3A814B8482 /* Sources */,
-				513C077ED37FAAAC39D8B38D23350534 /* Frameworks */,
-				C72345E996B717F1D7C03472E3F20CE4 /* Resources */,
+				A4632988A573B499E89755FD5F7F2784 /* Headers */,
+				6D84A25C4534F2D2B342E634949B1600 /* Sources */,
+				8C2CF82D3F5CE685CA121591CBB490AE /* Frameworks */,
+				CC806EB1944CDD7698A4FFBF0B5DDDAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A78482DEDCD0F318E189BDCD13CD15A /* PBXTargetDependency */,
-				3914136D7ED50ACA7C005539A812C40A /* PBXTargetDependency */,
+				BD93FA12CF9942FD54D735639779AE2B /* PBXTargetDependency */,
+				191EE7A758779ACD78F68DF3897DDB74 /* PBXTargetDependency */,
+				054D19C962B72C4D33447A7938DE9B22 /* PBXTargetDependency */,
 			);
 			name = "Pods-Agenda";
 			productName = "Pods-Agenda";
-			productReference = DCD53B8E3A2D0F3EA8A7DCE607DF1E1D /* Pods_Agenda.framework */;
+			productReference = 3781764931A63EBD49AA370FEACB2B9F /* Pods_Agenda.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */ = {
@@ -262,7 +361,25 @@
 			);
 			name = UPCarouselFlowLayout;
 			productName = UPCarouselFlowLayout;
-			productReference = AC4EA1E774659116C33495E84F21DB9D /* UPCarouselFlowLayout.framework */;
+			productReference = D8255355AFE544F5B601394235A4346C /* UPCarouselFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEDC3D7D50A8480FCE72AF6B0E6CB7A /* Build configuration list for PBXNativeTarget "SPStorkController" */;
+			buildPhases = (
+				D5A5EE1AA4B621927A0A3B9AEE729AD7 /* Headers */,
+				F552C125BDAE8A4B88563299269E42F5 /* Sources */,
+				C5C2BA805573C76F0F9CE4642D71D863 /* Frameworks */,
+				09FC11F36CFF2F7E8F4C8BB9460E2716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPStorkController;
+			productName = SPStorkController;
+			productReference = B4A39E62EE9EB740A96AAE681A5A188B /* SPStorkController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,11 +399,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 570216D90104AED294340DA22AA758F0 /* Products */;
+			productRefGroup = EE7D7AEB98DE59100386C2E8586E7CF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */,
+				81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 				5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */,
 			);
@@ -294,6 +412,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		09FC11F36CFF2F7E8F4C8BB9460E2716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3A437DFE042A5466BF5683EB5127E30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,7 +426,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C72345E996B717F1D7C03472E3F20CE4 /* Resources */ = {
+		CC806EB1944CDD7698A4FFBF0B5DDDAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,11 +436,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE176762DC65F52B84BD1B3A814B8482 /* Sources */ = {
+		6D84A25C4534F2D2B342E634949B1600 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E24AEE159AEC34E80B0DC5AFA0D82AAA /* Pods-Agenda-dummy.m in Sources */,
+				84EFAA37ACA6F4F86F723A26C4348DD9 /* Pods-Agenda-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552C125BDAE8A4B88563299269E42F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF58407DE405C8C478389C85AF0B7880 /* SPStorkCloseButton.swift in Sources */,
+				62F9CB198F25F37328DAD61544FB0F60 /* SPStorkCloseView.swift in Sources */,
+				BF213AC4D112C237309468B1FCFE882B /* SPStorkCodeDraw.swift in Sources */,
+				6D0A484DDA327797966D44B35F7007A0 /* SPStorkController-dummy.m in Sources */,
+				ED7080BD3502920ECA4388BC406BED6E /* SPStorkController.swift in Sources */,
+				F804B2CC32D29B1DFAF5DBACC6104439 /* SPStorkControllerDelegate.swift in Sources */,
+				2BBB79080B91ADF4320A83548BA3AED8 /* SPStorkDismissingAnimationController.swift in Sources */,
+				93251E6E2AD574056EFEFB9A118F6406 /* SPStorkHaptic.swift in Sources */,
+				BA370F72EC0BC58A1CD9C6C7E8EAA40D /* SPStorkIndicatorView.swift in Sources */,
+				51861A611A4307F4F0666167E376C5F7 /* SPStorkPresentationController.swift in Sources */,
+				8304D48F4AE670C7DFB0BB333DC1FEE3 /* SPStorkPresentingAnimationController.swift in Sources */,
+				27EC3BFB735230A02F10A3E7A9661E62 /* SPStorkTransitioningDelegate.swift in Sources */,
+				0CED47CA40D9A003E7193610674AC565 /* SPStorkViewControllerExtenshion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,59 +476,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A78482DEDCD0F318E189BDCD13CD15A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 716426C050E25B6B74909EF0F7E72398 /* PBXContainerItemProxy */;
-		};
-		3914136D7ED50ACA7C005539A812C40A /* PBXTargetDependency */ = {
+		054D19C962B72C4D33447A7938DE9B22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UPCarouselFlowLayout;
 			target = 5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */;
-			targetProxy = 0B612E35DBB08E1906E3C7EA2A39DED8 /* PBXContainerItemProxy */;
+			targetProxy = 697733C9D7A998C033D04FD1D8B5AC3A /* PBXContainerItemProxy */;
+		};
+		191EE7A758779ACD78F68DF3897DDB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 307D043566F35D992A5FC57FECA2F044 /* PBXContainerItemProxy */;
+		};
+		BD93FA12CF9942FD54D735639779AE2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPStorkController;
+			target = 81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */;
+			targetProxy = C6E1818CA47E60F33850EC851ADD0EDE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		17EB2CF59611FA61910018169E19414C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -444,48 +557,9 @@
 			};
 			name = Release;
 		};
-		44BD22D9179CA593BF9A6B3735928AB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		492B9A41EC040F1E8F1ECF27DD6320F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */;
+			baseConfigurationReference = 392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -519,9 +593,46 @@
 			};
 			name = Release;
 		};
+		4F3CB9F47FB7FDB9CE9FC0599D1DF5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/SPStorkController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		68522914872323EA5EBE8FDA1F773F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB94D3122A1747A17D6FB88FBA0BA57C /* UPCarouselFlowLayout.xcconfig */;
+			baseConfigurationReference = 392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -556,7 +667,7 @@
 		};
 		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */;
+			baseConfigurationReference = AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -570,6 +681,80 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		B0C4FB0661F7C51051C342326E3523C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C26A4E08E1EB0CED83528B00A30F2028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/SPStorkController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -637,7 +822,7 @@
 		};
 		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26FDCF91FC2517AE647E4AFD827D086B /* SwiftLint.xcconfig */;
+			baseConfigurationReference = AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -651,23 +836,62 @@
 			};
 			name = Debug;
 		};
+		EA1321160EC4DFD942DF7FEA9E1D2D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CF0183DCE64BC9214B89A816B8339CD /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				17EB2CF59611FA61910018169E19414C /* Debug */,
-				44BD22D9179CA593BF9A6B3735928AB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
 				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEDC3D7D50A8480FCE72AF6B0E6CB7A /* Build configuration list for PBXNativeTarget "SPStorkController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26A4E08E1EB0CED83528B00A30F2028 /* Debug */,
+				4F3CB9F47FB7FDB9CE9FC0599D1DF5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -686,6 +910,15 @@
 			buildConfigurations = (
 				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
 				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DD9DA792FAE5541A6EAA6AF6197B54 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C4FB0661F7C51051C342326E3523C4 /* Debug */,
+				EA1321160EC4DFD942DF7FEA9E1D2D92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

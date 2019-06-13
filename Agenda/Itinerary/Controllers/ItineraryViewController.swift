@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SPStorkController
+
 struct ExecutiveItinerary {
     var imageName: String
     var executiveName: String
@@ -30,17 +32,19 @@ class ItineraryViewController: UIViewController {
     }
     
     func initializeModels() {
-        let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", pdfName: "Itinerary_BRADY_MICHAEL")
-        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", pdfName: "Itinerary_WALKER_ANDREW")
-        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary_MILLER_PAUL")
-        let executive4 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary_MILLER_PAUL_2")
+        let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", pdfName: "Itinerary Michael Brady")
+        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", pdfName: "Itinerary Andrew Walker")
+        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller")
+        let executive4 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller 2nd")
         
         itineraries = [executive1, executive2, executive3, executive4]
     }
 
     @IBAction func contactsAction(_ sender: Any) {
         if let contactsVC = UIStoryboard(name: "Contacts", bundle: nil).instantiateViewController(withIdentifier: "ContactsViewController") as? ContactsViewController {
-            navigationController?.pushViewController(contactsVC, animated: true)
+            presentAsStork(contactsVC)
+
+            //navigationController?.pushViewController(contactsVC, animated: true)
         }
     }
 
@@ -75,7 +79,8 @@ extension ItineraryViewController: UITableViewDelegate {
         let infoDetailsVC = UIStoryboard(name: "Info", bundle: nil).instantiateViewController(withIdentifier: "InfoDetailViewController") as? InfoDetailViewController
         if let infoDetailsVC = infoDetailsVC {
             infoDetailsVC.pdfName = itineraries[indexPath.row].pdfName
-            navigationController?.pushViewController(infoDetailsVC, animated: true)
+            presentAsStork(infoDetailsVC)
+            //navigationController?.pushViewController(infoDetailsVC, animated: true)
         }
     }
 }
