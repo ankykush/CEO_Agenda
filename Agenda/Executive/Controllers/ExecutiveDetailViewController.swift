@@ -33,7 +33,7 @@ class ExecutiveDetailViewController: UIViewController {
         nameLbl.text = executive.name
         roleLbl.text = executive.designation
         descriptionLbl.text = executive.desc
-        descriptionView.layer.cornerRadius = 5.0
+        descriptionView.layer.cornerRadius = 10.0
         imageView.layer.cornerRadius = 5.0
     }
     
