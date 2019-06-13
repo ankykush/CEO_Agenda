@@ -10,8 +10,8 @@
 		2031F254229F980500BE68A4 /* ModelsNConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F253229F980500BE68A4 /* ModelsNConnection.swift */; };
 		2031F256229F989D00BE68A4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F255229F989D00BE68A4 /* CollectionViewCell.swift */; };
 		2031F262229FC0AD00BE68A4 /* CollectionViewCellSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */; };
-		204050B022AE34B700F9054D /* TCS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050AE22AE34B700F9054D /* TCS.pdf */; };
-		204050B122AE34B700F9054D /* TATA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050AF22AE34B700F9054D /* TATA.pdf */; };
+		204050B022AE34B700F9054D /* aboutTCS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050AE22AE34B700F9054D /* aboutTCS.pdf */; };
+		204050B122AE34B700F9054D /* aboutTATA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050AF22AE34B700F9054D /* aboutTATA.pdf */; };
 		204050B522AED88E00F9054D /* Hyderabad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B222AED88E00F9054D /* Hyderabad.pdf */; };
 		204050B622AED88E00F9054D /* Chennai.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B322AED88E00F9054D /* Chennai.pdf */; };
 		204050B722AED88E00F9054D /* Pune.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 204050B422AED88E00F9054D /* Pune.pdf */; };
@@ -92,8 +92,8 @@
 		2031F253229F980500BE68A4 /* ModelsNConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsNConnection.swift; sourceTree = "<group>"; };
 		2031F255229F989D00BE68A4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		2031F261229FC0AD00BE68A4 /* CollectionViewCellSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellSelected.swift; sourceTree = "<group>"; };
-		204050AE22AE34B700F9054D /* TCS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TCS.pdf; sourceTree = "<group>"; };
-		204050AF22AE34B700F9054D /* TATA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TATA.pdf; sourceTree = "<group>"; };
+		204050AE22AE34B700F9054D /* aboutTCS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aboutTCS.pdf; sourceTree = "<group>"; };
+		204050AF22AE34B700F9054D /* aboutTATA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aboutTATA.pdf; sourceTree = "<group>"; };
 		204050B222AED88E00F9054D /* Hyderabad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hyderabad.pdf; sourceTree = "<group>"; };
 		204050B322AED88E00F9054D /* Chennai.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chennai.pdf; sourceTree = "<group>"; };
 		204050B422AED88E00F9054D /* Pune.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pune.pdf; sourceTree = "<group>"; };
@@ -336,8 +336,6 @@
 		47051D2422A0A3F200D9FACF /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				204050AF22AE34B700F9054D /* TATA.pdf */,
-				204050AE22AE34B700F9054D /* TCS.pdf */,
 				4744F20522AD86FA002F99D7 /* Controllers */,
 				4744F20722AD86FA002F99D7 /* Models */,
 				4744F20822AD86FA002F99D7 /* Views */,
@@ -474,6 +472,8 @@
 				204050B322AED88E00F9054D /* Chennai.pdf */,
 				204050B222AED88E00F9054D /* Hyderabad.pdf */,
 				204050B422AED88E00F9054D /* Pune.pdf */,
+				204050AF22AE34B700F9054D /* aboutTATA.pdf */,
+				204050AE22AE34B700F9054D /* aboutTCS.pdf */,
 				47051CFE229E38C800D9FACF /* Controllers */,
 				47051D01229E38C800D9FACF /* Models */,
 				47051D02229E38C800D9FACF /* Views */,
@@ -619,10 +619,10 @@
 				204050B622AED88E00F9054D /* Chennai.pdf in Resources */,
 				204050B722AED88E00F9054D /* Pune.pdf in Resources */,
 				47C5341122B20E2700E68C6F /* Lato-Light.ttf in Resources */,
-				204050B122AE34B700F9054D /* TATA.pdf in Resources */,
+				204050B122AE34B700F9054D /* aboutTATA.pdf in Resources */,
 				47C5340522B20E2700E68C6F /* Lato-Black.ttf in Resources */,
 				204050CF22AFDE5100F9054D /* Kirthivasan.png in Resources */,
-				204050B022AE34B700F9054D /* TCS.pdf in Resources */,
+				204050B022AE34B700F9054D /* aboutTCS.pdf in Resources */,
 				47C5340122B20E2700E68C6F /* Lato-Italic.ttf in Resources */,
 				47051D2822A0A43F00D9FACF /* Info.storyboard in Resources */,
 				204050DC22B17C7000F9054D /* UshaSrikanth.png in Resources */,

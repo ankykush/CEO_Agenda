@@ -12,6 +12,7 @@ import PDFKit
 class LocationDetailViewController: UIViewController {
 
     var pdfname: String?
+    var selectedIndex: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +33,12 @@ class LocationDetailViewController: UIViewController {
         
         if let document = PDFDocument(url: path) {
             pdfView.document = document
-            pdfView.scaleFactor = 0.85
+            if selectedIndex == 0 {
+                pdfView.scaleFactor = 0.85
+            } else {
+                pdfView.scaleFactor = 1.5
+            }
+            
         }
     }
     
