@@ -13,6 +13,7 @@ struct ExecutiveItinerary {
     var imageName: String
     var executiveName: String
     var pdfName: String
+    var bookingID: String
 }
 
 class ItineraryViewController: UIViewController {
@@ -32,10 +33,10 @@ class ItineraryViewController: UIViewController {
     }
     
     func initializeModels() {
-        let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", pdfName: "Itinerary Michael Brady")
-        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", pdfName: "Itinerary Andrew Walker")
-        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller")
-        let executive4 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller 2nd")
+        let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", pdfName: "Itinerary Michael Brady", bookingID: "#NDRSEZ")
+        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", pdfName: "Itinerary Andrew Walker", bookingID: "#NBHMHR")
+        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller", bookingID: "#NCDLNW")
+        let executive4 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller 2nd", bookingID: "#YKSOHF")
         
         itineraries = [executive1, executive2, executive3, executive4]
     }
@@ -79,6 +80,7 @@ extension ItineraryViewController: UITableViewDelegate {
         let infoDetailsVC = UIStoryboard(name: "Info", bundle: nil).instantiateViewController(withIdentifier: "InfoDetailViewController") as? InfoDetailViewController
         if let infoDetailsVC = infoDetailsVC {
             infoDetailsVC.pdfName = itineraries[indexPath.row].pdfName
+            infoDetailsVC.bookingID = itineraries[indexPath.row].bookingID
             presentAsStork(infoDetailsVC)
             //navigationController?.pushViewController(infoDetailsVC, animated: true)
         }

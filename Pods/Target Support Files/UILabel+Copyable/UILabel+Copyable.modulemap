@@ -1,0 +1,6 @@
+framework module UILabel_Copyable {
+  umbrella header "UILabel+Copyable-umbrella.h"
+
+  export *
+  module * { export * }
+}

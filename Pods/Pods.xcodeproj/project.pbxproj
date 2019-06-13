@@ -19,99 +19,120 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		08722B16ABC59A5E381D01FA766054AC /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA9156EF33926439BFB48FA52D65EC /* UPCarouselFlowLayout.swift */; };
-		0CED47CA40D9A003E7193610674AC565 /* SPStorkViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ED16C7D1FE39B237BE485BD8211F96 /* SPStorkViewControllerExtenshion.swift */; };
-		27EC3BFB735230A02F10A3E7A9661E62 /* SPStorkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62120DC5A17C78FCE4A4E529A685902B /* SPStorkTransitioningDelegate.swift */; };
-		2BBB79080B91ADF4320A83548BA3AED8 /* SPStorkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A07F55803686656816467F854789B /* SPStorkDismissingAnimationController.swift */; };
-		34071D1E7C68796EAF3C1D8DCF84191C /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D986C023619FA35178E478A599622 /* UPCarouselFlowLayout-dummy.m */; };
-		343B8DE3D7716411178EF16816E72F7C /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1547793E0D11447EC22F842A96CDE4B8 /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36C873051753487880557B026A62F001 /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C28A0E25F73FB7152EB8BCCF4DE75A3 /* SPStorkController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEC3B6B1D6662CE2975DC6155455CEF /* SPStorkController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51861A611A4307F4F0666167E376C5F7 /* SPStorkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81CB1B1523923074C0A8325E92BF5EC /* SPStorkPresentationController.swift */; };
+		08722B16ABC59A5E381D01FA766054AC /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65F42B99AD42ED73F8A7F322B8ADD61 /* UPCarouselFlowLayout.swift */; };
+		0C72516DAC339E27C7F7E6091EA52BE9 /* UILabel+Copyable.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8FED07FE7EE402E2C9D9CCE0C9A9AD /* UILabel+Copyable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CED47CA40D9A003E7193610674AC565 /* SPStorkViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FFD0792B8C884B6741874EE1CC244D /* SPStorkViewControllerExtenshion.swift */; };
+		27EC3BFB735230A02F10A3E7A9661E62 /* SPStorkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5451DF9E38C833121744C6DFE1AECC /* SPStorkTransitioningDelegate.swift */; };
+		2BBB79080B91ADF4320A83548BA3AED8 /* SPStorkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAF45970AD515AABF90C3CCF81AB03 /* SPStorkDismissingAnimationController.swift */; };
+		33EE0F59EB06B8CB7E6BB3A339CA9E24 /* UILabel+Copyable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DF1F95C45EAD5FE9C1443AE70BD45 /* UILabel+Copyable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34071D1E7C68796EAF3C1D8DCF84191C /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AD620049E870A52E90DCE63781DE4B /* UPCarouselFlowLayout-dummy.m */; };
+		343B8DE3D7716411178EF16816E72F7C /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D59EC9BA6F27EE8611170BD58F5C6A9D /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C28A0E25F73FB7152EB8BCCF4DE75A3 /* SPStorkController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8B1D04821814BD5C25BB6D79799491 /* SPStorkController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D3E8C47FA4B73B7EDAFF7269CECD9B6 /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
+		51861A611A4307F4F0666167E376C5F7 /* SPStorkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C111F3B6715DD214C688254AC78DAE /* SPStorkPresentationController.swift */; };
 		55CF8DCB5143C30B939EF428DAAAAE7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		62F9CB198F25F37328DAD61544FB0F60 /* SPStorkCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FEDA76EB3AE48745B22D275B34CD4 /* SPStorkCloseView.swift */; };
-		6D0A484DDA327797966D44B35F7007A0 /* SPStorkController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8584EE12D008C6114EBB514DE840FD19 /* SPStorkController-dummy.m */; };
-		6DF9C9C28800362B25DB317A2AD21F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		8304D48F4AE670C7DFB0BB333DC1FEE3 /* SPStorkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5910E8EB61FEBB2BB6E0662E45185E8 /* SPStorkPresentingAnimationController.swift */; };
-		84EFAA37ACA6F4F86F723A26C4348DD9 /* Pods-Agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */; };
-		93251E6E2AD574056EFEFB9A118F6406 /* SPStorkHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD2E76E19BE5582B1257BC84356943 /* SPStorkHaptic.swift */; };
-		A654176DE8063C039786A5CF7925EC8A /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC554433F7AA33537BE7EA029E4F8D4 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA370F72EC0BC58A1CD9C6C7E8EAA40D /* SPStorkIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B60C6A6F3871FA49DFCD71EF2A526B9 /* SPStorkIndicatorView.swift */; };
-		BF213AC4D112C237309468B1FCFE882B /* SPStorkCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596611589F9D9412ABC1B86D813A2BA3 /* SPStorkCodeDraw.swift */; };
+		62F9CB198F25F37328DAD61544FB0F60 /* SPStorkCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB094C580914242DFC679F652D5C3216 /* SPStorkCloseView.swift */; };
+		64613C418B60656D76D87D2B83AA9D0F /* Pods-Agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6572B2B79359BA251805B4452D34A8C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		6D0A484DDA327797966D44B35F7007A0 /* SPStorkController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C17F0B2D1FB2506088E8BC73B000A /* SPStorkController-dummy.m */; };
+		74F7DEAA82E71CF575AF518D679E06A3 /* UILabel+Copyable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C912079FC7A4BB3E5F99013EBA6455 /* UILabel+Copyable-dummy.m */; };
+		8304D48F4AE670C7DFB0BB333DC1FEE3 /* SPStorkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B4745ADC64D59204AA95B9D851DBB2 /* SPStorkPresentingAnimationController.swift */; };
+		93251E6E2AD574056EFEFB9A118F6406 /* SPStorkHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7553EBD62DB0683CEC54DA64899C6460 /* SPStorkHaptic.swift */; };
+		A654176DE8063C039786A5CF7925EC8A /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547D59001F3F8304BA61DEF0D5199E2 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA370F72EC0BC58A1CD9C6C7E8EAA40D /* SPStorkIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533438A9FAC3AD31332DC08505A403C2 /* SPStorkIndicatorView.swift */; };
+		BF213AC4D112C237309468B1FCFE882B /* SPStorkCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA34BCB893C56352AC46B53A208B2F4 /* SPStorkCodeDraw.swift */; };
+		CB26E805C98917238CCD768E9C45C3CA /* UILabel+Copyable.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E053AAE20EC1407409B4431FA19ADE /* UILabel+Copyable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CBB5AC2203450D07CA0CB46DEF45BC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		CCEEC309974A81C2B12C810F714D3C45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		DF58407DE405C8C478389C85AF0B7880 /* SPStorkCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE69583D8C5D54D73F35E7344483F15 /* SPStorkCloseButton.swift */; };
-		ED7080BD3502920ECA4388BC406BED6E /* SPStorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B885C7C076227F77D88B8FC3D3217D /* SPStorkController.swift */; };
-		F804B2CC32D29B1DFAF5DBACC6104439 /* SPStorkControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D673E2DC7FE60694DD606CFCF1765F /* SPStorkControllerDelegate.swift */; };
+		DF58407DE405C8C478389C85AF0B7880 /* SPStorkCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012652546179F79A752BC2AE60D2B34 /* SPStorkCloseButton.swift */; };
+		DF7D447AF88DFC2F2025DE5FCC596A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		ED7080BD3502920ECA4388BC406BED6E /* SPStorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0626D5AF79C05B69A0EDF66A1C149314 /* SPStorkController.swift */; };
+		F804B2CC32D29B1DFAF5DBACC6104439 /* SPStorkControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989EC1AD5EB39BF2224644B81A06089 /* SPStorkControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		307D043566F35D992A5FC57FECA2F044 /* PBXContainerItemProxy */ = {
+		18ACDF758C33BD2D06CEFFE6FEA70144 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
+			remoteGlobalIDString = 803506602DE06AB0024481B0DF7CF19B;
+			remoteInfo = "UILabel+Copyable";
 		};
-		697733C9D7A998C033D04FD1D8B5AC3A /* PBXContainerItemProxy */ = {
+		29199C349053EF35D15E8813645127AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5E17C38B9D32C429A1EC461038461FF9;
 			remoteInfo = UPCarouselFlowLayout;
 		};
-		C6E1818CA47E60F33850EC851ADD0EDE /* PBXContainerItemProxy */ = {
+		93AD0EFD9E787494CA4859676E62787A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 81E95886B4E31CDABBDB7AF092755E05;
 			remoteInfo = SPStorkController;
 		};
+		9EFAD4CFBF9642BF8BF02B504A668B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0193BB6684A2C47BD7485CBB90771842 /* SPStorkController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-prefix.pch"; sourceTree = "<group>"; };
-		0ECD2E76E19BE5582B1257BC84356943 /* SPStorkHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkHaptic.swift; path = Source/SPStorkController/Models/SPStorkHaptic.swift; sourceTree = "<group>"; };
-		1547793E0D11447EC22F842A96CDE4B8 /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		0626D5AF79C05B69A0EDF66A1C149314 /* SPStorkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkController.swift; path = Source/SPStorkController/SPStorkController.swift; sourceTree = "<group>"; };
 		182E54198D5688248B025B0F75B68491 /* Pods-Agenda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Agenda-acknowledgements.markdown"; sourceTree = "<group>"; };
-		188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPStorkController.xcconfig; sourceTree = "<group>"; };
 		1A7D09AAC3C2AC75401F3DFA9A01CD2F /* Pods-Agenda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Agenda.modulemap"; sourceTree = "<group>"; };
-		1B60C6A6F3871FA49DFCD71EF2A526B9 /* SPStorkIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkIndicatorView.swift; path = Source/SPStorkController/Views/SPStorkIndicatorView.swift; sourceTree = "<group>"; };
+		1BB6B74D670010E7B57E4E0E22670710 /* SPStorkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPStorkController.framework; path = SPStorkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6BD752AB0372931049BCF781969CAB /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
 		23FF98ABAC4C0BF88F815F6425E8E94E /* Pods-Agenda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Agenda-umbrella.h"; sourceTree = "<group>"; };
+		27C748B88E1F5CA8B0A3991B5C311824 /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		3781764931A63EBD49AA370FEACB2B9F /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
+		36847524785A624561A13DC8C7125E21 /* SPStorkController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPStorkController-Info.plist"; sourceTree = "<group>"; };
+		374DDB5EC2FF4EA43554C517983B6807 /* UILabel_Copyable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UILabel_Copyable.framework; path = "UILabel+Copyable.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B4745ADC64D59204AA95B9D851DBB2 /* SPStorkPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentingAnimationController.swift; sourceTree = "<group>"; };
+		3C5451DF9E38C833121744C6DFE1AECC /* SPStorkTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkTransitioningDelegate.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkTransitioningDelegate.swift; sourceTree = "<group>"; };
+		42C111F3B6715DD214C688254AC78DAE /* SPStorkPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentationController.swift; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4DC554433F7AA33537BE7EA029E4F8D4 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
+		49F46DA48177D8BB5ABB6D88928DE43B /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Agenda.framework; path = "Pods-Agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9C17F0B2D1FB2506088E8BC73B000A /* SPStorkController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPStorkController-dummy.m"; sourceTree = "<group>"; };
+		533438A9FAC3AD31332DC08505A403C2 /* SPStorkIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkIndicatorView.swift; path = Source/SPStorkController/Views/SPStorkIndicatorView.swift; sourceTree = "<group>"; };
 		560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
-		596611589F9D9412ABC1B86D813A2BA3 /* SPStorkCodeDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCodeDraw.swift; path = Source/SPStorkController/CodeDraw/SPStorkCodeDraw.swift; sourceTree = "<group>"; };
-		5CEC3B6B1D6662CE2975DC6155455CEF /* SPStorkController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-umbrella.h"; sourceTree = "<group>"; };
-		62120DC5A17C78FCE4A4E529A685902B /* SPStorkTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkTransitioningDelegate.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkTransitioningDelegate.swift; sourceTree = "<group>"; };
+		5FAE9DDD17C74CF57FB98BC75ECB0967 /* UPCarouselFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPCarouselFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		60A2E95FFC5BB8E23AE0BC93CE50EA3C /* SPStorkController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPStorkController.modulemap; sourceTree = "<group>"; };
+		63BBEB0C891F2DFE3A74D90837920727 /* SPStorkController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPStorkController.xcconfig; sourceTree = "<group>"; };
+		66FFD0792B8C884B6741874EE1CC244D /* SPStorkViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkViewControllerExtenshion.swift; path = Source/SPStorkController/Extenshion/SPStorkViewControllerExtenshion.swift; sourceTree = "<group>"; };
 		7348A23717905CB8D56C39A7770ED4FB /* Pods-Agenda-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-Info.plist"; sourceTree = "<group>"; };
-		7B4D986C023619FA35178E478A599622 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		7553EBD62DB0683CEC54DA64899C6460 /* SPStorkHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkHaptic.swift; path = Source/SPStorkController/Models/SPStorkHaptic.swift; sourceTree = "<group>"; };
+		7AA132089D5F8DC50C81FC6BED4D0DAE /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8012652546179F79A752BC2AE60D2B34 /* SPStorkCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseButton.swift; path = Source/SPStorkController/Views/SPStorkCloseButton.swift; sourceTree = "<group>"; };
 		8040D4703E823514FFD2880BA45082F2 /* Pods-Agenda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agenda-acknowledgements.plist"; sourceTree = "<group>"; };
-		825FEDA76EB3AE48745B22D275B34CD4 /* SPStorkCloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseView.swift; path = Source/SPStorkController/Views/SPStorkCloseView.swift; sourceTree = "<group>"; };
-		83ED16C7D1FE39B237BE485BD8211F96 /* SPStorkViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkViewControllerExtenshion.swift; path = Source/SPStorkController/Extenshion/SPStorkViewControllerExtenshion.swift; sourceTree = "<group>"; };
-		8584EE12D008C6114EBB514DE840FD19 /* SPStorkController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPStorkController-dummy.m"; sourceTree = "<group>"; };
-		8BBA9156EF33926439BFB48FA52D65EC /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		8547D59001F3F8304BA61DEF0D5199E2 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
+		88EFE4D9A340F56126A4AF0A9BFB5CC4 /* UILabel+Copyable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copyable-prefix.pch"; sourceTree = "<group>"; };
+		8AAAF45970AD515AABF90C3CCF81AB03 /* SPStorkDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkDismissingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkDismissingAnimationController.swift; sourceTree = "<group>"; };
+		8B3AE9BF36A23CC5AB7E2F9D4B76767B /* UILabel+Copyable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UILabel+Copyable.xcconfig"; sourceTree = "<group>"; };
 		8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
-		91BFB116962B225F1777765024EB87CF /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
-		938A07F55803686656816467F854789B /* SPStorkDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkDismissingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkDismissingAnimationController.swift; sourceTree = "<group>"; };
 		96E8528227A5D75C287BC89824DB8C51 /* Pods-Agenda-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Agenda-frameworks.sh"; sourceTree = "<group>"; };
-		99D673E2DC7FE60694DD606CFCF1765F /* SPStorkControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkControllerDelegate.swift; path = Source/SPStorkController/Protocols/SPStorkControllerDelegate.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A081C8D108EEA84BACAEC5131E720F1B /* UPCarouselFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPCarouselFlowLayout-Info.plist"; sourceTree = "<group>"; };
-		A443639B272FF6FC9F1009F2A4E87991 /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
-		AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
-		B4A39E62EE9EB740A96AAE681A5A188B /* SPStorkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPStorkController.framework; path = SPStorkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBE69583D8C5D54D73F35E7344483F15 /* SPStorkCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseButton.swift; path = Source/SPStorkController/Views/SPStorkCloseButton.swift; sourceTree = "<group>"; };
-		C81CB1B1523923074C0A8325E92BF5EC /* SPStorkPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentationController.swift; sourceTree = "<group>"; };
-		D0B885C7C076227F77D88B8FC3D3217D /* SPStorkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkController.swift; path = Source/SPStorkController/SPStorkController.swift; sourceTree = "<group>"; };
-		D46D0C725F172EB0AB9CD8E9913A63EE /* SPStorkController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPStorkController-Info.plist"; sourceTree = "<group>"; };
-		D5910E8EB61FEBB2BB6E0662E45185E8 /* SPStorkPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentingAnimationController.swift; sourceTree = "<group>"; };
-		D8255355AFE544F5B601394235A4346C /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04F33E205BCBB93144BC90A6AA88C67 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		B8A7704003338B85C52532AEDD35AAEE /* SPStorkController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-prefix.pch"; sourceTree = "<group>"; };
+		B90DF1F95C45EAD5FE9C1443AE70BD45 /* UILabel+Copyable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copyable-umbrella.h"; sourceTree = "<group>"; };
+		C26B44FAB2F508EE00570CC24A412FFF /* UILabel+Copyable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UILabel+Copyable.modulemap"; sourceTree = "<group>"; };
+		C9C912079FC7A4BB3E5F99013EBA6455 /* UILabel+Copyable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copyable-dummy.m"; sourceTree = "<group>"; };
+		CE8FED07FE7EE402E2C9D9CCE0C9A9AD /* UILabel+Copyable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Copyable.h"; path = "UILabel+Copyable/UILabel+Copyable.h"; sourceTree = "<group>"; };
+		D59EC9BA6F27EE8611170BD58F5C6A9D /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		D8E053AAE20EC1407409B4431FA19ADE /* UILabel+Copyable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Copyable.m"; path = "UILabel+Copyable/UILabel+Copyable.m"; sourceTree = "<group>"; };
+		D989EC1AD5EB39BF2224644B81A06089 /* SPStorkControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkControllerDelegate.swift; path = Source/SPStorkController/Protocols/SPStorkControllerDelegate.swift; sourceTree = "<group>"; };
+		DB094C580914242DFC679F652D5C3216 /* SPStorkCloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseView.swift; path = Source/SPStorkController/Views/SPStorkCloseView.swift; sourceTree = "<group>"; };
 		DBB5F0DFC92B8D8D11F947E7152641AC /* Pods-Agenda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Agenda-dummy.m"; sourceTree = "<group>"; };
-		F5BA800B732556AE5AD8DEDC98B0548D /* SPStorkController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPStorkController.modulemap; sourceTree = "<group>"; };
+		DCB52798094777EE0CAB45C68EA02175 /* UILabel+Copyable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UILabel+Copyable-Info.plist"; sourceTree = "<group>"; };
+		DEA34BCB893C56352AC46B53A208B2F4 /* SPStorkCodeDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCodeDraw.swift; path = Source/SPStorkController/CodeDraw/SPStorkCodeDraw.swift; sourceTree = "<group>"; };
+		E65F42B99AD42ED73F8A7F322B8ADD61 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		ED8B1D04821814BD5C25BB6D79799491 /* SPStorkController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-umbrella.h"; sourceTree = "<group>"; };
+		F3F8A4FFDE1550D270F351318F7A8E9D /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
+		F9AD620049E870A52E90DCE63781DE4B /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +144,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C2CF82D3F5CE685CA121591CBB490AE /* Frameworks */ = {
+		1BA69D8485A58817A89482FB858AA275 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DF9C9C28800362B25DB317A2AD21F4E /* Foundation.framework in Frameworks */,
+				6572B2B79359BA251805B4452D34A8C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB1DB2B8F1C0BE848969720CA51CD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7D447AF88DFC2F2025DE5FCC596A2F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,15 +172,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F5BCD01CB79E20D14D19CB76E4A8361 /* UPCarouselFlowLayout */ = {
+		0B5B286BB7C7BA4D38882AA1C5AE0C5F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DC554433F7AA33537BE7EA029E4F8D4 /* UPCarouselFlowLayout.h */,
-				8BBA9156EF33926439BFB48FA52D65EC /* UPCarouselFlowLayout.swift */,
-				D481750BE44D75C9D7C4C49ED87E5A12 /* Support Files */,
+				C26B44FAB2F508EE00570CC24A412FFF /* UILabel+Copyable.modulemap */,
+				8B3AE9BF36A23CC5AB7E2F9D4B76767B /* UILabel+Copyable.xcconfig */,
+				C9C912079FC7A4BB3E5F99013EBA6455 /* UILabel+Copyable-dummy.m */,
+				DCB52798094777EE0CAB45C68EA02175 /* UILabel+Copyable-Info.plist */,
+				88EFE4D9A340F56126A4AF0A9BFB5CC4 /* UILabel+Copyable-prefix.pch */,
+				B90DF1F95C45EAD5FE9C1443AE70BD45 /* UILabel+Copyable-umbrella.h */,
 			);
-			name = UPCarouselFlowLayout;
-			path = UPCarouselFlowLayout;
+			name = "Support Files";
+			path = "../Target Support Files/UILabel+Copyable";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -162,13 +194,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		28B229DF6F7C6060044153BBC722AF12 /* SwiftLint */ = {
+		2B85F3A5788B7D68571C5E10F9B2973B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89F6066B369FBDE34AB2F9B1E61DFAE8 /* Support Files */,
+				49F46DA48177D8BB5ABB6D88928DE43B /* Pods_Agenda.framework */,
+				1BB6B74D670010E7B57E4E0E22670710 /* SPStorkController.framework */,
+				374DDB5EC2FF4EA43554C517983B6807 /* UILabel_Copyable.framework */,
+				7AA132089D5F8DC50C81FC6BED4D0DAE /* UPCarouselFlowLayout.framework */,
 			);
-			name = SwiftLint;
-			path = SwiftLint;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339BCC903267EDE05A95205FD7B0BE7D /* SPStorkController */ = {
+			isa = PBXGroup;
+			children = (
+				8012652546179F79A752BC2AE60D2B34 /* SPStorkCloseButton.swift */,
+				DB094C580914242DFC679F652D5C3216 /* SPStorkCloseView.swift */,
+				DEA34BCB893C56352AC46B53A208B2F4 /* SPStorkCodeDraw.swift */,
+				0626D5AF79C05B69A0EDF66A1C149314 /* SPStorkController.swift */,
+				D989EC1AD5EB39BF2224644B81A06089 /* SPStorkControllerDelegate.swift */,
+				8AAAF45970AD515AABF90C3CCF81AB03 /* SPStorkDismissingAnimationController.swift */,
+				7553EBD62DB0683CEC54DA64899C6460 /* SPStorkHaptic.swift */,
+				533438A9FAC3AD31332DC08505A403C2 /* SPStorkIndicatorView.swift */,
+				42C111F3B6715DD214C688254AC78DAE /* SPStorkPresentationController.swift */,
+				39B4745ADC64D59204AA95B9D851DBB2 /* SPStorkPresentingAnimationController.swift */,
+				3C5451DF9E38C833121744C6DFE1AECC /* SPStorkTransitioningDelegate.swift */,
+				66FFD0792B8C884B6741874EE1CC244D /* SPStorkViewControllerExtenshion.swift */,
+				559F351EFB44B441F817D10A46B037F5 /* Support Files */,
+			);
+			name = SPStorkController;
+			path = SPStorkController;
 			sourceTree = "<group>";
 		};
 		3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */ = {
@@ -179,58 +234,63 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		491499FAA84DEE63E110E2BC4BEF7F51 /* Pods */ = {
+		41516D36AF1C7C3D441857641858CD8D /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				AF8E016BEA3796198DD376DC7A2D6981 /* SPStorkController */,
-				28B229DF6F7C6060044153BBC722AF12 /* SwiftLint */,
-				0F5BCD01CB79E20D14D19CB76E4A8361 /* UPCarouselFlowLayout */,
+				DBF9B94A38164A320764A89EF5E8C03B /* Support Files */,
 			);
-			name = Pods;
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		4E93374A2EA06261C908FD07588A5D73 /* Support Files */ = {
+		559F351EFB44B441F817D10A46B037F5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5BA800B732556AE5AD8DEDC98B0548D /* SPStorkController.modulemap */,
-				188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */,
-				8584EE12D008C6114EBB514DE840FD19 /* SPStorkController-dummy.m */,
-				D46D0C725F172EB0AB9CD8E9913A63EE /* SPStorkController-Info.plist */,
-				0193BB6684A2C47BD7485CBB90771842 /* SPStorkController-prefix.pch */,
-				5CEC3B6B1D6662CE2975DC6155455CEF /* SPStorkController-umbrella.h */,
+				60A2E95FFC5BB8E23AE0BC93CE50EA3C /* SPStorkController.modulemap */,
+				63BBEB0C891F2DFE3A74D90837920727 /* SPStorkController.xcconfig */,
+				4F9C17F0B2D1FB2506088E8BC73B000A /* SPStorkController-dummy.m */,
+				36847524785A624561A13DC8C7125E21 /* SPStorkController-Info.plist */,
+				B8A7704003338B85C52532AEDD35AAEE /* SPStorkController-prefix.pch */,
+				ED8B1D04821814BD5C25BB6D79799491 /* SPStorkController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SPStorkController";
 			sourceTree = "<group>";
 		};
-		89F6066B369FBDE34AB2F9B1E61DFAE8 /* Support Files */ = {
+		70AD5BC074F460FDCDA89A36E62FA021 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */,
+				1D6BD752AB0372931049BCF781969CAB /* UPCarouselFlowLayout.modulemap */,
+				F3F8A4FFDE1550D270F351318F7A8E9D /* UPCarouselFlowLayout.xcconfig */,
+				F9AD620049E870A52E90DCE63781DE4B /* UPCarouselFlowLayout-dummy.m */,
+				5FAE9DDD17C74CF57FB98BC75ECB0967 /* UPCarouselFlowLayout-Info.plist */,
+				27C748B88E1F5CA8B0A3991B5C311824 /* UPCarouselFlowLayout-prefix.pch */,
+				D59EC9BA6F27EE8611170BD58F5C6A9D /* UPCarouselFlowLayout-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
+			path = "../Target Support Files/UPCarouselFlowLayout";
 			sourceTree = "<group>";
 		};
-		AF8E016BEA3796198DD376DC7A2D6981 /* SPStorkController */ = {
+		84C263F751AF69FD5DA622E91A35E9C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BBE69583D8C5D54D73F35E7344483F15 /* SPStorkCloseButton.swift */,
-				825FEDA76EB3AE48745B22D275B34CD4 /* SPStorkCloseView.swift */,
-				596611589F9D9412ABC1B86D813A2BA3 /* SPStorkCodeDraw.swift */,
-				D0B885C7C076227F77D88B8FC3D3217D /* SPStorkController.swift */,
-				99D673E2DC7FE60694DD606CFCF1765F /* SPStorkControllerDelegate.swift */,
-				938A07F55803686656816467F854789B /* SPStorkDismissingAnimationController.swift */,
-				0ECD2E76E19BE5582B1257BC84356943 /* SPStorkHaptic.swift */,
-				1B60C6A6F3871FA49DFCD71EF2A526B9 /* SPStorkIndicatorView.swift */,
-				C81CB1B1523923074C0A8325E92BF5EC /* SPStorkPresentationController.swift */,
-				D5910E8EB61FEBB2BB6E0662E45185E8 /* SPStorkPresentingAnimationController.swift */,
-				62120DC5A17C78FCE4A4E529A685902B /* SPStorkTransitioningDelegate.swift */,
-				83ED16C7D1FE39B237BE485BD8211F96 /* SPStorkViewControllerExtenshion.swift */,
-				4E93374A2EA06261C908FD07588A5D73 /* Support Files */,
+				339BCC903267EDE05A95205FD7B0BE7D /* SPStorkController */,
+				41516D36AF1C7C3D441857641858CD8D /* SwiftLint */,
+				F7751E905B1A8814980D8C389B2E441E /* UILabel+Copyable */,
+				A585E333C9EDADEF89AB07EDAD9CF2E0 /* UPCarouselFlowLayout */,
 			);
-			name = SPStorkController;
-			path = SPStorkController;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A585E333C9EDADEF89AB07EDAD9CF2E0 /* UPCarouselFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8547D59001F3F8304BA61DEF0D5199E2 /* UPCarouselFlowLayout.h */,
+				E65F42B99AD42ED73F8A7F322B8ADD61 /* UPCarouselFlowLayout.swift */,
+				70AD5BC074F460FDCDA89A36E62FA021 /* Support Files */,
+			);
+			name = UPCarouselFlowLayout;
+			path = UPCarouselFlowLayout;
 			sourceTree = "<group>";
 		};
 		C934CECD522672598B6B40A3AC57D281 /* Pods-Agenda */ = {
@@ -255,24 +315,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				491499FAA84DEE63E110E2BC4BEF7F51 /* Pods */,
-				EE7D7AEB98DE59100386C2E8586E7CF6 /* Products */,
+				84C263F751AF69FD5DA622E91A35E9C3 /* Pods */,
+				2B85F3A5788B7D68571C5E10F9B2973B /* Products */,
 				3414E70E27EC1ACD029FAC32EB251F35 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D481750BE44D75C9D7C4C49ED87E5A12 /* Support Files */ = {
+		DBF9B94A38164A320764A89EF5E8C03B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A443639B272FF6FC9F1009F2A4E87991 /* UPCarouselFlowLayout.modulemap */,
-				392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */,
-				7B4D986C023619FA35178E478A599622 /* UPCarouselFlowLayout-dummy.m */,
-				A081C8D108EEA84BACAEC5131E720F1B /* UPCarouselFlowLayout-Info.plist */,
-				91BFB116962B225F1777765024EB87CF /* UPCarouselFlowLayout-prefix.pch */,
-				1547793E0D11447EC22F842A96CDE4B8 /* UPCarouselFlowLayout-umbrella.h */,
+				A04F33E205BCBB93144BC90A6AA88C67 /* SwiftLint.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/UPCarouselFlowLayout";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -284,33 +339,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EE7D7AEB98DE59100386C2E8586E7CF6 /* Products */ = {
+		F7751E905B1A8814980D8C389B2E441E /* UILabel+Copyable */ = {
 			isa = PBXGroup;
 			children = (
-				3781764931A63EBD49AA370FEACB2B9F /* Pods_Agenda.framework */,
-				B4A39E62EE9EB740A96AAE681A5A188B /* SPStorkController.framework */,
-				D8255355AFE544F5B601394235A4346C /* UPCarouselFlowLayout.framework */,
+				CE8FED07FE7EE402E2C9D9CCE0C9A9AD /* UILabel+Copyable.h */,
+				D8E053AAE20EC1407409B4431FA19ADE /* UILabel+Copyable.m */,
+				0B5B286BB7C7BA4D38882AA1C5AE0C5F /* Support Files */,
 			);
-			name = Products;
+			name = "UILabel+Copyable";
+			path = "UILabel+Copyable";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A4632988A573B499E89755FD5F7F2784 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36C873051753487880557B026A62F001 /* Pods-Agenda-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC78CAC95B3C11B3179F6DD38326D1CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				343B8DE3D7716411178EF16816E72F7C /* UPCarouselFlowLayout-umbrella.h in Headers */,
 				A654176DE8063C039786A5CF7925EC8A /* UPCarouselFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC34561BC90CC98B5FD89852B1FB994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EE0F59EB06B8CB7E6BB3A339CA9E24 /* UILabel+Copyable-umbrella.h in Headers */,
+				0C72516DAC339E27C7F7E6091EA52BE9 /* UILabel+Copyable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,28 +379,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1DBF01D3441D285A489C40B008CBC22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64613C418B60656D76D87D2B83AA9D0F /* Pods-Agenda-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2DD9DA792FAE5541A6EAA6AF6197B54 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
+			buildConfigurationList = FB6091C1D9E3278E5A586308FEA7670B /* Build configuration list for PBXNativeTarget "Pods-Agenda" */;
 			buildPhases = (
-				A4632988A573B499E89755FD5F7F2784 /* Headers */,
-				6D84A25C4534F2D2B342E634949B1600 /* Sources */,
-				8C2CF82D3F5CE685CA121591CBB490AE /* Frameworks */,
-				CC806EB1944CDD7698A4FFBF0B5DDDAD /* Resources */,
+				E1DBF01D3441D285A489C40B008CBC22 /* Headers */,
+				740AA4DCF2C2DFDF10E4829FEF16679F /* Sources */,
+				1BA69D8485A58817A89482FB858AA275 /* Frameworks */,
+				99E83417770B0C180BBA096FAB713553 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BD93FA12CF9942FD54D735639779AE2B /* PBXTargetDependency */,
-				191EE7A758779ACD78F68DF3897DDB74 /* PBXTargetDependency */,
-				054D19C962B72C4D33447A7938DE9B22 /* PBXTargetDependency */,
+				698506240F8E209999C2C3D2F9D1F34A /* PBXTargetDependency */,
+				C43741757C82463AC855911EDF3D53F7 /* PBXTargetDependency */,
+				1BA5D3BDD866B98358D77FA33A68CED4 /* PBXTargetDependency */,
+				7A6A91D770F8530B7120EC249C3A80E4 /* PBXTargetDependency */,
 			);
 			name = "Pods-Agenda";
 			productName = "Pods-Agenda";
-			productReference = 3781764931A63EBD49AA370FEACB2B9F /* Pods_Agenda.framework */;
+			productReference = 49F46DA48177D8BB5ABB6D88928DE43B /* Pods_Agenda.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */ = {
@@ -361,7 +427,25 @@
 			);
 			name = UPCarouselFlowLayout;
 			productName = UPCarouselFlowLayout;
-			productReference = D8255355AFE544F5B601394235A4346C /* UPCarouselFlowLayout.framework */;
+			productReference = 7AA132089D5F8DC50C81FC6BED4D0DAE /* UPCarouselFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		803506602DE06AB0024481B0DF7CF19B /* UILabel+Copyable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED30E63EC5BFA12ABA0A3739791E685B /* Build configuration list for PBXNativeTarget "UILabel+Copyable" */;
+			buildPhases = (
+				CCC34561BC90CC98B5FD89852B1FB994 /* Headers */,
+				FD0C93CAE47FBFCE72930C5D44FD84E0 /* Sources */,
+				3DB1DB2B8F1C0BE848969720CA51CD6B /* Frameworks */,
+				E4563E72E37A675E36D37422CEFFB306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UILabel+Copyable";
+			productName = "UILabel+Copyable";
+			productReference = 374DDB5EC2FF4EA43554C517983B6807 /* UILabel_Copyable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */ = {
@@ -379,7 +463,7 @@
 			);
 			name = SPStorkController;
 			productName = SPStorkController;
-			productReference = B4A39E62EE9EB740A96AAE681A5A188B /* SPStorkController.framework */;
+			productReference = 1BB6B74D670010E7B57E4E0E22670710 /* SPStorkController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -399,13 +483,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EE7D7AEB98DE59100386C2E8586E7CF6 /* Products */;
+			productRefGroup = 2B85F3A5788B7D68571C5E10F9B2973B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3881F8FE5E8E54E2171F0557778EC0A4 /* Pods-Agenda */,
 				81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				803506602DE06AB0024481B0DF7CF19B /* UILabel+Copyable */,
 				5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */,
 			);
 		};
@@ -419,6 +504,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99E83417770B0C180BBA096FAB713553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3A437DFE042A5466BF5683EB5127E30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,7 +518,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC806EB1944CDD7698A4FFBF0B5DDDAD /* Resources */ = {
+		E4563E72E37A675E36D37422CEFFB306 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,11 +528,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D84A25C4534F2D2B342E634949B1600 /* Sources */ = {
+		740AA4DCF2C2DFDF10E4829FEF16679F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EFAA37ACA6F4F86F723A26C4348DD9 /* Pods-Agenda-dummy.m in Sources */,
+				3D3E8C47FA4B73B7EDAFF7269CECD9B6 /* Pods-Agenda-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,30 +565,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD0C93CAE47FBFCE72930C5D44FD84E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F7DEAA82E71CF575AF518D679E06A3 /* UILabel+Copyable-dummy.m in Sources */,
+				CB26E805C98917238CCD768E9C45C3CA /* UILabel+Copyable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		054D19C962B72C4D33447A7938DE9B22 /* PBXTargetDependency */ = {
+		1BA5D3BDD866B98358D77FA33A68CED4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = UPCarouselFlowLayout;
-			target = 5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */;
-			targetProxy = 697733C9D7A998C033D04FD1D8B5AC3A /* PBXContainerItemProxy */;
+			name = "UILabel+Copyable";
+			target = 803506602DE06AB0024481B0DF7CF19B /* UILabel+Copyable */;
+			targetProxy = 18ACDF758C33BD2D06CEFFE6FEA70144 /* PBXContainerItemProxy */;
 		};
-		191EE7A758779ACD78F68DF3897DDB74 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 307D043566F35D992A5FC57FECA2F044 /* PBXContainerItemProxy */;
-		};
-		BD93FA12CF9942FD54D735639779AE2B /* PBXTargetDependency */ = {
+		698506240F8E209999C2C3D2F9D1F34A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SPStorkController;
 			target = 81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */;
-			targetProxy = C6E1818CA47E60F33850EC851ADD0EDE /* PBXContainerItemProxy */;
+			targetProxy = 93AD0EFD9E787494CA4859676E62787A /* PBXContainerItemProxy */;
+		};
+		7A6A91D770F8530B7120EC249C3A80E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPCarouselFlowLayout;
+			target = 5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */;
+			targetProxy = 29199C349053EF35D15E8813645127AE /* PBXContainerItemProxy */;
+		};
+		C43741757C82463AC855911EDF3D53F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 9EFAD4CFBF9642BF8BF02B504A668B6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0D837E5820C052465773DAADBDC4AC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		153B6450F45246996CF1DFE6009654B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3AE9BF36A23CC5AB7E2F9D4B76767B /* UILabel+Copyable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UILabel+Copyable/UILabel+Copyable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UILabel+Copyable/UILabel+Copyable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UILabel+Copyable/UILabel+Copyable.modulemap";
+				PRODUCT_MODULE_NAME = UILabel_Copyable;
+				PRODUCT_NAME = UILabel_Copyable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -559,7 +739,7 @@
 		};
 		492B9A41EC040F1E8F1ECF27DD6320F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */;
+			baseConfigurationReference = F3F8A4FFDE1550D270F351318F7A8E9D /* UPCarouselFlowLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -595,7 +775,7 @@
 		};
 		4F3CB9F47FB7FDB9CE9FC0599D1DF5B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */;
+			baseConfigurationReference = 63BBEB0C891F2DFE3A74D90837920727 /* SPStorkController.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -632,7 +812,7 @@
 		};
 		68522914872323EA5EBE8FDA1F773F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392F37A2314281949A30BFEA9D58967F /* UPCarouselFlowLayout.xcconfig */;
+			baseConfigurationReference = F3F8A4FFDE1550D270F351318F7A8E9D /* UPCarouselFlowLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -667,7 +847,7 @@
 		};
 		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */;
+			baseConfigurationReference = A04F33E205BCBB93144BC90A6AA88C67 /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -682,47 +862,9 @@
 			};
 			name = Release;
 		};
-		B0C4FB0661F7C51051C342326E3523C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F82C39B264C48FB195FF7434D5BF94F /* Pods-Agenda.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C26A4E08E1EB0CED83528B00A30F2028 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 188122C743A847C04A092BE5A506E0F0 /* SPStorkController.xcconfig */;
+			baseConfigurationReference = 63BBEB0C891F2DFE3A74D90837920727 /* SPStorkController.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -755,6 +897,81 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C55EF3061AE09E1CF3C24A8FD1E88DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3AE9BF36A23CC5AB7E2F9D4B76767B /* UILabel+Copyable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UILabel+Copyable/UILabel+Copyable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UILabel+Copyable/UILabel+Copyable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UILabel+Copyable/UILabel+Copyable.modulemap";
+				PRODUCT_MODULE_NAME = UILabel_Copyable;
+				PRODUCT_NAME = UILabel_Copyable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB5AC3DEFC32ED6B04E08C8953B4CBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -822,7 +1039,7 @@
 		};
 		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC01A4752ECB0E79C7701DD9B6980016 /* SwiftLint.xcconfig */;
+			baseConfigurationReference = A04F33E205BCBB93144BC90A6AA88C67 /* SwiftLint.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -835,45 +1052,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		EA1321160EC4DFD942DF7FEA9E1D2D92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 560968A543347DFD939D5A0344885ADF /* Pods-Agenda.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Agenda/Pods-Agenda.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -914,11 +1092,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2DD9DA792FAE5541A6EAA6AF6197B54 /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
+		ED30E63EC5BFA12ABA0A3739791E685B /* Build configuration list for PBXNativeTarget "UILabel+Copyable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0C4FB0661F7C51051C342326E3523C4 /* Debug */,
-				EA1321160EC4DFD942DF7FEA9E1D2D92 /* Release */,
+				153B6450F45246996CF1DFE6009654B9 /* Debug */,
+				C55EF3061AE09E1CF3C24A8FD1E88DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6091C1D9E3278E5A586308FEA7670B /* Build configuration list for PBXNativeTarget "Pods-Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D837E5820C052465773DAADBDC4AC33 /* Debug */,
+				DB5AC3DEFC32ED6B04E08C8953B4CBAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

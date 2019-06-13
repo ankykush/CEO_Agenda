@@ -16,9 +16,6 @@
         <array key="Lato-Regular.ttf">
             <string>Lato-Regular</string>
         </array>
-        <array key="Lato-Semibold.ttf">
-            <string>Lato-Semibold</string>
-        </array>
     </customFonts>
     <scenes>
         <!--Itinerary View Controller-->
@@ -64,7 +61,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xRQ-tH-bmf">
-                                <rect key="frame" x="20" y="130" width="374" height="652"/>
+                                <rect key="frame" x="20" y="130" width="374" height="724"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItineraryTableViewCell" rowHeight="110" id="l2H-Sw-qET" customClass="ItineraryTableViewCell" customModule="Agenda" customModuleProvider="target">
@@ -137,39 +134,15 @@
                                     <outlet property="delegate" destination="zsI-M8-gX0" id="eiD-Kp-NPp"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bL2-kR-Y0T">
-                                <rect key="frame" x="8" y="797" width="398" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koY-uB-tCd">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="50"/>
-                                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="17"/>
-                                        <state key="normal" title="CONTACTS" image="contacts"/>
-                                        <connections>
-                                            <action selector="contactsAction:" destination="zsI-M8-gX0" eventType="touchUpInside" id="MdR-p5-bka"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.194234252" green="0.34600409869999998" blue="0.54765492680000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="2D3-MO-v97"/>
-                                    <constraint firstAttribute="trailing" secondItem="koY-uB-tCd" secondAttribute="trailing" id="BYt-yS-8Mt"/>
-                                    <constraint firstAttribute="bottom" secondItem="koY-uB-tCd" secondAttribute="bottom" id="DZO-yX-S7e"/>
-                                    <constraint firstItem="koY-uB-tCd" firstAttribute="top" secondItem="bL2-kR-Y0T" secondAttribute="top" id="juz-Ji-uVa"/>
-                                    <constraint firstItem="koY-uB-tCd" firstAttribute="leading" secondItem="bL2-kR-Y0T" secondAttribute="leading" id="ukq-Gc-Xid"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="bL2-kR-Y0T" firstAttribute="leading" secondItem="ycM-Wx-EfL" secondAttribute="leading" constant="8" id="3ik-cc-GdA"/>
                             <constraint firstItem="xRQ-tH-bmf" firstAttribute="leading" secondItem="ycM-Wx-EfL" secondAttribute="leading" constant="20" id="68a-Pj-OqS"/>
+                            <constraint firstItem="ycM-Wx-EfL" firstAttribute="bottom" secondItem="xRQ-tH-bmf" secondAttribute="bottom" constant="8" id="IZZ-P2-CXR"/>
                             <constraint firstItem="yan-gY-5dA" firstAttribute="leading" secondItem="ycM-Wx-EfL" secondAttribute="leading" id="KkE-JS-qZo"/>
-                            <constraint firstItem="bL2-kR-Y0T" firstAttribute="top" secondItem="xRQ-tH-bmf" secondAttribute="bottom" constant="15" id="LPO-6u-iuu"/>
                             <constraint firstItem="ycM-Wx-EfL" firstAttribute="trailing" secondItem="xRQ-tH-bmf" secondAttribute="trailing" constant="20" id="QLl-Fn-bEQ"/>
                             <constraint firstItem="xRQ-tH-bmf" firstAttribute="top" secondItem="yan-gY-5dA" secondAttribute="bottom" constant="10" id="SQS-Fs-16C"/>
                             <constraint firstItem="yan-gY-5dA" firstAttribute="top" secondItem="IOU-jV-oRy" secondAttribute="top" id="WNR-QB-dOr"/>
-                            <constraint firstItem="ycM-Wx-EfL" firstAttribute="trailing" secondItem="bL2-kR-Y0T" secondAttribute="trailing" constant="8" id="bVh-9S-0sW"/>
-                            <constraint firstItem="ycM-Wx-EfL" firstAttribute="bottom" secondItem="bL2-kR-Y0T" secondAttribute="bottom" constant="15" id="rae-q1-VzZ"/>
                             <constraint firstItem="yan-gY-5dA" firstAttribute="trailing" secondItem="ycM-Wx-EfL" secondAttribute="trailing" id="rtl-2T-TgW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ycM-Wx-EfL"/>
@@ -186,7 +159,6 @@
     </scenes>
     <resources>
         <image name="BANNER-sections2" width="4500" height="1800"/>
-        <image name="contacts" width="30" height="30"/>
         <image name="executiveCellBg" width="288" height="288"/>
     </resources>
 </document>

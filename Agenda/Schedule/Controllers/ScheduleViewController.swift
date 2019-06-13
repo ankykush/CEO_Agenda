@@ -75,6 +75,7 @@ class ScheduleViewController: UIViewController {
         }
         
         tableView.reloadData()
+        tableView.scrollsToTop = true
     }
     
     func showDetailsView() {
@@ -214,7 +215,6 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
    
     
         collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
-
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

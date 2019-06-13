@@ -13,6 +13,9 @@
         <array key="Lato-Bold.ttf">
             <string>Lato-Bold</string>
         </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Info View Controller-->
@@ -36,7 +39,7 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tata_background" translatesAutoresizingMaskIntoConstraints="NO" id="hWj-Xh-jVg">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250.00000000000011"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkv-Fm-8VY">
                                         <rect key="frame" x="62" y="112" width="126.5" height="26.5"/>
@@ -71,7 +74,7 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tcs_background" translatesAutoresizingMaskIntoConstraints="NO" id="ELE-3Y-7Dd">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250.00000000000023" height="250.00000000000011"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TCS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hc-Nx-vLY">
                                         <rect key="frame" x="65.5" y="112" width="119" height="26.5"/>
@@ -130,21 +133,29 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ITINERARY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8O-Ua-u2u">
-                                        <rect key="frame" x="20" y="70" width="386" height="30"/>
-                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
+                                        <rect key="frame" x="20" y="56" width="386" height="30"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOs-8M-Zbi">
+                                        <rect key="frame" x="20" y="94" width="12" height="24"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="l8O-Ua-u2u" secondAttribute="bottom" constant="20" id="8Rz-74-Qiq"/>
+                                    <constraint firstAttribute="bottom" secondItem="XOs-8M-Zbi" secondAttribute="bottom" constant="2" id="BUl-Jr-1ht"/>
                                     <constraint firstAttribute="height" constant="120" id="Bzw-Sd-F3e"/>
                                     <constraint firstItem="L5k-PJ-d92" firstAttribute="top" secondItem="Ryw-js-9AS" secondAttribute="top" id="Dcb-Ei-OCr"/>
                                     <constraint firstAttribute="bottom" secondItem="L5k-PJ-d92" secondAttribute="bottom" id="JTQ-Xe-uSh"/>
+                                    <constraint firstItem="XOs-8M-Zbi" firstAttribute="leading" secondItem="Ryw-js-9AS" secondAttribute="leading" constant="20" id="Rpg-FK-ozx"/>
                                     <constraint firstItem="l8O-Ua-u2u" firstAttribute="leading" secondItem="Ryw-js-9AS" secondAttribute="leading" constant="20" id="UUr-dq-0ww"/>
                                     <constraint firstAttribute="trailing" secondItem="l8O-Ua-u2u" secondAttribute="trailing" constant="8" id="WMo-EZ-Xle"/>
                                     <constraint firstItem="L5k-PJ-d92" firstAttribute="leading" secondItem="Ryw-js-9AS" secondAttribute="leading" id="ZCa-4Q-YpN"/>
+                                    <constraint firstItem="XOs-8M-Zbi" firstAttribute="top" secondItem="l8O-Ua-u2u" secondAttribute="bottom" constant="8" id="gIz-yF-Nfz"/>
                                     <constraint firstAttribute="trailing" secondItem="L5k-PJ-d92" secondAttribute="trailing" id="n8L-uu-qLz"/>
                                 </constraints>
                             </view>
@@ -158,6 +169,7 @@
                         <viewLayoutGuide key="safeArea" id="Mhq-ta-Rsv"/>
                     </view>
                     <connections>
+                        <outlet property="bookingIDLbl" destination="XOs-8M-Zbi" id="OiQ-uP-KCl"/>
                         <outlet property="headerView" destination="Ryw-js-9AS" id="IEr-5r-cSG"/>
                         <outlet property="titleLbl" destination="l8O-Ua-u2u" id="vba-uI-U6X"/>
                     </connections>

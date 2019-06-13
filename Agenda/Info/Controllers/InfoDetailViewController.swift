@@ -9,19 +9,25 @@
 import UIKit
 import WebKit
 import PDFKit
+import UILabel_Copyable
 
 
 class InfoDetailViewController: UIViewController {
 
     @IBOutlet weak var titleLbl: UILabel!
-    var pdfName: String?
     @IBOutlet weak var headerView: UIView!
+    @IBOutlet weak var bookingIDLbl: UILabel!
+    
+    var pdfName: String?
+    var bookingID: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         showNavigationBar()
         
         titleLbl.text = pdfName!
+        bookingIDLbl.text = bookingID
+        bookingIDLbl.copyingEnabled = true
         let pdfView = PDFView()
         //self.title = pdfName!
         pdfView.translatesAutoresizingMaskIntoConstraints = false

@@ -137,7 +137,7 @@
         <scene sceneID="48a-GZ-ONe">
             <objects>
                 <navigationController storyboardIdentifier="InfoNavigationViewController" title="Info" id="Fu3-8x-gXd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="white_info" selectedImage="info" id="sOs-vW-7wW"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_contacts" selectedImage="contacts" id="sOs-vW-7wW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="flg-wf-pMo">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -150,10 +150,10 @@
             </objects>
             <point key="canvasLocation" x="-59" y="1813"/>
         </scene>
-        <!--InfoViewController-->
+        <!--ContactsViewController-->
         <scene sceneID="v9g-oa-LGv">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="InfoViewController" storyboardName="Info" referencedIdentifier="InfoViewController" id="wKL-K0-X2b" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="ContactsViewController" storyboardName="Contacts" referencedIdentifier="ContactsViewController" id="wKL-K0-X2b" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="e3t-tA-sX9"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEC-CE-Fwo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -242,11 +242,11 @@
         <image name="Logo" width="3900" height="1685"/>
         <image name="airplane_white" width="30" height="30"/>
         <image name="airplane_white_inactive" width="30" height="30"/>
-        <image name="info" width="30" height="30"/>
+        <image name="contacts" width="30" height="30"/>
         <image name="locations" width="30" height="30"/>
         <image name="profiles" width="30" height="30"/>
         <image name="schedule" width="30" height="30"/>
-        <image name="white_info" width="30" height="30"/>
+        <image name="white_contacts" width="30" height="30"/>
         <image name="white_locations" width="30" height="30"/>
         <image name="white_profiles" width="30" height="30"/>
         <image name="white_schedule" width="30" height="30"/>
