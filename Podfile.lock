@@ -1,20 +1,28 @@
 PODS:
+  - SPStorkController (1.6.5)
   - SwiftLint (0.24.2)
+  - "UILabel+Copyable (1.0.1)"
   - UPCarouselFlowLayout (1.1.2)
 
 DEPENDENCIES:
+  - SPStorkController
   - SwiftLint
+  - "UILabel+Copyable (~> 1.0.0)"
   - UPCarouselFlowLayout
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - SPStorkController
     - SwiftLint
+    - "UILabel+Copyable"
     - UPCarouselFlowLayout
 
 SPEC CHECKSUMS:
+  SPStorkController: f74a60dbcd3c35180c996688873f6eadac839642
   SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
+  "UILabel+Copyable": 39749df0a0a7112db8091a2b15ac9140a64b45a8
   UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
 
-PODFILE CHECKSUM: 0160fe07a0d94387725a40107f1b1c62682b5947
+PODFILE CHECKSUM: d38390b80a970fe349792ef52c9e62a9ac7ae0ca
 
 COCOAPODS: 1.7.0

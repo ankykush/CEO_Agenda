@@ -46,6 +46,9 @@
 		47051D23229F82C400D9FACF /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D22229F82C400D9FACF /* ContactTableViewCell.swift */; };
 		47051D2822A0A43F00D9FACF /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47051D2722A0A43F00D9FACF /* Info.storyboard */; };
 		47051D2A22A0A4F200D9FACF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051D2922A0A4F200D9FACF /* TabBarController.swift */; };
+		472DCFEC22B23C9500C005A9 /* Itinerary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DCFEB22B23C9500C005A9 /* Itinerary.storyboard */; };
+		472DCFEE22B23CC900C005A9 /* ItineraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DCFED22B23CC900C005A9 /* ItineraryViewController.swift */; };
+		472DCFF922B23F8F00C005A9 /* ItineraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DCFF822B23F8F00C005A9 /* ItineraryTableViewCell.swift */; };
 		4736EE4222AF333D0042A209 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736EE4122AF333D0042A209 /* NavController.swift */; };
 		4736EE4422AF585E0042A209 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736EE4322AF585E0042A209 /* UIColor+RGB.swift */; };
 		4744F20922AD86FA002F99D7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4744F20622AD86FA002F99D7 /* InfoViewController.swift */; };
@@ -59,6 +62,10 @@
 		47AB99222297A16C00A59799 /* Executive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB99212297A16C00A59799 /* Executive.storyboard */; };
 		47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB99282297A80D00A59799 /* AlertDisplayer.swift */; };
 		47AB992B2297B02D00A59799 /* UIStoryboard+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */; };
+		47AEB07022B2533A005086A3 /* Itinerary Paul Miller.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB06C22B2533A005086A3 /* Itinerary Paul Miller.pdf */; };
+		47AEB07122B2533A005086A3 /* Itinerary Michael Brady.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB06D22B2533A005086A3 /* Itinerary Michael Brady.pdf */; };
+		47AEB07222B2533A005086A3 /* Itinerary Andrew Walker.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB06E22B2533A005086A3 /* Itinerary Andrew Walker.pdf */; };
+		47AEB07522B25383005086A3 /* Itinerary Paul Miller 2nd.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB07422B25383005086A3 /* Itinerary Paul Miller 2nd.pdf */; };
 		47C5340022B20E2700E68C6F /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C533EC22B20E2700E68C6F /* Lato-HeavyItalic.ttf */; };
 		47C5340122B20E2700E68C6F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C533ED22B20E2700E68C6F /* Lato-Italic.ttf */; };
 		47C5340222B20E2700E68C6F /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C533EE22B20E2700E68C6F /* Lato-LightItalic.ttf */; };
@@ -123,6 +130,9 @@
 		47051D22229F82C400D9FACF /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		47051D2722A0A43F00D9FACF /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 		47051D2922A0A4F200D9FACF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		472DCFEB22B23C9500C005A9 /* Itinerary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Itinerary.storyboard; sourceTree = "<group>"; };
+		472DCFED22B23CC900C005A9 /* ItineraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewController.swift; sourceTree = "<group>"; };
+		472DCFF822B23F8F00C005A9 /* ItineraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTableViewCell.swift; sourceTree = "<group>"; };
 		4736EE4122AF333D0042A209 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		4736EE4322AF585E0042A209 /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 		4744F20622AD86FA002F99D7 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +148,10 @@
 		47AB99212297A16C00A59799 /* Executive.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Executive.storyboard; sourceTree = "<group>"; };
 		47AB99282297A80D00A59799 /* AlertDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
 		47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Identifiable.swift"; sourceTree = "<group>"; };
+		47AEB06C22B2533A005086A3 /* Itinerary Paul Miller.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Itinerary Paul Miller.pdf"; sourceTree = "<group>"; };
+		47AEB06D22B2533A005086A3 /* Itinerary Michael Brady.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Itinerary Michael Brady.pdf"; sourceTree = "<group>"; };
+		47AEB06E22B2533A005086A3 /* Itinerary Andrew Walker.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Itinerary Andrew Walker.pdf"; sourceTree = "<group>"; };
+		47AEB07422B25383005086A3 /* Itinerary Paul Miller 2nd.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Itinerary Paul Miller 2nd.pdf"; sourceTree = "<group>"; };
 		47C533EC22B20E2700E68C6F /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
 		47C533ED22B20E2700E68C6F /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
 		47C533EE22B20E2700E68C6F /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -332,6 +346,52 @@
 			path = Info;
 			sourceTree = "<group>";
 		};
+		472DCFE722B23C5500C005A9 /* Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				472DCFE822B23C6D00C005A9 /* Controllers */,
+				472DCFE922B23C7700C005A9 /* Models */,
+				472DCFEA22B23C7D00C005A9 /* Views */,
+				472DCFEF22B23F1400C005A9 /* ItineraryPDFs */,
+				472DCFEB22B23C9500C005A9 /* Itinerary.storyboard */,
+			);
+			path = Itinerary;
+			sourceTree = "<group>";
+		};
+		472DCFE822B23C6D00C005A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				472DCFED22B23CC900C005A9 /* ItineraryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		472DCFE922B23C7700C005A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		472DCFEA22B23C7D00C005A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				472DCFF822B23F8F00C005A9 /* ItineraryTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		472DCFEF22B23F1400C005A9 /* ItineraryPDFs */ = {
+			isa = PBXGroup;
+			children = (
+				47AEB06E22B2533A005086A3 /* Itinerary Andrew Walker.pdf */,
+				47AEB06D22B2533A005086A3 /* Itinerary Michael Brady.pdf */,
+				47AEB07422B25383005086A3 /* Itinerary Paul Miller 2nd.pdf */,
+				47AEB06C22B2533A005086A3 /* Itinerary Paul Miller.pdf */,
+			);
+			path = ItineraryPDFs;
+			sourceTree = "<group>";
+		};
 		4744F20522AD86FA002F99D7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,6 +441,7 @@
 				47AB99142297A0B000A59799 /* Executive */,
 				47AB99152297A0C200A59799 /* Locations */,
 				47AB99162297A0CE00A59799 /* Schedule */,
+				472DCFE722B23C5500C005A9 /* Itinerary */,
 				47051D16229F5FC600D9FACF /* Contacts */,
 				47051D2422A0A3F200D9FACF /* Info */,
 				47AB99272297A6AF00A59799 /* Utils */,
@@ -555,6 +616,7 @@
 			files = (
 				204050B522AED88E00F9054D /* Hyderabad.pdf in Resources */,
 				47C5340922B20E2700E68C6F /* Lato-Hairline.ttf in Resources */,
+				47AEB07522B25383005086A3 /* Itinerary Paul Miller 2nd.pdf in Resources */,
 				47C5340422B20E2700E68C6F /* Lato-Bold.ttf in Resources */,
 				204050C522AF9C1C00F9054D /* Michael.png in Resources */,
 				204050B622AED88E00F9054D /* Chennai.pdf in Resources */,
@@ -575,11 +637,13 @@
 				47AB99202297A15E00A59799 /* Locations.storyboard in Resources */,
 				47C5340722B20E2700E68C6F /* Lato-HairlineItalic.ttf in Resources */,
 				47C5340C22B20E2700E68C6F /* Lato-MediumItalic.ttf in Resources */,
+				472DCFEC22B23C9500C005A9 /* Itinerary.storyboard in Resources */,
 				47C5340E22B20E2700E68C6F /* Lato-Heavy.ttf in Resources */,
 				204050CD22AF9E3E00F9054D /* Ram.png in Resources */,
 				47C5340D22B20E2700E68C6F /* OFL.txt in Resources */,
 				47C5341222B20E2700E68C6F /* Lato-Medium.ttf in Resources */,
 				204050DD22B17C7000F9054D /* Prashant.png in Resources */,
+				47AEB07222B2533A005086A3 /* Itinerary Andrew Walker.pdf in Resources */,
 				47AB990A22979EF600A59799 /* Assets.xcassets in Resources */,
 				204050C422AF9C1C00F9054D /* Andrew.png in Resources */,
 				47C5340622B20E2700E68C6F /* Lato-SemiboldItalic.ttf in Resources */,
@@ -597,7 +661,9 @@
 				47C5340A22B20E2700E68C6F /* Lato-BlackItalic.ttf in Resources */,
 				204050CA22AF9E3E00F9054D /* RakeshKumar.png in Resources */,
 				47C5340222B20E2700E68C6F /* Lato-LightItalic.ttf in Resources */,
+				47AEB07022B2533A005086A3 /* Itinerary Paul Miller.pdf in Resources */,
 				47C5340822B20E2700E68C6F /* Lato-Regular.ttf in Resources */,
+				47AEB07122B2533A005086A3 /* Itinerary Michael Brady.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +725,7 @@
 				47051D23229F82C400D9FACF /* ContactTableViewCell.swift in Sources */,
 				47051D06229E38C800D9FACF /* LocationDetailViewController.swift in Sources */,
 				47051D11229E393000D9FACF /* Location.swift in Sources */,
+				472DCFEE22B23CC900C005A9 /* ItineraryViewController.swift in Sources */,
 				47051D05229E38C800D9FACF /* LocationsViewController.swift in Sources */,
 				4736EE4222AF333D0042A209 /* NavController.swift in Sources */,
 				2031F256229F989D00BE68A4 /* CollectionViewCell.swift in Sources */,
@@ -670,6 +737,7 @@
 				4744F20B22AD870F002F99D7 /* InfoDetailViewController.swift in Sources */,
 				47051D1E229F803800D9FACF /* ScheduleTableViewCell.swift in Sources */,
 				47AB990322979EF200A59799 /* AppDelegate.swift in Sources */,
+				472DCFF922B23F8F00C005A9 /* ItineraryTableViewCell.swift in Sources */,
 				47051D15229E3C1500D9FACF /* UIViewController+Extensions.swift in Sources */,
 				47051D0F229E38EE00D9FACF /* ScheduleDetailViewController.swift in Sources */,
 				47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */,

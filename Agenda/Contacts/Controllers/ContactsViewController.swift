@@ -25,6 +25,10 @@ class ContactsViewController: UIViewController {
         tableView.estimatedRowHeight = 90
         tableView.rowHeight = UITableView.automaticDimension
     }
+ 
+    @IBAction func backAction(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
     
 }
 
