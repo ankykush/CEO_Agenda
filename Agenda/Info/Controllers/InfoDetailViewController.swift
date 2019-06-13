@@ -16,18 +16,21 @@ class InfoDetailViewController: UIViewController {
 
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var headerView: UIView!
-    @IBOutlet weak var bookingIDLbl: UILabel!
-    
+    @IBOutlet weak var segment: UISegmentedControl!
     var pdfName: String?
-    var bookingID: String?
+    
+    var itinerary: ExecutiveItinerary?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         showNavigationBar()
         
-        titleLbl.text = pdfName!
-        bookingIDLbl.text = bookingID
-        bookingIDLbl.copyingEnabled = true
+        titleLbl.text = "Itinerary for \(itinerary!.executiveName)"
+       
+        loadPDF(itinerary!.internationalPdfName)
+    }
+    
+    func loadPDF(_ name: String) {
         let pdfView = PDFView()
         //self.title = pdfName!
         pdfView.translatesAutoresizingMaskIntoConstraints = false
@@ -37,15 +40,23 @@ class InfoDetailViewController: UIViewController {
         pdfView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         pdfView.topAnchor.constraint(equalTo: headerView.bottomAnchor).isActive = true
         pdfView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-
-        guard let path = Bundle.main.url(forResource: pdfName, withExtension: "pdf") else { return }
+        
+        guard let path = Bundle.main.url(forResource: name, withExtension: "pdf") else { return }
         
         if let document = PDFDocument(url: path) {
             pdfView.document = document
             pdfView.scaleFactor = 0.6
         }
 
-        
     }
     
+    @IBAction func segmentAction(_ sender: Any) {
+        if segment.selectedSegmentIndex == 0 {
+            //international
+            loadPDF(itinerary!.internationalPdfName)
+        } else {
+            //domestic
+            loadPDF(itinerary!.domesticPdfName)
+        }
+    }
 }

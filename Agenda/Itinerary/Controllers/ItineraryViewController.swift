@@ -12,8 +12,8 @@ import SPStorkController
 struct ExecutiveItinerary {
     var imageName: String
     var executiveName: String
-    var pdfName: String
-    var bookingID: String
+    var domesticPdfName: String
+    var internationalPdfName: String
 }
 
 class ItineraryViewController: UIViewController {
@@ -33,20 +33,11 @@ class ItineraryViewController: UIViewController {
     }
     
     func initializeModels() {
-        let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", pdfName: "Itinerary Michael Brady", bookingID: "#NDRSEZ")
-        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", pdfName: "Itinerary Andrew Walker", bookingID: "#NCDLNW")
-        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller", bookingID: "#NBHMHR")
-        let executive4 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller 2nd", bookingID: "#YKSOHF")
+        let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", domesticPdfName: "Itinerary_BRADY_MICHAEL_OQVAUR_domestic", internationalPdfName: "Itinerary_BRADY_MICHAEL_NDRSEZ_international")
+        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", domesticPdfName: "Itinerary_WALKER_ANDREW_CQPSRZ_domestic", internationalPdfName: "Itinerary_WALKER_ANDREW_NCDLNW_international")
+        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", domesticPdfName: "Itinerary_MILLER_PAUL_YKSOHF_domestic", internationalPdfName: "Itinerary_MILLER_PAUL_NBHMHR_international")
         
-        itineraries = [executive1, executive2, executive3, executive4]
-    }
-
-    @IBAction func contactsAction(_ sender: Any) {
-        if let contactsVC = UIStoryboard(name: "Contacts", bundle: nil).instantiateViewController(withIdentifier: "ContactsViewController") as? ContactsViewController {
-            presentAsStork(contactsVC)
-
-            //navigationController?.pushViewController(contactsVC, animated: true)
-        }
+        itineraries = [executive1, executive2, executive3]
     }
 
 }
@@ -79,8 +70,7 @@ extension ItineraryViewController: UITableViewDelegate {
     func showItinerary(_ indexPath: IndexPath) {
         let infoDetailsVC = UIStoryboard(name: "Info", bundle: nil).instantiateViewController(withIdentifier: "InfoDetailViewController") as? InfoDetailViewController
         if let infoDetailsVC = infoDetailsVC {
-            infoDetailsVC.pdfName = itineraries[indexPath.row].pdfName
-            infoDetailsVC.bookingID = itineraries[indexPath.row].bookingID
+            infoDetailsVC.itinerary = itineraries[indexPath.row]
             presentAsStork(infoDetailsVC)
             //navigationController?.pushViewController(infoDetailsVC, animated: true)
         }
