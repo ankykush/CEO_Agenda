@@ -32,6 +32,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Fly-8I-m86" firstAttribute="centerY" secondItem="Bwp-48-a00" secondAttribute="centerY" constant="-234" id="088-jC-Lir"/>
+                            <constraint firstItem="Fly-8I-m86" firstAttribute="top" secondItem="Bwp-48-a00" secondAttribute="top" constant="150" id="ZiE-Iy-Gma"/>
                             <constraint firstItem="LsL-DP-chx" firstAttribute="leading" secondItem="d6L-Bz-KAN" secondAttribute="leading" id="bKM-XD-zBS"/>
                             <constraint firstAttribute="bottom" secondItem="LsL-DP-chx" secondAttribute="bottom" id="fbJ-B2-xWE"/>
                             <constraint firstItem="Fly-8I-m86" firstAttribute="centerX" secondItem="Bwp-48-a00" secondAttribute="centerX" id="pJ5-yL-1Rl"/>

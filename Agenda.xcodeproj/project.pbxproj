@@ -231,17 +231,6 @@
 			path = "IBM Profile pix";
 			sourceTree = "<group>";
 		};
-		2040510A22B26D0000F9054D /* HCL  */ = {
-			isa = PBXGroup;
-			children = (
-				2040510522B26CF700F9054D /* ManiNagasundaram.png */,
-				2040510322B26CF700F9054D /* RahulSingh.png */,
-				2040510222B26CF600F9054D /* Rajesh.png */,
-				2040510422B26CF700F9054D /* VijayMallya.png */,
-			);
-			path = "HCL ";
-			sourceTree = "<group>";
-		};
 		47051CF3229E388D00D9FACF /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -477,7 +466,10 @@
 		47AB99142297A0B000A59799 /* Executive */ = {
 			isa = PBXGroup;
 			children = (
-				2040510A22B26D0000F9054D /* HCL  */,
+				2040510522B26CF700F9054D /* ManiNagasundaram.png */,
+				2040510322B26CF700F9054D /* RahulSingh.png */,
+				2040510222B26CF600F9054D /* Rajesh.png */,
+				2040510422B26CF700F9054D /* VijayMallya.png */,
 				204050DF22B17C7B00F9054D /* IBM Profile pix */,
 				204050D622B1613C00F9054D /* USAA Profile Pix */,
 				204050D422B1611B00F9054D /* TCS Profile pix */,

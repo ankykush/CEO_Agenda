@@ -25,7 +25,10 @@ class ExecutiveDetailViewController: UIViewController {
         populate(executive)
     }
     
-    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        descriptionLbl.setContentOffset(.zero, animated: false)
+    }
     
     func populate(_ executive: ExecutiveElement?) {
         guard let executive = executive else { return }
