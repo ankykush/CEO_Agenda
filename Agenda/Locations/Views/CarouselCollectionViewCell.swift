@@ -15,7 +15,7 @@ class CarouselCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        carouselImageView.addShadow()
+        //carouselImageView.addShadow()
     }
     
     func configureUI(_ imageName: String) {
