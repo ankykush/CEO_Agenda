@@ -9,6 +9,14 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Italic.ttf">
+            <string>Lato-Italic</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Contacts View Controller-->
         <scene sceneID="9de-Ol-oU0">
@@ -59,37 +67,34 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Shital Samant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7b-r5-Y1k" userLabel="nameLabel">
-                                                            <rect key="frame" x="15" y="21" width="252" height="21"/>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                            <rect key="frame" x="15" y="21" width="103" height="21"/>
+                                                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
                                                             <color key="textColor" red="0.194234252" green="0.34600409869999998" blue="0.54765492680000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1 210 7071951" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7X-YI-ZHp" userLabel="roleLabel">
-                                                            <rect key="frame" x="15" y="44" width="252" height="20.5"/>
-                                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1 210 707 1951" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7X-YI-ZHp" userLabel="roleLabel">
+                                                            <rect key="frame" x="15" y="44" width="130.5" height="20.5"/>
+                                                            <fontDescription key="fontDescription" name="Lato-Italic" family="Lato" pointSize="17"/>
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV4-O9-nmK">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call" translatesAutoresizingMaskIntoConstraints="NO" id="mog-Aj-ZY6">
                                                             <rect key="frame" x="275" y="0.0" width="100" height="89.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="100" id="3aA-T0-nu4"/>
+                                                                <constraint firstAttribute="width" constant="100" id="cU9-G1-6V5"/>
                                                             </constraints>
-                                                            <state key="normal" image="call"/>
-                                                        </button>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.93716257810000003" green="0.93731957669999999" blue="0.93714183569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="G7b-r5-Y1k" firstAttribute="top" secondItem="zSy-hp-RQH" secondAttribute="top" constant="21" id="0fI-xx-EW3"/>
+                                                        <constraint firstItem="mog-Aj-ZY6" firstAttribute="top" secondItem="zSy-hp-RQH" secondAttribute="top" id="0na-DO-jWy"/>
                                                         <constraint firstItem="M7X-YI-ZHp" firstAttribute="leading" secondItem="zSy-hp-RQH" secondAttribute="leading" constant="15" id="KBG-Ci-4Pz"/>
-                                                        <constraint firstItem="kV4-O9-nmK" firstAttribute="top" secondItem="zSy-hp-RQH" secondAttribute="top" id="Sqi-QP-iba"/>
+                                                        <constraint firstAttribute="trailing" secondItem="mog-Aj-ZY6" secondAttribute="trailing" id="P9e-CR-aeb"/>
+                                                        <constraint firstAttribute="bottom" secondItem="mog-Aj-ZY6" secondAttribute="bottom" id="UYT-Cu-lPM"/>
                                                         <constraint firstItem="M7X-YI-ZHp" firstAttribute="top" secondItem="G7b-r5-Y1k" secondAttribute="bottom" constant="2" id="dJM-gV-7zH"/>
-                                                        <constraint firstItem="kV4-O9-nmK" firstAttribute="leading" secondItem="G7b-r5-Y1k" secondAttribute="trailing" constant="8" id="hMt-Oy-NqL"/>
-                                                        <constraint firstItem="kV4-O9-nmK" firstAttribute="leading" secondItem="M7X-YI-ZHp" secondAttribute="trailing" constant="8" id="hxs-So-Edc"/>
                                                         <constraint firstItem="G7b-r5-Y1k" firstAttribute="leading" secondItem="zSy-hp-RQH" secondAttribute="leading" constant="15" id="kPL-z1-eVF"/>
-                                                        <constraint firstAttribute="trailing" secondItem="kV4-O9-nmK" secondAttribute="trailing" id="m4q-iq-hDV"/>
                                                         <constraint firstAttribute="bottom" secondItem="M7X-YI-ZHp" secondAttribute="bottom" constant="25" id="qer-FM-kGp"/>
-                                                        <constraint firstAttribute="bottom" secondItem="kV4-O9-nmK" secondAttribute="bottom" id="sRZ-Di-YAc"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -131,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r4I-rs-4vL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="303" y="-165"/>
+            <point key="canvasLocation" x="301.60000000000002" y="-165.06746626686657"/>
         </scene>
     </scenes>
     <resources>
