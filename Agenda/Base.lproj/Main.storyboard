@@ -213,7 +213,7 @@
         <scene sceneID="48a-GZ-ONe">
             <objects>
                 <navigationController storyboardIdentifier="InfoNavigationViewController" title="Info" id="Fu3-8x-gXd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="white_info" selectedImage="info" id="sOs-vW-7wW"/>
+                    <tabBarItem key="tabBarItem" title="" image="white_contacts" selectedImage="contacts" id="sOs-vW-7wW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="flg-wf-pMo">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -335,11 +335,11 @@
         <image name="arrowLeftWhite" width="512" height="512"/>
         <image name="arrowRightWhite" width="512" height="512"/>
         <image name="bg2" width="908" height="1967"/>
-        <image name="info" width="30" height="30"/>
+        <image name="contacts" width="30" height="30"/>
         <image name="locations" width="30" height="30"/>
         <image name="profiles" width="30" height="30"/>
         <image name="schedule" width="30" height="30"/>
-        <image name="white_info" width="30" height="30"/>
+        <image name="white_contacts" width="30" height="30"/>
         <image name="white_locations" width="30" height="30"/>
         <image name="white_profiles" width="30" height="30"/>
         <image name="white_schedule" width="30" height="30"/>
