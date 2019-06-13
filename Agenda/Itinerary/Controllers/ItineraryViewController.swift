@@ -34,8 +34,8 @@ class ItineraryViewController: UIViewController {
     
     func initializeModels() {
         let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", pdfName: "Itinerary Michael Brady", bookingID: "#NDRSEZ")
-        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", pdfName: "Itinerary Andrew Walker", bookingID: "#NBHMHR")
-        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller", bookingID: "#NCDLNW")
+        let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", pdfName: "Itinerary Andrew Walker", bookingID: "#NCDLNW")
+        let executive3 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller", bookingID: "#NBHMHR")
         let executive4 = ExecutiveItinerary(imageName: "Miller", executiveName: "Paul Miller", pdfName: "Itinerary Paul Miller 2nd", bookingID: "#YKSOHF")
         
         itineraries = [executive1, executive2, executive3, executive4]

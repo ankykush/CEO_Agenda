@@ -230,7 +230,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="execbg" translatesAutoresizingMaskIntoConstraints="NO" id="imv-Q2-WnX">
-                                <rect key="frame" x="0.0" y="0.0" width="421" height="270.00000000000023"/>
+                                <rect key="frame" x="0.0" y="0.0" width="421" height="270"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RAJESH GOPINATHAN" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35V-ga-rVH">
                                 <rect key="frame" x="167" y="216" width="247" height="30"/>
@@ -239,7 +239,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PRK.png" translatesAutoresizingMaskIntoConstraints="NO" id="vrQ-8L-MIa">
-                                <rect key="frame" x="13" y="181" width="146" height="127"/>
+                                <rect key="frame" x="13" y="292" width="146" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="146" id="Wi2-G8-7Yc"/>
                                 </constraints>
