@@ -27,14 +27,13 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections2" translatesAutoresizingMaskIntoConstraints="NO" id="Knx-sM-nCm">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                     </imageView>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P44-dU-iQ2">
-                                        <rect key="frame" x="94" y="75" width="245" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P44-dU-iQ2">
+                                        <rect key="frame" x="106.5" y="72" width="201" height="29"/>
                                         <segments>
-                                            <segment title="Location"/>
-                                            <segment title="About Us"/>
+                                            <segment title="Location" width="100"/>
+                                            <segment title="About Us" width="100"/>
                                         </segments>
-                                        <color key="tintColor" red="0.88189756460000002" green="0.89567483709999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <action selector="segmentValueChanged:" destination="3ry-Fs-q9f" eventType="valueChanged" id="PLu-Rx-rUg"/>
                                         </connections>
@@ -44,8 +43,10 @@
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Knx-sM-nCm" secondAttribute="bottom" id="8I9-3B-976"/>
                                     <constraint firstAttribute="trailing" secondItem="Knx-sM-nCm" secondAttribute="trailing" id="EfS-Ii-wvb"/>
+                                    <constraint firstAttribute="bottom" secondItem="P44-dU-iQ2" secondAttribute="bottom" constant="20" id="Kb4-AG-Jsn"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="top" id="Sak-Ze-yQc"/>
                                     <constraint firstAttribute="height" constant="120" id="WiI-2U-46j"/>
+                                    <constraint firstItem="P44-dU-iQ2" firstAttribute="centerX" secondItem="Uhq-j2-XoS" secondAttribute="centerX" id="hr7-xu-HF2"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="leading" secondItem="Uhq-j2-XoS" secondAttribute="leading" id="yCJ-1G-dhv"/>
                                 </constraints>
                             </view>
