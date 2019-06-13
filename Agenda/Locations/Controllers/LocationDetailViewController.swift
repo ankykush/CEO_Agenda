@@ -32,7 +32,7 @@ class LocationDetailViewController: UIViewController {
         
         if let document = PDFDocument(url: path) {
             pdfView.document = document
-            pdfView.scaleFactor = 0.95
+            pdfView.scaleFactor = 0.85
         }
     }
     
