@@ -27,9 +27,8 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections2" translatesAutoresizingMaskIntoConstraints="NO" id="Knx-sM-nCm">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                     </imageView>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P44-dU-iQ2">
-                                        <rect key="frame" x="94" y="75" width="245" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P44-dU-iQ2">
+                                        <rect key="frame" x="85" y="75" width="244" height="29"/>
                                         <segments>
                                             <segment title="Location"/>
                                             <segment title="About Us"/>
@@ -45,7 +44,10 @@
                                     <constraint firstAttribute="bottom" secondItem="Knx-sM-nCm" secondAttribute="bottom" id="8I9-3B-976"/>
                                     <constraint firstAttribute="trailing" secondItem="Knx-sM-nCm" secondAttribute="trailing" id="EfS-Ii-wvb"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="top" id="Sak-Ze-yQc"/>
+                                    <constraint firstItem="P44-dU-iQ2" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="top" constant="75" id="Sho-p4-WvN"/>
                                     <constraint firstAttribute="height" constant="120" id="WiI-2U-46j"/>
+                                    <constraint firstItem="P44-dU-iQ2" firstAttribute="centerX" secondItem="Knx-sM-nCm" secondAttribute="centerX" id="bPW-9A-ccE"/>
+                                    <constraint firstItem="P44-dU-iQ2" firstAttribute="leading" secondItem="Uhq-j2-XoS" secondAttribute="leading" constant="85" id="nVb-Vb-dub"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="leading" secondItem="Uhq-j2-XoS" secondAttribute="leading" id="yCJ-1G-dhv"/>
                                 </constraints>
                             </view>
