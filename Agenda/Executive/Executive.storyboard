@@ -16,6 +16,9 @@
         <array key="Lato-Italic.ttf">
             <string>Lato-Italic</string>
         </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Executive View Controller-->
@@ -241,6 +244,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PRK.png" translatesAutoresizingMaskIntoConstraints="NO" id="vrQ-8L-MIa">
                                 <rect key="frame" x="13" y="181" width="146" height="127"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="Wg9-bD-BJR"/>
                                     <constraint firstAttribute="width" constant="146" id="Wi2-G8-7Yc"/>
                                 </constraints>
                             </imageView>
@@ -254,7 +258,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D58-TU-MuG">
-                                <rect key="frame" x="13" y="113" width="41" height="35"/>
+                                <rect key="frame" x="13" y="55" width="41" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Tx9-Fu-RIa"/>
                                 </constraints>
@@ -271,7 +275,7 @@
                                         <color key="backgroundColor" red="0.17414361238479614" green="0.31029415130615234" blue="0.46307486295700073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -303,7 +307,7 @@
                             <constraint firstItem="35V-ga-rVH" firstAttribute="top" secondItem="fxf-1I-liJ" secondAttribute="top" constant="172" id="jsd-Oh-0I7"/>
                             <constraint firstAttribute="bottom" secondItem="0zo-d3-xB1" secondAttribute="bottom" id="nqa-se-GsF"/>
                             <constraint firstItem="D58-TU-MuG" firstAttribute="leading" secondItem="fxf-1I-liJ" secondAttribute="leading" constant="13" id="qEb-3i-63h"/>
-                            <constraint firstItem="D58-TU-MuG" firstAttribute="top" secondItem="fxf-1I-liJ" secondAttribute="top" constant="69" id="rVU-Ym-18S"/>
+                            <constraint firstItem="D58-TU-MuG" firstAttribute="top" secondItem="fxf-1I-liJ" secondAttribute="top" constant="11" id="rVU-Ym-18S"/>
                             <constraint firstItem="0zo-d3-xB1" firstAttribute="top" secondItem="imv-Q2-WnX" secondAttribute="bottom" constant="59.000000000000227" id="siQ-mh-ua5"/>
                             <constraint firstItem="35V-ga-rVH" firstAttribute="leading" secondItem="vrQ-8L-MIa" secondAttribute="trailing" constant="8" symbolic="YES" id="yWZ-D2-HgO"/>
                         </constraints>
