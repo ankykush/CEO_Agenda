@@ -17,6 +17,8 @@ class InfoDetailViewController: UIViewController {
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var segment: UISegmentedControl!
+    let pdfView = PDFView()
+    
     var pdfName: String?
     
     var itinerary: ExecutiveItinerary?
@@ -26,20 +28,19 @@ class InfoDetailViewController: UIViewController {
         showNavigationBar()
         
         titleLbl.text = "Itinerary for \(itinerary!.executiveName)"
-       
-        loadPDF(itinerary!.internationalPdfName)
-    }
-    
-    func loadPDF(_ name: String) {
-        let pdfView = PDFView()
-        //self.title = pdfName!
-        pdfView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(pdfView)
+        pdfView.translatesAutoresizingMaskIntoConstraints = false
         
         pdfView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
         pdfView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         pdfView.topAnchor.constraint(equalTo: headerView.bottomAnchor).isActive = true
         pdfView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        loadPDF(itinerary!.internationalPdfName)
+    }
+    
+    func loadPDF(_ name: String) {
+        //self.title = pdfName!
+       
         
         guard let path = Bundle.main.url(forResource: name, withExtension: "pdf") else { return }
         
