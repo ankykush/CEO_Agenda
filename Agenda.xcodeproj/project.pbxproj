@@ -32,6 +32,7 @@
 		2040510722B26CF700F9054D /* RahulSingh.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510322B26CF700F9054D /* RahulSingh.png */; };
 		2040510822B26CF700F9054D /* VijayMallya.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510422B26CF700F9054D /* VijayMallya.png */; };
 		2040510922B26CF700F9054D /* ManiNagasundaram.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510522B26CF700F9054D /* ManiNagasundaram.png */; };
+		2040510C22B29B0500F9054D /* Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510B22B29B0400F9054D /* Meenu.png */; };
 		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
@@ -110,7 +111,6 @@
 		204050C922AF9E3E00F9054D /* Ram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ram.png; sourceTree = "<group>"; };
 		204050CE22AFDE5100F9054D /* Kirthivasan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kirthivasan.png; sourceTree = "<group>"; };
 		204050D122B1609300F9054D /* AnanthKrishnan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnanthKrishnan.png; sourceTree = "<group>"; };
-		204050D522B1611D00F9054D /* Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meenu.png; sourceTree = "<group>"; };
 		204050D722B17C6F00F9054D /* GirishRatnam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GirishRatnam.png; sourceTree = "<group>"; };
 		204050D822B17C6F00F9054D /* UshaSrikanth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UshaSrikanth.png; sourceTree = "<group>"; };
 		204050D922B17C6F00F9054D /* Prashant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prashant.png; sourceTree = "<group>"; };
@@ -120,6 +120,7 @@
 		2040510322B26CF700F9054D /* RahulSingh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RahulSingh.png; sourceTree = "<group>"; };
 		2040510422B26CF700F9054D /* VijayMallya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VijayMallya.png; sourceTree = "<group>"; };
 		2040510522B26CF700F9054D /* ManiNagasundaram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManiNagasundaram.png; sourceTree = "<group>"; };
+		2040510B22B29B0400F9054D /* Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meenu.png; sourceTree = "<group>"; };
 		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
@@ -202,8 +203,8 @@
 			children = (
 				204050D122B1609300F9054D /* AnanthKrishnan.png */,
 				204050C822AF9E3E00F9054D /* PRK.png */,
+				2040510B22B29B0400F9054D /* Meenu.png */,
 				204050C622AF9E3E00F9054D /* RakeshKumar.png */,
-				204050D522B1611D00F9054D /* Meenu.png */,
 				204050C922AF9E3E00F9054D /* Ram.png */,
 				204050CE22AFDE5100F9054D /* Kirthivasan.png */,
 			);
@@ -658,6 +659,7 @@
 				204050DD22B17C7000F9054D /* Prashant.png in Resources */,
 				47AEB07222B2533A005086A3 /* Itinerary Andrew Walker.pdf in Resources */,
 				2040510622B26CF700F9054D /* Rajesh.png in Resources */,
+				2040510C22B29B0500F9054D /* Meenu.png in Resources */,
 				47AB990A22979EF600A59799 /* Assets.xcassets in Resources */,
 				204050C422AF9C1C00F9054D /* Andrew.png in Resources */,
 				47C5340622B20E2700E68C6F /* Lato-SemiboldItalic.ttf in Resources */,

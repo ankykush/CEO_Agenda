@@ -146,7 +146,7 @@
                                                                     <color key="textColor" red="0.19423425197601318" green="0.34600409865379333" blue="0.54765492677688599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-hh-Hes">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Meenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-hh-Hes">
                                                                     <rect key="frame" x="0.0" y="0.0" width="90" height="100"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="90" id="iUc-ll-tzF"/>
@@ -238,7 +238,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PRK.png" translatesAutoresizingMaskIntoConstraints="NO" id="vrQ-8L-MIa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Meenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="vrQ-8L-MIa">
                                 <rect key="frame" x="13" y="158" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="GYl-oG-urm"/>
@@ -326,7 +326,7 @@
     <resources>
         <image name="BANNER-sections2" width="4500" height="1800"/>
         <image name="HCL" width="44" height="44"/>
-        <image name="PRK.png" width="110.87999725341797" height="126.72000122070312"/>
+        <image name="Meenu.png" width="300" height="342"/>
         <image name="execbg" width="1125" height="927"/>
         <image name="executiveCellBg" width="288" height="288"/>
         <image name="icon-back" width="450" height="450"/>
