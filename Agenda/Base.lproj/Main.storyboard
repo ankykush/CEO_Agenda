@@ -187,10 +187,10 @@
             </objects>
             <point key="canvasLocation" x="626" y="-1053"/>
         </scene>
-        <!--ContactsViewController-->
+        <!--ItineraryViewController-->
         <scene sceneID="bLd-jP-yXB">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="ContactsViewController" storyboardName="Contacts" referencedIdentifier="ContactsViewController" id="uEF-I3-FYr" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="ItineraryViewController" storyboardName="Itinerary" referencedIdentifier="ItineraryViewController" id="uEF-I3-FYr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="p89-CQ-91M"/>
                     <navigationItem key="navigationItem" id="RN7-yP-fJ4"/>
                 </viewControllerPlaceholder>
@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="-59" y="1813"/>
         </scene>
-        <!--InfoViewController-->
+        <!--ContactsViewController-->
         <scene sceneID="v9g-oa-LGv">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="InfoViewController" storyboardName="Info" referencedIdentifier="InfoViewController" id="wKL-K0-X2b" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="ContactsViewController" storyboardName="Contacts" referencedIdentifier="ContactsViewController" id="wKL-K0-X2b" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="e3t-tA-sX9"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEC-CE-Fwo" userLabel="First Responder" sceneMemberID="firstResponder"/>
