@@ -27,6 +27,7 @@
 		204050DC22B17C7000F9054D /* UshaSrikanth.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050D822B17C6F00F9054D /* UshaSrikanth.png */; };
 		204050DD22B17C7000F9054D /* Prashant.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050D922B17C6F00F9054D /* Prashant.png */; };
 		204050DE22B17C7000F9054D /* SreejitRoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 204050DA22B17C7000F9054D /* SreejitRoy.png */; };
+		2040510122B24DF800F9054D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2040510022B24DF800F9054D /* MainViewController.swift */; };
 		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
@@ -103,6 +104,7 @@
 		204050D822B17C6F00F9054D /* UshaSrikanth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UshaSrikanth.png; sourceTree = "<group>"; };
 		204050D922B17C6F00F9054D /* Prashant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prashant.png; sourceTree = "<group>"; };
 		204050DA22B17C7000F9054D /* SreejitRoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SreejitRoy.png; sourceTree = "<group>"; };
+		2040510022B24DF800F9054D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
@@ -375,6 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				47AB990222979EF200A59799 /* AppDelegate.swift */,
+				2040510022B24DF800F9054D /* MainViewController.swift */,
 				47AB99142297A0B000A59799 /* Executive */,
 				47AB99152297A0C200A59799 /* Locations */,
 				47AB99162297A0CE00A59799 /* Schedule */,
@@ -671,6 +674,7 @@
 				47051D0F229E38EE00D9FACF /* ScheduleDetailViewController.swift in Sources */,
 				47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */,
 				47AB992B2297B02D00A59799 /* UIStoryboard+Identifiable.swift in Sources */,
+				2040510122B24DF800F9054D /* MainViewController.swift in Sources */,
 				4744F20922AD86FA002F99D7 /* InfoViewController.swift in Sources */,
 				2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */,
 			);
