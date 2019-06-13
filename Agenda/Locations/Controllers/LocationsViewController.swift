@@ -14,7 +14,7 @@ class LocationsViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let locationImages = ["Chennai", "Hyderabad", "Pune"]
+    let locationImages = ["Chennai", "Pune", "Hyderabad"]
     
     //MARK: Life Cycle Methods
     override func viewDidLoad() {
