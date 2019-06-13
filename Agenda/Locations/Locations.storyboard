@@ -27,23 +27,23 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections2" translatesAutoresizingMaskIntoConstraints="NO" id="Knx-sM-nCm">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCATIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hv-UG-UhT">
-                                        <rect key="frame" x="20" y="70" width="386" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P44-dU-iQ2">
+                                        <rect key="frame" x="94" y="75" width="245" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="Location"/>
+                                            <segment title="About Us"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.88189756460000002" green="0.89567483709999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </segmentedControl>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Knx-sM-nCm" secondAttribute="bottom" id="8I9-3B-976"/>
                                     <constraint firstAttribute="trailing" secondItem="Knx-sM-nCm" secondAttribute="trailing" id="EfS-Ii-wvb"/>
-                                    <constraint firstAttribute="bottom" secondItem="4hv-UG-UhT" secondAttribute="bottom" constant="20" id="RDm-v6-a2Z"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="top" id="Sak-Ze-yQc"/>
                                     <constraint firstAttribute="height" constant="120" id="WiI-2U-46j"/>
-                                    <constraint firstItem="4hv-UG-UhT" firstAttribute="leading" secondItem="Uhq-j2-XoS" secondAttribute="leading" constant="20" id="tCV-NL-ov6"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="leading" secondItem="Uhq-j2-XoS" secondAttribute="leading" id="yCJ-1G-dhv"/>
-                                    <constraint firstAttribute="trailing" secondItem="4hv-UG-UhT" secondAttribute="trailing" constant="8" id="yOa-YG-E04"/>
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8wh-te-cNF">

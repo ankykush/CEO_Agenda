@@ -32,7 +32,7 @@ class InfoDetailViewController: UIViewController {
         
         if let document = PDFDocument(url: path) {
             pdfView.document = document
-            pdfView.scaleFactor = 1.7
+            pdfView.scaleFactor = 1.5
         }
 
         

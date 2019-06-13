@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="KAD-pB-ddL">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <rect key="frame" x="87" y="200" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="NDU-0W-biO"/>
                                     <constraint firstAttribute="width" constant="240" id="ZYY-0W-cuJ"/>
@@ -53,7 +53,7 @@
                         <constraints>
                             <constraint firstItem="hMS-tN-nKp" firstAttribute="leading" secondItem="oth-nB-oB0" secondAttribute="leading" id="AVg-5j-KPZ"/>
                             <constraint firstItem="WNC-uR-UAf" firstAttribute="bottom" secondItem="RQz-zS-xyw" secondAttribute="bottom" constant="108" id="H5H-Di-HQL"/>
-                            <constraint firstItem="KAD-pB-ddL" firstAttribute="centerY" secondItem="oth-nB-oB0" secondAttribute="centerY" id="iEZ-T4-tra"/>
+                            <constraint firstItem="KAD-pB-ddL" firstAttribute="centerY" secondItem="oth-nB-oB0" secondAttribute="centerY" constant="-184" id="iEZ-T4-tra"/>
                             <constraint firstAttribute="bottom" secondItem="hMS-tN-nKp" secondAttribute="bottom" id="lSA-Yp-3pN"/>
                             <constraint firstItem="KAD-pB-ddL" firstAttribute="centerX" secondItem="RQz-zS-xyw" secondAttribute="centerX" id="mFi-lc-4Pp"/>
                             <constraint firstItem="hMS-tN-nKp" firstAttribute="top" secondItem="oth-nB-oB0" secondAttribute="top" id="mac-1K-EId"/>
