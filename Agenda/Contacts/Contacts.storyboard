@@ -32,6 +32,17 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections2" translatesAutoresizingMaskIntoConstraints="NO" id="puk-AK-Yom">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVE-66-Wea">
+                                        <rect key="frame" x="14" y="30" width="41" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="41" id="LST-Sf-4et"/>
+                                            <constraint firstAttribute="height" constant="35" id="iXg-ew-JPQ"/>
+                                        </constraints>
+                                        <state key="normal" image="icon-back"/>
+                                        <connections>
+                                            <action selector="backAction:" destination="7ce-Vj-RM2" eventType="touchUpInside" id="fVH-sh-aYq"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONTACTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4x-Ey-O6K">
                                         <rect key="frame" x="20" y="70" width="347" height="30"/>
                                         <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
@@ -41,6 +52,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="uVE-66-Wea" firstAttribute="top" secondItem="bbK-RC-RBF" secondAttribute="top" constant="30" id="87j-iq-rRm"/>
                                     <constraint firstAttribute="bottom" secondItem="m4x-Ey-O6K" secondAttribute="bottom" constant="20" id="Dnp-CF-Npt"/>
                                     <constraint firstItem="puk-AK-Yom" firstAttribute="top" secondItem="bbK-RC-RBF" secondAttribute="top" id="M9z-cm-bDZ"/>
                                     <constraint firstItem="m4x-Ey-O6K" firstAttribute="leading" secondItem="bbK-RC-RBF" secondAttribute="leading" constant="20" id="NYG-fW-uao"/>
@@ -48,6 +60,7 @@
                                     <constraint firstAttribute="trailing" secondItem="puk-AK-Yom" secondAttribute="trailing" id="fVo-PB-8wH"/>
                                     <constraint firstAttribute="height" constant="120" id="gHu-jW-kJI"/>
                                     <constraint firstItem="puk-AK-Yom" firstAttribute="leading" secondItem="bbK-RC-RBF" secondAttribute="leading" id="hQt-bA-Gdw"/>
+                                    <constraint firstItem="uVE-66-Wea" firstAttribute="leading" secondItem="bbK-RC-RBF" secondAttribute="leading" constant="14" id="mwJ-mT-P6g"/>
                                     <constraint firstAttribute="bottom" secondItem="puk-AK-Yom" secondAttribute="bottom" id="snb-B0-71m"/>
                                 </constraints>
                             </view>
@@ -142,5 +155,6 @@
     <resources>
         <image name="BANNER-sections2" width="4500" height="1800"/>
         <image name="call" width="30" height="30"/>
+        <image name="icon-back" width="450" height="450"/>
     </resources>
 </document>

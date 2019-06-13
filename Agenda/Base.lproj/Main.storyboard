@@ -122,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="626" y="-1053"/>
         </scene>
-        <!--ContactsViewController-->
+        <!--ItineraryViewController-->
         <scene sceneID="bLd-jP-yXB">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="ContactsViewController" storyboardName="Contacts" referencedIdentifier="ContactsViewController" id="uEF-I3-FYr" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="ItineraryViewControllerViewController" storyboardName="Itinerary" referencedIdentifier="ItineraryViewController" id="uEF-I3-FYr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="p89-CQ-91M"/>
                     <navigationItem key="navigationItem" id="RN7-yP-fJ4"/>
                 </viewControllerPlaceholder>
@@ -221,7 +221,7 @@
         <scene sceneID="cdW-qu-G7d">
             <objects>
                 <navigationController storyboardIdentifier="ContactsNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="cg2-4o-YjF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="white_contacts" selectedImage="contacts" id="j4e-XY-4vA"/>
+                    <tabBarItem key="tabBarItem" title="" image="airplane_white_inactive" selectedImage="airplane_white" id="j4e-XY-4vA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zm5-a2-s4b">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -240,12 +240,12 @@
     <resources>
         <image name="Launch_background" width="1125" height="2436"/>
         <image name="Logo" width="3900" height="1685"/>
-        <image name="contacts" width="30" height="30"/>
+        <image name="airplane_white" width="30" height="30"/>
+        <image name="airplane_white_inactive" width="30" height="30"/>
         <image name="info" width="30" height="30"/>
         <image name="locations" width="30" height="30"/>
         <image name="profiles" width="30" height="30"/>
         <image name="schedule" width="30" height="30"/>
-        <image name="white_contacts" width="30" height="30"/>
         <image name="white_info" width="30" height="30"/>
         <image name="white_locations" width="30" height="30"/>
         <image name="white_profiles" width="30" height="30"/>
