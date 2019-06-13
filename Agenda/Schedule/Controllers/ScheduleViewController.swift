@@ -51,6 +51,7 @@ class ScheduleViewController: UIViewController {
         tableView.rowHeight = UITableView.automaticDimension
         
         scheduleDetailViewController = children.first as? ScheduleDetailViewController
+        scheduleDateScroller.tag = 999
     }
     
     func dateCellClicked(at index: Int) {
@@ -75,7 +76,8 @@ class ScheduleViewController: UIViewController {
         }
         
         tableView.reloadData()
-        tableView.scrollsToTop = true
+        let topIndex = IndexPath(row: 0, section: 0)
+        tableView.scrollToRow(at: topIndex, at: .top, animated: true)
     }
     
     func showDetailsView() {
@@ -226,11 +228,15 @@ extension ScheduleViewController: UICollectionViewDelegate, UICollectionViewData
     }
     
     func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView) {
-        selectCenterItem()
+        if scrollView.tag == 999 {
+            selectCenterItem()
+        }
     }
     
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-        selectCenterItem()
+        if scrollView.tag == 999 {
+            selectCenterItem()
+        }
     }
     
     func selectCenterItem() {

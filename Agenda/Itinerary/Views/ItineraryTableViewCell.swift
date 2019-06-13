@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import UILabel_Copyable
 
 class ItineraryTableViewCell: UITableViewCell {
     @IBOutlet weak var executiveImage: UIImageView!
     @IBOutlet weak var executiveName: UILabel!
-    @IBOutlet weak var executiveRole: UILabel!
+    @IBOutlet weak var bookingIDLbl: UILabel!
     @IBOutlet weak var containerView: UIView!
     
     override func awakeFromNib() {
@@ -20,11 +21,12 @@ class ItineraryTableViewCell: UITableViewCell {
     }
     
     private func configureUI() {
-        //containerView.addShadow()
+        bookingIDLbl.copyingEnabled = true
     }
     
     func populate(_ itinearary: ExecutiveItinerary) {
         executiveName?.text = itinearary.executiveName
         executiveImage?.image = UIImage(named: itinearary.imageName)
+        bookingIDLbl.text = itinearary.bookingID        
     }
 }
