@@ -16,8 +16,8 @@ class ScheduleViewController: UIViewController {
     @IBOutlet weak var taglineLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var scheduleDateScroller: UICollectionView!
-  
     @IBOutlet weak var scheduleDetailsView: UIView!
+    @IBOutlet weak var companyLbl: UILabel!
     
     private var scheduleDetailViewController: ScheduleDetailViewController?
 
@@ -69,7 +69,15 @@ class ScheduleViewController: UIViewController {
         //}
 //        tableView.setContentOffset(CGPoint(x: 0, y: 0 - scheduleTableView.contentInset.top), animated: false)
         if let logo = selectedDateSchedule?.logo {
-            logoImage.image = UIImage(named: "\(logo)")
+            if logo == "TATA" {
+                logoImage.image = UIImage(named: "\(logo)")
+                logoImage.isHidden = false
+                companyLbl.isHidden = true
+            } else {
+                companyLbl.text = logo
+                companyLbl.isHidden = false
+                logoImage.isHidden = true
+            }
         }
         
         tableView.reloadData()

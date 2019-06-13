@@ -104,7 +104,16 @@ extension ExecutiveViewController: UICollectionViewDataSource, UICollectionViewD
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ExecutiveViewController.collectionViewCellIdentifier, for: indexPath) as? ExecutiveCollectionViewCell
         cell?.updateUI()
         let imageName = self.completeDataArray!.orgNames?[indexPath.row]
-        cell?.logoImageView.image = UIImage(named: imageName!)
+        if imageName == "USAA" || imageName == "TCS" {
+            cell?.logoImageView.image = UIImage(named: imageName!)
+            cell?.logoImageView.isHidden = false
+            cell?.companyLbl.isHidden = true
+        } else {
+            cell?.companyLbl.text = imageName
+            cell?.companyLbl.isHidden = false
+            cell?.logoImageView.isHidden = true
+        }
+        
         // return the cell
         return cell!
     }

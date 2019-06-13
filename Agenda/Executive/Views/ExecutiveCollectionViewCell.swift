@@ -11,6 +11,7 @@ import UIKit
 class ExecutiveCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var companyLbl: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

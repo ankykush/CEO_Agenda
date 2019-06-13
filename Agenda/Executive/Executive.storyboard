@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Executive View Controller-->
         <scene sceneID="kkz-LB-oBe">
@@ -50,18 +55,29 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HCL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0b-DL-YGG">
+                                                            <rect key="frame" x="2" y="0.0" width="56" height="60"/>
+                                                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HCL" translatesAutoresizingMaskIntoConstraints="NO" id="eZB-dt-5iq">
                                                             <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         </imageView>
                                                     </subviews>
                                                 </view>
                                                 <constraints>
+                                                    <constraint firstItem="S0b-DL-YGG" firstAttribute="leading" secondItem="n0h-Mc-oDv" secondAttribute="leading" constant="2" id="F2m-2Q-chN"/>
                                                     <constraint firstAttribute="bottom" secondItem="eZB-dt-5iq" secondAttribute="bottom" id="JhJ-Iq-u2S"/>
                                                     <constraint firstItem="eZB-dt-5iq" firstAttribute="top" secondItem="n0h-Mc-oDv" secondAttribute="top" id="JzG-H5-dkD"/>
+                                                    <constraint firstItem="S0b-DL-YGG" firstAttribute="top" secondItem="n0h-Mc-oDv" secondAttribute="top" id="b3i-6K-o7U"/>
                                                     <constraint firstAttribute="trailing" secondItem="eZB-dt-5iq" secondAttribute="trailing" id="ber-a4-3Wd"/>
+                                                    <constraint firstAttribute="bottom" secondItem="S0b-DL-YGG" secondAttribute="bottom" id="eLu-uR-vWO"/>
                                                     <constraint firstItem="eZB-dt-5iq" firstAttribute="leading" secondItem="n0h-Mc-oDv" secondAttribute="leading" id="rEb-QU-cYQ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="S0b-DL-YGG" secondAttribute="trailing" constant="2" id="zwl-ud-crG"/>
                                                 </constraints>
                                                 <connections>
+                                                    <outlet property="companyLbl" destination="S0b-DL-YGG" id="GLF-cJ-S1d"/>
                                                     <outlet property="logoImageView" destination="eZB-dt-5iq" id="h5t-Am-iCZ"/>
                                                 </connections>
                                             </collectionViewCell>
@@ -331,7 +347,7 @@
     </scenes>
     <resources>
         <image name="BANNER-sections2" width="4500" height="1800"/>
-        <image name="HCL" width="92.5" height="18"/>
+        <image name="HCL" width="44" height="44"/>
         <image name="executiveCellBg" width="288" height="288"/>
         <image name="icon-back" width="450" height="450"/>
     </resources>
