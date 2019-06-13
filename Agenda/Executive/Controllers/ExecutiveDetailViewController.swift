@@ -24,7 +24,10 @@ class ExecutiveDetailViewController: UIViewController {
         populate(executive)
     }
     
-    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        descriptionLbl.setContentOffset(.zero, animated: false)
+    }
     
     func populate(_ executive: ExecutiveElement?) {
         guard let executive = executive else { return }
@@ -32,6 +35,7 @@ class ExecutiveDetailViewController: UIViewController {
         nameLbl.text = executive.name
         roleLbl.text = executive.designation
         descriptionLbl.text = executive.desc
+//        descriptionLbl.scr = true
     }
     
     @IBAction func backAction(_ sender: Any) {
