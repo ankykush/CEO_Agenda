@@ -14,6 +14,7 @@ class ExecutiveDetailViewController: UIViewController {
     @IBOutlet weak var roleLbl: UILabel!
     @IBOutlet weak var descriptionLbl: UITextView!
     
+    @IBOutlet weak var descriptionView: UIView!
     var executive: ExecutiveElement?
     
     override func viewDidLoad() {
@@ -35,7 +36,8 @@ class ExecutiveDetailViewController: UIViewController {
         nameLbl.text = executive.name
         roleLbl.text = executive.designation
         descriptionLbl.text = executive.desc
-//        descriptionLbl.scr = true
+        descriptionView.layer.cornerRadius = 5.0
+        imageView.layer.cornerRadius = 5.0
     }
     
     @IBAction func backAction(_ sender: Any) {
