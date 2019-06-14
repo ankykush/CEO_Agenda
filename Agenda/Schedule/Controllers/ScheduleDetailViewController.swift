@@ -11,6 +11,7 @@ import EventKit
 
 class ScheduleDetailViewController: UIViewController {
     
+    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var descriptionDetails: UILabel!
     @IBOutlet weak var cityLocationDetails: UILabel!
     @IBOutlet weak var eventLocationDetails: UILabel!
@@ -50,6 +51,11 @@ class ScheduleDetailViewController: UIViewController {
             reminder.calendar = appDelegate.eventStore.defaultCalendarForNewReminders()
             reminder.dueDateComponents = dueDateComponents
         }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        scrollView.contentSize = self.view.frame.size
     }
     
     func checkReminderStatus() {

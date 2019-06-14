@@ -34,6 +34,9 @@
                                             <segment title="About Us"/>
                                         </segments>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="segmentValueChanged:" destination="3ry-Fs-q9f" eventType="valueChanged" id="drw-9c-XHq"/>
+                                        </connections>
                                     </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJk-LR-AMW">
                                         <rect key="frame" x="366" y="60" width="40" height="40"/>
