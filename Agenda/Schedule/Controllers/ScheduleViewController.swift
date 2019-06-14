@@ -39,8 +39,13 @@ class ScheduleViewController: UIViewController {
             self?.hideDetailsView()
         }
         
+    
+        
     }
 
+    @IBAction func homeButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     //MARK: Helper Methods
     private func configureUI() {

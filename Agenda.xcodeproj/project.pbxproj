@@ -34,6 +34,10 @@
 		2040510922B26CF700F9054D /* ManiNagasundaram.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510522B26CF700F9054D /* ManiNagasundaram.png */; };
 		2040510C22B29B0500F9054D /* Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510B22B29B0400F9054D /* Meenu.png */; };
 		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
+		20643A2B22B39EE6005582E2 /* abhay.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2722B39EE6005582E2 /* abhay.png */; };
+		20643A2C22B39EE6005582E2 /* lakshman.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2822B39EE6005582E2 /* lakshman.png */; };
+		20643A2D22B39EE6005582E2 /* prasad.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2922B39EE6005582E2 /* prasad.png */; };
+		20643A2E22B39EE6005582E2 /* shital.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2A22B39EE6005582E2 /* shital.png */; };
 		47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */; };
 		47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */; };
 		47051CFC229E388E00D9FACF /* ExecutiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CF7229E388D00D9FACF /* ExecutiveDetailViewController.swift */; };
@@ -67,7 +71,6 @@
 		47AB99222297A16C00A59799 /* Executive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB99212297A16C00A59799 /* Executive.storyboard */; };
 		47AB99292297A80D00A59799 /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB99282297A80D00A59799 /* AlertDisplayer.swift */; };
 		47AB992B2297B02D00A59799 /* UIStoryboard+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB992A2297B02D00A59799 /* UIStoryboard+Identifiable.swift */; };
-		47AEB07722B29A71005086A3 /* Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB07622B29A71005086A3 /* Meenu.png */; };
 		47AEB07E22B29E44005086A3 /* Itinerary_BRADY_MICHAEL_OQVAUR_domestic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB07822B29E44005086A3 /* Itinerary_BRADY_MICHAEL_OQVAUR_domestic.pdf */; };
 		47AEB07F22B29E44005086A3 /* Itinerary_MILLER_PAUL_NBHMHR_international.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB07922B29E44005086A3 /* Itinerary_MILLER_PAUL_NBHMHR_international.pdf */; };
 		47AEB08022B29E44005086A3 /* Itinerary_WALKER_ANDREW_NCDLNW_international.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB07A22B29E44005086A3 /* Itinerary_WALKER_ANDREW_NCDLNW_international.pdf */; };
@@ -125,6 +128,10 @@
 		2040510522B26CF700F9054D /* ManiNagasundaram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManiNagasundaram.png; sourceTree = "<group>"; };
 		2040510B22B29B0400F9054D /* Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meenu.png; sourceTree = "<group>"; };
 		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
+		20643A2722B39EE6005582E2 /* abhay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abhay.png; sourceTree = "<group>"; };
+		20643A2822B39EE6005582E2 /* lakshman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lakshman.png; sourceTree = "<group>"; };
+		20643A2922B39EE6005582E2 /* prasad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prasad.png; sourceTree = "<group>"; };
+		20643A2A22B39EE6005582E2 /* shital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shital.png; sourceTree = "<group>"; };
 		47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		47051CF6229E388D00D9FACF /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
 		47051CF7229E388D00D9FACF /* ExecutiveDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveDetailViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +214,10 @@
 		204050D422B1611B00F9054D /* TCS Profile pix */ = {
 			isa = PBXGroup;
 			children = (
+				20643A2722B39EE6005582E2 /* abhay.png */,
+				20643A2822B39EE6005582E2 /* lakshman.png */,
+				20643A2922B39EE6005582E2 /* prasad.png */,
+				20643A2A22B39EE6005582E2 /* shital.png */,
 				204050D122B1609300F9054D /* AnanthKrishnan.png */,
 				204050C822AF9E3E00F9054D /* PRK.png */,
 				2040510B22B29B0400F9054D /* Meenu.png */,
@@ -664,9 +675,12 @@
 				47C5340722B20E2700E68C6F /* Lato-HairlineItalic.ttf in Resources */,
 				47C5340C22B20E2700E68C6F /* Lato-MediumItalic.ttf in Resources */,
 				472DCFEC22B23C9500C005A9 /* Itinerary.storyboard in Resources */,
+				20643A2D22B39EE6005582E2 /* prasad.png in Resources */,
 				47C5340E22B20E2700E68C6F /* Lato-Heavy.ttf in Resources */,
+				20643A2C22B39EE6005582E2 /* lakshman.png in Resources */,
 				204050CD22AF9E3E00F9054D /* Ram.png in Resources */,
 				47C5340D22B20E2700E68C6F /* OFL.txt in Resources */,
+				20643A2E22B39EE6005582E2 /* shital.png in Resources */,
 				47C5341222B20E2700E68C6F /* Lato-Medium.ttf in Resources */,
 				204050DD22B17C7000F9054D /* Prashant.png in Resources */,
 				2040510622B26CF700F9054D /* Rajesh.png in Resources */,
@@ -689,6 +703,7 @@
 				47AB99222297A16C00A59799 /* Executive.storyboard in Resources */,
 				204050CC22AF9E3E00F9054D /* PRK.png in Resources */,
 				47C5340A22B20E2700E68C6F /* Lato-BlackItalic.ttf in Resources */,
+				20643A2B22B39EE6005582E2 /* abhay.png in Resources */,
 				204050CA22AF9E3E00F9054D /* RakeshKumar.png in Resources */,
 				47C5340222B20E2700E68C6F /* Lato-LightItalic.ttf in Resources */,
 				47AEB07F22B29E44005086A3 /* Itinerary_MILLER_PAUL_NBHMHR_international.pdf in Resources */,

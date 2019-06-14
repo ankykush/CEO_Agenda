@@ -32,6 +32,10 @@ class ItineraryViewController: UIViewController {
         hideNavigationBar()
     }
     
+    @IBAction func homeButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     func initializeModels() {
         let executive1 = ExecutiveItinerary(imageName: "Michael", executiveName: "Michael Brady", domesticPdfName: "Itinerary_BRADY_MICHAEL_OQVAUR_domestic", internationalPdfName: "Itinerary_BRADY_MICHAEL_NDRSEZ_international")
         let executive2 = ExecutiveItinerary(imageName: "Andrew", executiveName: "Andrew Walker", domesticPdfName: "Itinerary_WALKER_ANDREW_CQPSRZ_domestic", internationalPdfName: "Itinerary_WALKER_ANDREW_NCDLNW_international")

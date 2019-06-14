@@ -23,6 +23,11 @@ class MainViewController: UIViewController {
         scrollView.delegate = self
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.leftArrowLeadConstraint.constant = 0
+        self.arrowtrailConstraint.constant = 0
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         scrollView.contentSize =  CGSize(width: self.view.frame.size.width * 2, height: self.view.frame.size.height)
         bounceLeftanimation()

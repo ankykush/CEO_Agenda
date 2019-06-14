@@ -54,7 +54,7 @@ class ScheduleDetailViewController: UIViewController {
     
     func checkReminderStatus() {
         
-        createReminder()
+//        createReminder()
         
         let predicate = appDelegate.eventStore.predicateForReminders(in: nil)
         appDelegate.eventStore.fetchReminders(matching: predicate, completion: { (reminders: [EKReminder]?) -> Void in
@@ -75,13 +75,13 @@ class ScheduleDetailViewController: UIViewController {
         
         scheduleData = selectedDateSchedule?.schedule[indexPath.row]
         selectedDate = selectedDateSchedule
-        checkReminderStatus()
-        cityLocationDetails.text = selectedDateSchedule?.place
+        //checkReminderStatus()
+        //cityLocationDetails.text = selectedDateSchedule?.place
         timeDetails.text = scheduleData?.time
         locationDetails.text = scheduleData?.place
         presenterDetails.text = scheduleData?.name
         descriptionDetails.text = scheduleData?.desc
-        eventLocationDetails.text = scheduleData?.place
+//        eventLocationDetails.text = scheduleData?.place
     }
     
     

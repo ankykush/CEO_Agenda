@@ -28,6 +28,10 @@ class InfoViewController: UIViewController {
         }
     }
     
+    @IBAction func homeButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func aboutTCSAction(_ sender: Any) {
         let infoDetailsVC = storyboard!.instantiateViewController(withIdentifier: "InfoDetailViewController") as? InfoDetailViewController
         if let infoDetailsVC = infoDetailsVC {

@@ -28,6 +28,10 @@ class ExecutiveViewController: UIViewController {
         tableView.tableFooterView = UIView()
     }
     
+    @IBAction func homeButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     func getDataFromServer() {
         
         let spinner = UIActivityIndicatorView(style: .gray)

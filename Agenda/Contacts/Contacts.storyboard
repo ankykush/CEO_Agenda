@@ -29,7 +29,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bbK-RC-RBF">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections2" translatesAutoresizingMaskIntoConstraints="NO" id="puk-AK-Yom">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections" translatesAutoresizingMaskIntoConstraints="NO" id="puk-AK-Yom">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONTACTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4x-Ey-O6K">
@@ -38,13 +38,26 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBc-Lg-Og3">
+                                        <rect key="frame" x="327" y="60" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="BR3-mQ-4dD"/>
+                                        </constraints>
+                                        <state key="normal" image="home"/>
+                                        <connections>
+                                            <action selector="homeButtonTapped:" destination="7ce-Vj-RM2" eventType="touchUpInside" id="7ng-Y5-FZ2"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="m4x-Ey-O6K" secondAttribute="bottom" constant="20" id="Dnp-CF-Npt"/>
+                                    <constraint firstItem="gBc-Lg-Og3" firstAttribute="trailing" secondItem="m4x-Ey-O6K" secondAttribute="trailing" id="Exv-d0-q7k"/>
+                                    <constraint firstItem="gBc-Lg-Og3" firstAttribute="top" secondItem="bbK-RC-RBF" secondAttribute="top" constant="60" id="HIX-vf-WQY"/>
                                     <constraint firstItem="puk-AK-Yom" firstAttribute="top" secondItem="bbK-RC-RBF" secondAttribute="top" id="M9z-cm-bDZ"/>
                                     <constraint firstItem="m4x-Ey-O6K" firstAttribute="leading" secondItem="bbK-RC-RBF" secondAttribute="leading" constant="20" id="NYG-fW-uao"/>
                                     <constraint firstAttribute="trailing" secondItem="m4x-Ey-O6K" secondAttribute="trailing" constant="8" id="Qzd-CK-HGG"/>
+                                    <constraint firstItem="gBc-Lg-Og3" firstAttribute="bottom" secondItem="m4x-Ey-O6K" secondAttribute="bottom" id="dUr-gH-nEj"/>
                                     <constraint firstAttribute="trailing" secondItem="puk-AK-Yom" secondAttribute="trailing" id="fVo-PB-8wH"/>
                                     <constraint firstAttribute="height" constant="120" id="gHu-jW-kJI"/>
                                     <constraint firstItem="puk-AK-Yom" firstAttribute="leading" secondItem="bbK-RC-RBF" secondAttribute="leading" id="hQt-bA-Gdw"/>
@@ -73,7 +86,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1 210 707 1951" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7X-YI-ZHp" userLabel="roleLabel">
-                                                            <rect key="frame" x="15" y="44" width="130.5" height="20.5"/>
+                                                            <rect key="frame" x="15" y="44" width="131" height="20.5"/>
                                                             <fontDescription key="fontDescription" name="Lato-Italic" family="Lato" pointSize="17"/>
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
@@ -140,7 +153,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BANNER-sections2" width="4500" height="1800"/>
+        <image name="BANNER-sections" width="4500" height="1800"/>
         <image name="call" width="30" height="30"/>
+        <image name="home" width="256" height="256"/>
     </resources>
 </document>

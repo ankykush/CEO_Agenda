@@ -36,7 +36,7 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tata_background" translatesAutoresizingMaskIntoConstraints="NO" id="hWj-Xh-jVg">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250.00000000000011"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkv-Fm-8VY">
                                         <rect key="frame" x="62" y="112" width="126.5" height="26.5"/>
@@ -71,7 +71,7 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_tcs_background" translatesAutoresizingMaskIntoConstraints="NO" id="ELE-3Y-7Dd">
-                                        <rect key="frame" x="0.0" y="0.0" width="250.00000000000023" height="250.00000000000011"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT TCS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hc-Nx-vLY">
                                         <rect key="frame" x="65.5" y="112" width="119" height="26.5"/>

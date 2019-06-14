@@ -24,29 +24,38 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uhq-j2-XoS">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections2" translatesAutoresizingMaskIntoConstraints="NO" id="Knx-sM-nCm">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BANNER-sections" translatesAutoresizingMaskIntoConstraints="NO" id="Knx-sM-nCm">
+                                        <rect key="frame" x="0.0" y="0.0" width="418" height="120"/>
                                     </imageView>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P44-dU-iQ2">
-                                        <rect key="frame" x="106.5" y="72" width="201" height="29"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="g2L-mT-Ptb">
+                                        <rect key="frame" x="67" y="57" width="280" height="42"/>
                                         <segments>
-                                            <segment title="Location" width="100"/>
-                                            <segment title="About Us" width="100"/>
+                                            <segment title="Location"/>
+                                            <segment title="About Us"/>
                                         </segments>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <connections>
-                                            <action selector="segmentValueChanged:" destination="3ry-Fs-q9f" eventType="valueChanged" id="PLu-Rx-rUg"/>
-                                        </connections>
                                     </segmentedControl>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJk-LR-AMW">
+                                        <rect key="frame" x="366" y="60" width="40" height="40"/>
+                                        <state key="normal" image="home"/>
+                                        <connections>
+                                            <action selector="homeButtonTapped:" destination="3ry-Fs-q9f" eventType="touchUpInside" id="HLW-iB-MMZ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="iJk-LR-AMW" secondAttribute="trailing" constant="8" id="1dO-xW-Xcw"/>
+                                    <constraint firstAttribute="bottom" secondItem="g2L-mT-Ptb" secondAttribute="bottom" constant="22" id="2zK-qc-shp"/>
+                                    <constraint firstItem="iJk-LR-AMW" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="top" constant="60" id="56F-B2-DgJ"/>
                                     <constraint firstAttribute="bottom" secondItem="Knx-sM-nCm" secondAttribute="bottom" id="8I9-3B-976"/>
-                                    <constraint firstAttribute="trailing" secondItem="Knx-sM-nCm" secondAttribute="trailing" id="EfS-Ii-wvb"/>
-                                    <constraint firstAttribute="bottom" secondItem="P44-dU-iQ2" secondAttribute="bottom" constant="20" id="Kb4-AG-Jsn"/>
+                                    <constraint firstItem="iJk-LR-AMW" firstAttribute="leading" secondItem="g2L-mT-Ptb" secondAttribute="trailing" constant="19" id="Ehe-zx-hC7"/>
+                                    <constraint firstAttribute="bottom" secondItem="iJk-LR-AMW" secondAttribute="bottom" constant="20" id="IN8-ZY-Say"/>
+                                    <constraint firstItem="g2L-mT-Ptb" firstAttribute="centerX" secondItem="Knx-sM-nCm" secondAttribute="centerX" constant="-2" id="S4G-8H-MIr"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="top" id="Sak-Ze-yQc"/>
                                     <constraint firstAttribute="height" constant="120" id="WiI-2U-46j"/>
-                                    <constraint firstItem="P44-dU-iQ2" firstAttribute="centerX" secondItem="Uhq-j2-XoS" secondAttribute="centerX" id="hr7-xu-HF2"/>
+                                    <constraint firstItem="g2L-mT-Ptb" firstAttribute="leading" secondItem="Uhq-j2-XoS" secondAttribute="leading" constant="67" id="oPz-Uj-cNO"/>
+                                    <constraint firstItem="g2L-mT-Ptb" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="top" constant="57" id="qZ5-GQ-Rqh"/>
                                     <constraint firstItem="Knx-sM-nCm" firstAttribute="leading" secondItem="Uhq-j2-XoS" secondAttribute="leading" id="yCJ-1G-dhv"/>
                                 </constraints>
                             </view>
@@ -119,6 +128,7 @@
                             <constraint firstItem="qEg-Fj-Saa" firstAttribute="bottom" secondItem="Rxc-9R-zns" secondAttribute="bottom" id="fKa-bC-C1x"/>
                             <constraint firstItem="qEg-Fj-Saa" firstAttribute="trailing" secondItem="8wh-te-cNF" secondAttribute="trailing" id="gJg-7J-P6T"/>
                             <constraint firstItem="Rxc-9R-zns" firstAttribute="leading" secondItem="qEg-Fj-Saa" secondAttribute="leading" id="m6E-a7-VZA"/>
+                            <constraint firstItem="g2L-mT-Ptb" firstAttribute="centerX" secondItem="qEg-Fj-Saa" secondAttribute="centerX" id="m8E-a5-Moa"/>
                             <constraint firstItem="8wh-te-cNF" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="bottom" id="uPt-az-wjO"/>
                             <constraint firstItem="Rxc-9R-zns" firstAttribute="top" secondItem="Uhq-j2-XoS" secondAttribute="bottom" id="uyv-Gx-rAb"/>
                             <constraint firstItem="Uhq-j2-XoS" firstAttribute="trailing" secondItem="qEg-Fj-Saa" secondAttribute="trailing" id="xfn-yK-AF3"/>
@@ -129,7 +139,7 @@
                     <navigationItem key="navigationItem" id="KVA-Bf-Dk0"/>
                     <connections>
                         <outlet property="collectionView" destination="8wh-te-cNF" id="DAB-gk-OsS"/>
-                        <outlet property="segment" destination="P44-dU-iQ2" id="hSQ-xc-QMg"/>
+                        <outlet property="segment" destination="g2L-mT-Ptb" id="lxe-Pf-9WC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QfQ-ZK-bdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -153,7 +163,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BANNER-sections2" width="4500" height="1800"/>
+        <image name="BANNER-sections" width="4500" height="1800"/>
+        <image name="home" width="256" height="256"/>
         <image name="locationsBg" width="738" height="1600"/>
     </resources>
 </document>

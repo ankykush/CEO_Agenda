@@ -21,9 +21,14 @@ class LocationsViewController: UIViewController {
     //MARK: Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        let font = UIFont.systemFont(ofSize: 22)
+        segment.setTitleTextAttributes([NSAttributedString.Key.font: font], for: .normal)
         configureUI()
     }
     
+    @IBAction func homeButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     private func configureUI() {
         
     }
