@@ -78,7 +78,8 @@ class ScheduleDetailViewController: UIViewController {
     }
     
     func populate(_ selectedDateSchedule: ScheduleElement?, indexPath: IndexPath) {
-        
+        scrollView.contentOffset = CGPoint.zero
+
         scheduleData = selectedDateSchedule?.schedule[indexPath.row]
         selectedDate = selectedDateSchedule
         //checkReminderStatus()
