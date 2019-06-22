@@ -139,7 +139,7 @@
                                         <rect key="frame" x="106.5" y="84" width="201" height="29"/>
                                         <segments>
                                             <segment title="International" width="100"/>
-                                            <segment title="Domestic" width="100"/>
+                                            <segment title="Inner India" width="100"/>
                                         </segments>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
