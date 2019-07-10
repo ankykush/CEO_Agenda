@@ -8,17 +8,21 @@
 
 import UIKit
 import EventKit
+import QuartzCore
 
 class ScheduleDetailViewController: UIViewController {
-    
+    @IBOutlet weak var collectionView: UICollectionView!
+
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var descriptionDetails: UILabel!
+    @IBOutlet weak var nameView: UIStackView!
     @IBOutlet weak var cityLocationDetails: UILabel!
     @IBOutlet weak var eventLocationDetails: UILabel!
     @IBOutlet weak var alarmSwitch: UISwitch!
     @IBOutlet weak var locationDetails: UILabel!
     @IBOutlet weak var presenterDetails: UILabel!
     @IBOutlet weak var timeDetails: UILabel!
+    var arr = [String]()
     var reminder = EKReminder()
     var alarm = EKAlarm()
     let appDelegate = UIApplication.shared.delegate
@@ -26,9 +30,11 @@ class ScheduleDetailViewController: UIViewController {
     var hideDetailsClosure: (() -> Void)? = nil
     var scheduleData: Schedule?
     var selectedDate: ScheduleElement?
+    var exec = ExecutiveViewController()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        exec = (UIStoryboard(name: "Executive", bundle: nil).instantiateViewController(withIdentifier: "ExecutiveViewController") as? ExecutiveViewController)!
+        exec.getDataFromServer()
     }
 
     func createReminder() {
@@ -85,12 +91,26 @@ class ScheduleDetailViewController: UIViewController {
         //cityLocationDetails.text = selectedDateSchedule?.place
         timeDetails.text = scheduleData?.time
         locationDetails.text = scheduleData?.place
-        presenterDetails.text = scheduleData?.name
+        arr = scheduleData!.name
+        collectionView.reloadData()
+//        presenterDetails.text = scheduleData?.name
         descriptionDetails.text = scheduleData?.desc
 //        eventLocationDetails.text = scheduleData?.place
     }
     
-    
+    func showExecutiveDetails(_ text: String ) {
+        guard let executiveDetailViewController = UIStoryboard(name: "Executive", bundle: nil).instantiateViewController(withIdentifier: "ExecutiveDetailViewController") as? ExecutiveDetailViewController else {
+            return
+        }
+        let arr = exec.completeDataArray?.executives!.filter{
+            $0.name == text
+        }
+        if arr!.count == 0 {
+            return
+        }
+        executiveDetailViewController.executive = arr![0]
+        presentAsStork(executiveDetailViewController)
+    }
     
     @IBAction func addReminder(_ sender: Any) {
         let switchV = sender as! UISwitch
@@ -112,7 +132,42 @@ class ScheduleDetailViewController: UIViewController {
     }
     
     @IBAction func closeDetailsClicked(_ sender: Any) {
+//        nameView.removeAllArrangedSubviews()
+        scrollView.setContentOffset(.zero, animated: true)
         hideDetailsClosure?()
+        
     }
     
 }
+
+extension ScheduleDetailViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.arr.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCollectionViewCell", for: indexPath) as! MyCollectionViewCell
+        cell.textLabel.text = self.arr[indexPath.row]
+        if (scheduleData?.availableProfile.contains(self.arr[indexPath.row]))! {
+            cell.backgroundColor = .white
+        } else {
+            cell.backgroundColor = .lightGray
+        }
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let text = self.arr[indexPath.row]
+        let cellWidth = text.size(withAttributes:[.font: UIFont.systemFont(ofSize:15.0)]).width + 30.0
+        return CGSize(width: cellWidth, height: 30.0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let text = self.arr[indexPath.row]
+        showExecutiveDetails(text)
+    }
+}
+
+
+
+

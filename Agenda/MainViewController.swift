@@ -9,7 +9,9 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
+    @IBOutlet weak var leftBtn: UIButton!
+    @IBOutlet weak var rightBtn: UIButton!
     @IBOutlet weak var leftArrowLeadConstraint: NSLayoutConstraint!
     @IBOutlet weak var rightarrow: UIImageView!
     @IBOutlet weak var leftarrow: UIImageView!
@@ -17,7 +19,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         leftarrow.isHidden = true
         scrollView.delegate = self
@@ -26,6 +28,21 @@ class MainViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.leftArrowLeadConstraint.constant = 0
         self.arrowtrailConstraint.constant = 0
+    }
+    
+    @IBAction func leftBtnClicked(_ sender: Any) {
+        
+        scrollToPage(page: 0, animated: true)
+    }
+    @IBAction func rightBtnClicked(_ sender: Any) {
+        scrollToPage(page: 1, animated: true)
+    }
+    
+    func scrollToPage(page: Int, animated: Bool) {
+        var frame: CGRect = self.scrollView.frame
+        frame.origin.x = frame.size.width * CGFloat(page)
+        frame.origin.y = 0
+        self.scrollView.scrollRectToVisible(frame, animated: animated)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -49,7 +66,7 @@ class MainViewController: UIViewController {
             self.view.layoutIfNeeded()
         }, completion: nil)
     }
- 
+    
 }
 extension MainViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
@@ -57,10 +74,14 @@ extension MainViewController: UIScrollViewDelegate {
         if page == 1 {
             rightarrow.isHidden = true
             leftarrow.isHidden = false
-            
+            rightBtn.isHidden = true
+            leftBtn.isHidden = false
         } else {
             leftarrow.isHidden = true
             rightarrow.isHidden = false
+            
+            leftBtn.isHidden = true
+            rightBtn.isHidden = false
         }
     }
 }

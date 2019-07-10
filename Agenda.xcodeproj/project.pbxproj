@@ -34,6 +34,10 @@
 		2040510922B26CF700F9054D /* ManiNagasundaram.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510522B26CF700F9054D /* ManiNagasundaram.png */; };
 		2040510C22B29B0500F9054D /* Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2040510B22B29B0400F9054D /* Meenu.png */; };
 		2043750122A119C300685BED /* ExecutiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */; };
+		20463C5C22BBFAC6003CF5A4 /* UIStackView+removeAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20463C5B22BBFAC6003CF5A4 /* UIStackView+removeAll.swift */; };
+		20463C6822BCBE19003CF5A4 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20463C6522BCBE18003CF5A4 /* MyCollectionViewCell.swift */; };
+		20463C6922BCBE19003CF5A4 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20463C6622BCBE18003CF5A4 /* DynamicHeightCollectionView.swift */; };
+		20463C6A22BCBE19003CF5A4 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20463C6722BCBE19003CF5A4 /* CollectionViewFlowLayout.swift */; };
 		20643A2B22B39EE6005582E2 /* abhay.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2722B39EE6005582E2 /* abhay.png */; };
 		20643A2C22B39EE6005582E2 /* lakshman.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2822B39EE6005582E2 /* lakshman.png */; };
 		20643A2D22B39EE6005582E2 /* prasad.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2922B39EE6005582E2 /* prasad.png */; };
@@ -128,6 +132,10 @@
 		2040510522B26CF700F9054D /* ManiNagasundaram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManiNagasundaram.png; sourceTree = "<group>"; };
 		2040510B22B29B0400F9054D /* Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meenu.png; sourceTree = "<group>"; };
 		2043750022A119C300685BED /* ExecutiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutiveCollectionViewCell.swift; sourceTree = "<group>"; };
+		20463C5B22BBFAC6003CF5A4 /* UIStackView+removeAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+removeAll.swift"; sourceTree = "<group>"; };
+		20463C6522BCBE18003CF5A4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		20463C6622BCBE18003CF5A4 /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
+		20463C6722BCBE19003CF5A4 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		20643A2722B39EE6005582E2 /* abhay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abhay.png; sourceTree = "<group>"; };
 		20643A2822B39EE6005582E2 /* lakshman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lakshman.png; sourceTree = "<group>"; };
 		20643A2922B39EE6005582E2 /* prasad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prasad.png; sourceTree = "<group>"; };
@@ -532,6 +540,9 @@
 		47AB99272297A6AF00A59799 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				20463C6522BCBE18003CF5A4 /* MyCollectionViewCell.swift */,
+				20463C6722BCBE19003CF5A4 /* CollectionViewFlowLayout.swift */,
+				20463C6622BCBE18003CF5A4 /* DynamicHeightCollectionView.swift */,
 				4736EE4122AF333D0042A209 /* NavController.swift */,
 				2031F253229F980500BE68A4 /* ModelsNConnection.swift */,
 				47AB99282297A80D00A59799 /* AlertDisplayer.swift */,
@@ -539,6 +550,7 @@
 				47051CE7229CF27F00D9FACF /* UIView+Extensions.swift */,
 				47051D14229E3C1500D9FACF /* UIViewController+Extensions.swift */,
 				4736EE4322AF585E0042A209 /* UIColor+RGB.swift */,
+				20463C5B22BBFAC6003CF5A4 /* UIStackView+removeAll.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -763,6 +775,7 @@
 				47051CFB229E388E00D9FACF /* ExecutiveViewController.swift in Sources */,
 				47051D08229E38C800D9FACF /* CarouselCollectionViewCell.swift in Sources */,
 				47051D0E229E38EE00D9FACF /* ScheduleViewController.swift in Sources */,
+				20463C6922BCBE19003CF5A4 /* DynamicHeightCollectionView.swift in Sources */,
 				47051CFD229E388E00D9FACF /* ExecutiveTableViewCell.swift in Sources */,
 				47051D2A22A0A4F200D9FACF /* TabBarController.swift in Sources */,
 				47051D19229F5FE900D9FACF /* ContactsViewController.swift in Sources */,
@@ -774,13 +787,16 @@
 				4736EE4222AF333D0042A209 /* NavController.swift in Sources */,
 				2031F256229F989D00BE68A4 /* CollectionViewCell.swift in Sources */,
 				2031F262229FC0AD00BE68A4 /* CollectionViewCellSelected.swift in Sources */,
+				20463C6822BCBE19003CF5A4 /* MyCollectionViewCell.swift in Sources */,
 				47051CFC229E388E00D9FACF /* ExecutiveDetailViewController.swift in Sources */,
 				47051CE8229CF27F00D9FACF /* UIView+Extensions.swift in Sources */,
+				20463C6A22BCBE19003CF5A4 /* CollectionViewFlowLayout.swift in Sources */,
 				4736EE4422AF585E0042A209 /* UIColor+RGB.swift in Sources */,
 				2031F254229F980500BE68A4 /* ModelsNConnection.swift in Sources */,
 				4744F20B22AD870F002F99D7 /* InfoDetailViewController.swift in Sources */,
 				47051D1E229F803800D9FACF /* ScheduleTableViewCell.swift in Sources */,
 				47AB990322979EF200A59799 /* AppDelegate.swift in Sources */,
+				20463C5C22BBFAC6003CF5A4 /* UIStackView+removeAll.swift in Sources */,
 				472DCFF922B23F8F00C005A9 /* ItineraryTableViewCell.swift in Sources */,
 				47051D15229E3C1500D9FACF /* UIViewController+Extensions.swift in Sources */,
 				47051D0F229E38EE00D9FACF /* ScheduleDetailViewController.swift in Sources */,
@@ -947,7 +963,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.Agenda2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com.tcs.mobility_May18_2018;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -969,7 +985,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.Agenda2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com.tcs.mobility_May18_2018;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

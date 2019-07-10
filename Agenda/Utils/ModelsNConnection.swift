@@ -26,7 +26,9 @@ struct ScheduleElement: Codable {
 
 struct Schedule: Codable {
     let meeting, place, time, longTime: String
-    let desc, name: String
+    let desc: String
+    let name: [String]
+    let availableProfile: [String]
     let priority: Int
     let type: TypeEnum
 }

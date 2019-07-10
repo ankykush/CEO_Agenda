@@ -36,6 +36,8 @@ class ScheduleViewController: UIViewController {
         getDataFromServer()
    
         scheduleDetailViewController?.hideDetailsClosure  = { [weak self] in
+            
+
             self?.hideDetailsView()
         }
         
@@ -88,6 +90,7 @@ class ScheduleViewController: UIViewController {
     
     func hideDetailsView() {
         if !scheduleDetailsView.isHidden {
+            scheduleDetailViewController?.scrollView.setContentOffset(.zero, animated: true)
             scheduleDetailsView.fadeOut()
         }
     }
@@ -102,7 +105,7 @@ class ScheduleViewController: UIViewController {
         spinner.startAnimating()
         
         
-        let url = URL.init(string: "https://jsonblob.com/api/jsonBlob/207802a2-8922-11e9-af4b-85e7a080f63a")
+        let url = URL.init(string: "https://jsonblob.com/api/jsonBlob/87c7a2d8-9196-11e9-a889-fdf2fcc56ee2")
         
         let task = URLSession.shared.scheduleTask(with: url!) { scheduleArray, response, error in
             if  scheduleArray != nil {
